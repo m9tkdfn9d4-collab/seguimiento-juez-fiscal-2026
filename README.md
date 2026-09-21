@@ -1,2 +1,5 @@
-# seguimiento-juez-fiscal-2026
-Seguimiento del 3.er ejercicio Juez/Fiscal 2026
+# Seguimiento Juez / Fiscal 2026
+
+Web del 3.er ejercicio. Activa GitHub Pages (Settings → Pages → Deploy from branch `main` / root).
+
+El bot diario actualiza `notas.json`.
