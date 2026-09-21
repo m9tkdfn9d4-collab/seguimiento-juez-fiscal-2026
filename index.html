@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Seguimiento · Juez / Fiscal 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+:root{--navy:#1b2a4a;--ink:#1c1917;--muted:#6b635b;--paper:#f6f1e8;--card:#fffcf7;--line:#e4d9c8;--gold:#b8892d;--gold2:#d4a853;--rep:#8a5a12;--repbg:#f3e3c4}
+*{box-sizing:border-box}html,body{margin:0;height:100%;background:var(--paper);color:var(--ink);font-family:"Source Sans 3",system-ui,sans-serif}
+.app{display:grid;grid-template-columns:232px 1fr;min-height:100vh}
+aside{background:var(--navy);color:#efe6d6;padding:28px 18px;position:sticky;top:0;height:100vh}
+.brand{font-family:"Instrument Serif",serif;font-size:26px;line-height:1.15;margin:0 0 6px;color:#fff}
+.brand span{display:block;font-family:"Source Sans 3",sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold2);margin-bottom:8px;font-weight:600}
+aside p{font-size:13px;color:#cbbfaa;margin:0 0 28px}
+aside button{display:block;width:100%;text-align:left;border:0;background:transparent;color:#d7ccbb;padding:9px 12px;border-radius:8px;font:inherit;font-size:14px;cursor:pointer;margin-bottom:3px}
+aside button.active{background:var(--gold);color:#1b1408;font-weight:600}
+main{padding:36px 40px 72px;max-width:1100px}
+h1{font-family:"Instrument Serif",serif;font-size:42px;font-weight:400;margin:0 0 8px}
+.lead{color:var(--muted);margin:0 0 28px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:22px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.kpi .lbl{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+.kpi b{display:block;font-family:"Instrument Serif",serif;font-size:32px;font-weight:400;margin-top:4px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:22px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;cursor:pointer;text-align:left}
+table{width:100%;border-collapse:collapse;font-size:14.5px}
+th,td{padding:10px 14px;text-align:left;border-bottom:1px solid var(--line)}
+th{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:#f3ece1;font-weight:600}
+.search{width:100%;max-width:280px;margin:0 0 14px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;font:inherit}
+.rep{display:inline-block;margin-left:8px;background:var(--repbg);color:var(--rep);font-size:11px;font-weight:600;padding:1px 7px;border-radius:999px}
+.section{display:none}.section.on{display:block}
+footer{margin-top:28px;color:var(--muted);font-size:12px}
+@media(max-width:860px){.app{grid-template-columns:1fr}aside{position:relative;height:auto}.kpis,.tiles{grid-template-columns:1fr 1fr}aside nav{display:flex;flex-wrap:wrap}}
+</style></head><body>
+<div class="app"><aside>
+<div class="brand"><span>Oposición 2025</span>Juez / Fiscal</div>
+<p>3.er ejercicio · 21 sep 2026</p>
+<nav id="nav">
+<button data-tab="home" class="active">Comparativa</button>
+<button data-tab="t1">Tribunal 1</button>
+<button data-tab="t2">Tribunal 2</button>
+<button data-tab="t3">Tribunal 3</button>
+<button data-tab="t4">Tribunal 4</button>
+<button data-tab="t5">Tribunal 5</button>
+<button data-tab="t6">Tribunal 6</button>
+</nav></aside>
+<main>
+<section id="home" class="section on">
+<h1>Visión general</h1>
+<p class="lead">426 convocados. 175 ya llegaron en 2025. Orden del BOE.</p>
+<div class="kpis" id="kpis"></div>
+<div class="tiles" id="tiles"></div>
+<div class="card"><table><thead><tr><th>Tribunal</th><th>Personas</th><th>Media 2.º</th><th>Mín</th><th>Máx</th><th>Repiten</th><th>Media 2026</th><th>Media 2025</th></tr></thead><tbody id="cmp"></tbody></table></div>
+</section>
+<div id="tribPages"></div>
+<footer>BOE 9 julio 2026 · el bot escribe las notas del 3.er en notas.json</footer>
+</main></div>
+<script>
+let DATA={people:[],weeks:[],meta:{}};
+Promise.all([
+  ...[1,2,3,4,5,6].map(t=>fetch('t'+t+'.json').then(r=>r.json())),
+  fetch('notas.json').then(r=>r.ok?r.json():{items:[]}).catch(()=>({items:[]}))
+]).then(arr=>{
+  const notas=arr.pop();
+  DATA={meta:arr[0].meta,weeks:arr[0].weeks,people:arr.flatMap(x=>x.people)};
+  const NOTAS=(notas&&notas.items)?notas:{updated:null,items:[]};
+  function nota3of(p){
+    const hit=NOTAS.items.find(x=>x.num===p.num||(x.nombre&&x.nombre.toUpperCase()===p.nombre.toUpperCase()));
+    if(!hit) return '—';
+    const n=hit.nota3!=null?Number(hit.nota3).toLocaleString('es-ES',{minimumFractionDigits:2,maximumFractionDigits:2}):'';
+    if(hit.estado==='apto') return (n?n+' · ':'')+'apto';
+    if(hit.estado==='20') return (n?n+' · ':'')+'≥20';
+    if(hit.estado==='no_presentado') return 'NP';
+    if(hit.estado==='no_apto') return (n?n+' · ':'')+'no apto';
+    return n||hit.estado||'—';
+  }
+  const people=DATA.people;
+  const fmt=n=>Number(n).toLocaleString('es-ES',{minimumFractionDigits:2,maximumFractionDigits:2});
+  const avg=a=>a.length?a.reduce((s,x)=>s+x,0)/a.length:0;
+  const byT=t=>people.filter(p=>p.trib===t);
+  function stats(list){
+    const notas=list.map(p=>p.nota2); const r=list.filter(p=>p.repeater);
+    return {n:list.length,media:avg(notas),min:Math.min(...notas),max:Math.max(...notas),nRep:r.length,m26:avg(r.map(p=>p.nota2)),m25:avg(r.map(p=>p.prev.nota2))};
+  }
+  function go(id){
+    document.querySelectorAll('#nav button').forEach(x=>x.classList.toggle('active',x.dataset.tab===id));
+    document.querySelectorAll('.section').forEach(s=>s.classList.toggle('on',s.id===id));
+    window.scrollTo(0,0);
+  }
+  document.querySelectorAll('#nav button').forEach(b=>b.onclick=()=>go(b.dataset.tab));
+  const all=stats(people); const rAll=people.filter(p=>p.repeater);
+  document.getElementById('kpis').innerHTML=[['Convocados',all.n],['Repiten',rAll.length],['Media 2.º',fmt(all.media)],['Su media 2025',fmt(avg(rAll.map(p=>p.prev.nota2)))]].map(([l,v])=>`<div class="kpi"><div class="lbl">${l}</div><b>${v}</b></div>`).join('');
+  document.getElementById('tiles').innerHTML=[1,2,3,4,5,6].map(t=>{const s=stats(byT(t));return `<button class="tile" data-go="t${t}"><h3>Tribunal ${t}</h3><div class="meta">${s.n} personas · ${s.nRep} repiten</div><div class="meta">Media <b>${fmt(s.media)}</b></div></button>`;}).join('');
+  document.querySelectorAll('[data-go]').forEach(el=>el.onclick=()=>go(el.dataset.go));
+  document.getElementById('cmp').innerHTML=[1,2,3,4,5,6].map(t=>{const s=stats(byT(t));return `<tr><td><a href="#" data-go="t${t}">Tribunal ${t}</a></td><td>${s.n}</td><td>${fmt(s.media)}</td><td>${fmt(s.min)}</td><td>${fmt(s.max)}</td><td>${s.nRep}</td><td>${s.nRep?fmt(s.m26):'—'}</td><td>${s.nRep?fmt(s.m25):'—'}</td></tr>`;}).join('')+`<tr><td><b>Total</b></td><td><b>${all.n}</b></td><td><b>${fmt(all.media)}</b></td><td>${fmt(all.min)}</td><td>${fmt(all.max)}</td><td><b>${all.nRep}</b></td><td>${fmt(all.m26)}</td><td>${fmt(all.m25)}</td></tr>`;
+  document.querySelectorAll('#cmp [data-go]').forEach(el=>el.onclick=e=>{e.preventDefault();go(el.dataset.go);});
+  document.getElementById('tribPages').innerHTML=[1,2,3,4,5,6].map(t=>{const list=byT(t);const s=stats(list);const rows=list.map(p=>`<tr><td>${p.num}</td><td>${p.nombre}${p.repeater?'<span class="rep">repite</span>':''}</td><td>${fmt(p.nota2)}</td><td>${p.repeater?fmt(p.prev.nota2):'—'}</td><td>${nota3of(p)}</td><td>${p.semana}</td></tr>`).join('');return `<section id="t${t}" class="section"><h1>Tribunal ${t}</h1><p class="lead">${s.n} convocados · media ${fmt(s.media)} · ${s.nRep} repiten.</p><div class="kpis"><div class="kpi"><div class="lbl">Personas</div><b>${s.n}</b></div><div class="kpi"><div class="lbl">Media 2.º</div><b>${fmt(s.media)}</b></div><div class="kpi"><div class="lbl">Repiten</div><b>${s.nRep}</b></div><div class="kpi"><div class="lbl">Su media 2025</div><b>${s.nRep?fmt(s.m25):'—'}</b></div></div><input class="search" data-t="${t}" placeholder="Buscar"/><div class="card"><table><thead><tr><th>N.º</th><th>Apellidos y nombre</th><th>Nota 2026</th><th>Nota 2025</th><th>3.er</th><th>Semana</th></tr></thead><tbody id="body-${t}">${rows}</tbody></table></div></section>`;}).join('');
+  document.querySelectorAll('.search').forEach(inp=>{inp.oninput=()=>{const q=inp.value.trim().toLowerCase();const t=+inp.dataset.t;document.getElementById('body-'+t).innerHTML=byT(t).filter(p=>!q||p.nombre.toLowerCase().includes(q)||String(p.num).includes(q)).map(p=>`<tr><td>${p.num}</td><td>${p.nombre}${p.repeater?'<span class="rep">repite</span>':''}</td><td>${fmt(p.nota2)}</td><td>${p.repeater?fmt(p.prev.nota2):'—'}</td><td>${nota3of(p)}</td><td>${p.semana}</td></tr>`).join('');};});
+});
+</script></body></html>
