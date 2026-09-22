@@ -1,4 +1,14 @@
 {
-  "updated": null,
-  "items": []
+  "updated": "2026-09-21",
+  "items": [
+    {"num": 190, "nombre": "ARIZA TRIGO, JENIFER", "trib": 1, "nota3": null, "estado": "no_apto", "fecha": "2026-09-21"},
+    {"num": 413, "nombre": "BRUNO MATEU, ADRIA", "trib": 2, "nota3": 30.85, "estado": "apto", "fecha": "2026-09-21"},
+    {"num": 442, "nombre": "CABELLO FERNANDEZ, MARIA ESTRELLA", "trib": 2, "nota3": null, "estado": "no_apto", "fecha": "2026-09-21"},
+    {"num": 1026, "nombre": "FERNANDEZ HERNANDEZ, VICTOR MANUEL", "trib": 3, "nota3": 28.5, "estado": "apto", "fecha": "2026-09-21"},
+    {"num": 1041, "nombre": "FERNANDEZ OLIVA, EVA", "trib": 3, "nota3": null, "estado": "no_apto", "fecha": "2026-09-21"},
+    {"num": 1645, "nombre": "JIMENEZ COSTELA, MARTA", "trib": 4, "nota3": 33.85, "estado": "apto", "fecha": "2026-09-21"},
+    {"num": 1671, "nombre": "JORDA GARCIA, LUIS", "trib": 4, "nota3": 25.0, "estado": "apto", "fecha": "2026-09-21"},
+    {"num": 2232, "nombre": "MORALES RODRIGUEZ, SALVADOR", "trib": 5, "nota3": null, "estado": "no_apto", "fecha": "2026-09-21"},
+    {"num": 2797, "nombre": "REY MORENA, ALBA", "trib": 6, "nota3": 25.0, "estado": "apto", "fecha": "2026-09-21"}
+  ]
 }
