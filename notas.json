@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02",
+  "updated": "2026-10-06",
   "items": [
     {"num": 190, "nombre": "ARIZA TRIGO, JENIFER", "trib": 1, "nota3": null, "estado": "no_apto", "fecha": "2026-09-21"},
     {"num": 413, "nombre": "BRUNO MATEU, ADRIA", "trib": 2, "nota3": 30.85, "estado": "apto", "fecha": "2026-09-21"},
@@ -26,6 +26,13 @@
     {"num": 3317, "nombre": "SANCHEZ MARTINEZ, ANDREA", "trib": 5, "nota3": null, "estado": "no_apto", "fecha": "2026-10-01"},
     {"num": 3849, "nombre": "TORRES GARCIA, ALEJANDRO", "trib": 6, "nota3": 28.5, "estado": "apto", "fecha": "2026-10-01"},
     {"num": 3850, "nombre": "TORRES LOPEZ, MARIA", "trib": 6, "nota3": null, "estado": "no_apto", "fecha": "2026-10-01"},
-    {"num": 3851, "nombre": "TORRES MARTINEZ, ANDREA", "trib": 6, "nota3": null, "estado": "no_apto", "fecha": "2026-10-01"}
+    {"num": 3851, "nombre": "TORRES MARTINEZ, ANDREA", "trib": 6, "nota3": null, "estado": "no_apto", "fecha": "2026-10-01"},
+    {"num": 3500, "nombre": "VILLA GARCIA, CLAUDIA", "trib": 1, "nota3": 20.0, "estado": "20", "fecha": "2026-10-05"},
+    {"num": 538, "nombre": "CARBALLIDO QUINTANA, MARIOLA", "trib": 2, "nota3": null, "estado": "no_apto", "fecha": "2026-10-05"},
+    {"num": 560, "nombre": "CARRERA FERNANDEZ, ELENA", "trib": 2, "nota3": 32.285, "estado": "apto", "fecha": "2026-10-05"},
+    {"num": 1159, "nombre": "GANDIA CANOVAS, ANA MARIA", "trib": 3, "nota3": 35.25, "estado": "apto", "fecha": "2026-10-05"},
+    {"num": 1809, "nombre": "LOPEZ LALIENA, MARIA SALAS", "trib": 4, "nota3": null, "estado": "no_apto", "fecha": "2026-10-05"},
+    {"num": 2418, "nombre": "OPERE GAONA, LAURA", "trib": 5, "nota3": 28.75, "estado": "apto", "fecha": "2026-10-05"},
+    {"num": 2937, "nombre": "ROIG CALVETE, MARTA", "trib": 6, "nota3": 26.5, "estado": "apto", "fecha": "2026-10-05"}
   ]
 }
