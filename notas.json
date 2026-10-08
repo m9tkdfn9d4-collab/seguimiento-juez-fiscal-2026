@@ -1,1 +1,14 @@
-{"updated":"2026-10-06","items":[{"num":190,"nombre":"ARIZA TRIGO, JENIFER","trib":1,"nota3":null,"estado":"no_apto","fecha":"2026-09-21"},{"num":3223,"nombre":"SEGUROLA BERACIERTO, LUIS","trib":1,"nota3":null,"estado":"no_apto","fecha":"2026-09-22"},{"num":3298,"nombre":"TARREGA MORAN, AINOA","trib":1,"nota3":null,"estado":"no_apto","fecha":"2026-09-22"},{"num":3378,"nombre":"UCAR MARCOTEGUI, MARIA","trib":1,"nota3":34,"estado":"apto","fecha":"2026-09-23"},{"num":3383,"nombre":"URBANO CUEVAS, SUSANA","trib":1,"nota3":null,"estado":"no_apto","fecha":"2026-09-23"},{"num":3385,"nombre":"URBANO JIMENEZ, MERCEDES MARIA","trib":1,"nota3":27,"estado":"apto","fecha":"2026-09-24"},{"num":3391,"nombre":"URQUIDI VEGGA, ADRIAN","trib":1,"nota3":25,"estado":"apto","fecha":"2026-09-24"}]}
+{
+  "updated": "2026-10-07",
+  "items": [
+    {"num": 190, "nombre": "ARIZA TRIGO, JENIFER", "trib": 1, "nota3": null, "estado": "no_apto", "fecha": "2026-09-21"},
+    {"num": 3223, "nombre": "SEGUROLA BERACIERTO, LUIS", "trib": 1, "nota3": null, "estado": "no_apto", "fecha": "2026-09-22"},
+    {"num": 3298, "nombre": "TARREGA MORAN, AINOA", "trib": 1, "nota3": null, "estado": "no_apto", "fecha": "2026-09-22"},
+    {"num": 3378, "nombre": "UCAR MARCOTEGUI, MARIA", "trib": 1, "nota3": 34, "estado": "apto", "fecha": "2026-09-23"},
+    {"num": 3383, "nombre": "URBANO CUEVAS, SUSANA", "trib": 1, "nota3": null, "estado": "no_apto", "fecha": "2026-09-23"},
+    {"num": 3385, "nombre": "URBANO JIMENEZ, MERCEDES MARIA", "trib": 1, "nota3": 27, "estado": "apto", "fecha": "2026-09-24"},
+    {"num": 3391, "nombre": "URQUIDI VEGGA, ADRIAN", "trib": 1, "nota3": 25, "estado": "apto", "fecha": "2026-09-24"},
+    {"num": 3522, "nombre": "VINAGRE GONZALEZ, ABARNE", "trib": 1, "nota3": null, "estado": "no_apto", "fecha": "2026-10-07"},
+    {"num": 3537, "nombre": "ZAFORTEZA CERDA, PEDRO TOMAS", "trib": 1, "nota3": null, "estado": "no_apto", "fecha": "2026-10-07"}
+  ]
+}
