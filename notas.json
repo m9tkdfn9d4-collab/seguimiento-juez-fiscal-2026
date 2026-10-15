@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "items": [
     {
       "num": 78,
@@ -16,6 +16,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-10-14"
+    },
+    {
+      "num": 116,
+      "nombre": "ALVAREZ MAYOR, CLAUDIA",
+      "trib": 1,
+      "nota3": 36.5,
+      "estado": "apto",
+      "fecha": "2026-10-15"
+    },
+    {
+      "num": 142,
+      "nombre": "ANDRES AYUSO, MARIA",
+      "trib": 1,
+      "nota3": null,
+      "estado": "apto",
+      "fecha": "2026-10-15"
     },
     {
       "num": 190,
@@ -162,6 +178,22 @@
       "fecha": "2026-10-14"
     },
     {
+      "num": 654,
+      "nombre": "CLAURE ROSADO, GERBERT",
+      "trib": 2,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-15"
+    },
+    {
+      "num": 665,
+      "nombre": "COLL JAUME, FRANCISCA VICTORIA",
+      "trib": 2,
+      "nota3": 30.75,
+      "estado": "apto",
+      "fecha": "2026-10-15"
+    },
+    {
       "num": 1596,
       "nombre": "LOPEZ GARCIA, ANDREA",
       "trib": 2,
@@ -216,6 +248,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-10-14"
+    },
+    {
+      "num": 1257,
+      "nombre": "GARCIA ROMERO, DANIEL",
+      "trib": 3,
+      "nota3": 38.0,
+      "estado": "apto",
+      "fecha": "2026-10-15"
+    },
+    {
+      "num": 1264,
+      "nombre": "GARCIA SANCHEZ, PEDRO ANTONIO",
+      "trib": 3,
+      "nota3": 38.33,
+      "estado": "apto",
+      "fecha": "2026-10-15"
     },
     {
       "num": 2190,
@@ -282,6 +330,22 @@
       "fecha": "2026-10-14"
     },
     {
+      "num": 1906,
+      "nombre": "MARCOS DE LA PUENTE, LIDIA",
+      "trib": 4,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-15"
+    },
+    {
+      "num": 1912,
+      "nombre": "MARI LLOBET, CARLOS",
+      "trib": 4,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-15"
+    },
+    {
       "num": 2781,
       "nombre": "RODRIGUEZ FERNANDEZ, ALEJANDRO",
       "trib": 4,
@@ -328,6 +392,14 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-10-14"
+    },
+    {
+      "num": 2532,
+      "nombre": "PEÑA RABILERO, MIREYA",
+      "trib": 5,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-15"
     },
     {
       "num": 3315,
@@ -384,6 +456,14 @@
       "nota3": 36.12,
       "estado": "apto",
       "fecha": "2026-10-14"
+    },
+    {
+      "num": 3038,
+      "nombre": "RUSIÑOL GALEOTE, XAVIER",
+      "trib": 6,
+      "nota3": 41.5,
+      "estado": "apto",
+      "fecha": "2026-10-15"
     },
     {
       "num": 3849,
