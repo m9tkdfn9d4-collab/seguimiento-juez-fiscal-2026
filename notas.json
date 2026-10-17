@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "items": [
+    {
+      "num": 5,
+      "nombre": "ABELENDA MARQUINA, ELENA",
+      "trib": 1,
+      "nota3": 34.32,
+      "estado": "apto",
+      "fecha": "2026-10-09"
+    },
+    {
+      "num": 59,
+      "nombre": "ALCALDE BRIÑOL, ALBA MARIA",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-13"
+    },
     {
       "num": 78,
       "nombre": "ALLER ESCUDERO, JUAN CARLOS",
@@ -69,9 +85,49 @@
       "num": 560,
       "nombre": "CARRERA FERNANDEZ, ELENA",
       "trib": 2,
-      "nota3": 32.285,
+      "nota3": 42.25,
       "estado": "apto",
       "fecha": "2026-10-05"
+    },
+    {
+      "num": 586,
+      "nombre": "CASAS GONZALEZ, ANDREA RAQUEL",
+      "trib": 2,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-06"
+    },
+    {
+      "num": 618,
+      "nombre": "CENTELLES EBRI, REBECA",
+      "trib": 2,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-08"
+    },
+    {
+      "num": 626,
+      "nombre": "CERVERA GOMEZ, PATRICIA",
+      "trib": 2,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-08"
+    },
+    {
+      "num": 627,
+      "nombre": "CERVERA RODRIGUEZ, SERGIO",
+      "trib": 2,
+      "nota3": 30.0,
+      "estado": "apto",
+      "fecha": "2026-10-13"
+    },
+    {
+      "num": 632,
+      "nombre": "CHARRO ALVAREZ, ADRIAN",
+      "trib": 2,
+      "nota3": 29.5,
+      "estado": "apto",
+      "fecha": "2026-10-13"
     },
     {
       "num": 641,
@@ -128,6 +184,78 @@
       "nota3": 35.25,
       "estado": "apto",
       "fecha": "2026-10-05"
+    },
+    {
+      "num": 1177,
+      "nombre": "GARCIA CALVO, GUILLERMO",
+      "trib": 3,
+      "nota3": 25.0,
+      "estado": "apto",
+      "fecha": "2026-10-06"
+    },
+    {
+      "num": 1189,
+      "nombre": "GARCIA DE PAOR, CUIVA",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-06"
+    },
+    {
+      "num": 1193,
+      "nombre": "GARCIA FERNANDEZ, AITANA",
+      "trib": 3,
+      "nota3": 34.33,
+      "estado": "apto",
+      "fecha": "2026-10-07"
+    },
+    {
+      "num": 1201,
+      "nombre": "GARCIA GARCIA, MARIA TERESA",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-07"
+    },
+    {
+      "num": 1205,
+      "nombre": "GARCIA GONZALEZ, BELEN",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-08"
+    },
+    {
+      "num": 1215,
+      "nombre": "GARCIA LECHUGA, LUCIA",
+      "trib": 3,
+      "nota3": 29.0,
+      "estado": "apto",
+      "fecha": "2026-10-08"
+    },
+    {
+      "num": 1223,
+      "nombre": "GARCIA MARTIN, ARANTXA",
+      "trib": 3,
+      "nota3": 36.75,
+      "estado": "apto",
+      "fecha": "2026-10-09"
+    },
+    {
+      "num": 1240,
+      "nombre": "GARCIA ORELLANA, FRANCISCO DE BORJA",
+      "trib": 3,
+      "nota3": 28.62,
+      "estado": "apto",
+      "fecha": "2026-10-13"
+    },
+    {
+      "num": 1245,
+      "nombre": "GARCIA PASCUAL, MARTA",
+      "trib": 3,
+      "nota3": 42.75,
+      "estado": "apto",
+      "fecha": "2026-10-13"
     },
     {
       "num": 1250,
@@ -218,6 +346,70 @@
       "fecha": "2026-10-05"
     },
     {
+      "num": 1812,
+      "nombre": "LOPEZ LOPEZ, ALFONSO",
+      "trib": 4,
+      "nota3": 26.5,
+      "estado": "apto",
+      "fecha": "2026-10-05"
+    },
+    {
+      "num": 1822,
+      "nombre": "LOPEZ MENARGUES, ALICIA INMACULADA",
+      "trib": 4,
+      "nota3": 30.06,
+      "estado": "apto",
+      "fecha": "2026-10-06"
+    },
+    {
+      "num": 1839,
+      "nombre": "LOPEZ SOSA, SARA ROCIO",
+      "trib": 4,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-06"
+    },
+    {
+      "num": 1844,
+      "nombre": "LOPEZ ZAMORA, MARIA",
+      "trib": 4,
+      "nota3": 31.87,
+      "estado": "apto",
+      "fecha": "2026-10-07"
+    },
+    {
+      "num": 1848,
+      "nombre": "LORENZO ELIZALDE, JULIA",
+      "trib": 4,
+      "nota3": 28.99,
+      "estado": "apto",
+      "fecha": "2026-10-07"
+    },
+    {
+      "num": 1865,
+      "nombre": "LOZANO ROMAN-NARANJO, ANTONIO JOSE",
+      "trib": 4,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-08"
+    },
+    {
+      "num": 1878,
+      "nombre": "MADRONA GARCIA, MARIA",
+      "trib": 4,
+      "nota3": 35.75,
+      "estado": "apto",
+      "fecha": "2026-10-13"
+    },
+    {
+      "num": 1888,
+      "nombre": "MALVAR TORRES, XAN",
+      "trib": 4,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-13"
+    },
+    {
       "num": 1893,
       "nombre": "MANGUT ROMERO, NURIA",
       "trib": 4,
@@ -285,9 +477,65 @@
       "num": 2418,
       "nombre": "OPERE GAONA, LAURA",
       "trib": 5,
-      "nota3": 28.75,
+      "nota3": 25.0,
       "estado": "apto",
       "fecha": "2026-10-05"
+    },
+    {
+      "num": 2428,
+      "nombre": "ORTEGA FERNANDEZ DE CORDOBA, DIEGO",
+      "trib": 5,
+      "nota3": 26.0,
+      "estado": "apto",
+      "fecha": "2026-10-06"
+    },
+    {
+      "num": 2430,
+      "nombre": "ORTEGA HIDALGO, FRANCISCO JESUS",
+      "trib": 5,
+      "nota3": 26.75,
+      "estado": "apto",
+      "fecha": "2026-10-06"
+    },
+    {
+      "num": 2432,
+      "nombre": "ORTEGA PEREZ, NURIA",
+      "trib": 5,
+      "nota3": 28.5,
+      "estado": "apto",
+      "fecha": "2026-10-07"
+    },
+    {
+      "num": 2448,
+      "nombre": "OTIN SOBRINO, ALEJANDRA",
+      "trib": 5,
+      "nota3": 33.0,
+      "estado": "apto",
+      "fecha": "2026-10-07"
+    },
+    {
+      "num": 2454,
+      "nombre": "OZALLA CIRUELOS, JANIRE",
+      "trib": 5,
+      "nota3": 34.5,
+      "estado": "apto",
+      "fecha": "2026-10-08"
+    },
+    {
+      "num": 2484,
+      "nombre": "PARDO DE MANUEL, CARLOTA",
+      "trib": 5,
+      "nota3": 25.0,
+      "estado": "apto",
+      "fecha": "2026-10-13"
+    },
+    {
+      "num": 2501,
+      "nombre": "PASCUAL MUÑOZ, IRENE",
+      "trib": 5,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-13"
     },
     {
       "num": 2503,
@@ -341,9 +589,65 @@
       "num": 2937,
       "nombre": "ROIG CALVETE, MARTA",
       "trib": 6,
-      "nota3": 26.5,
+      "nota3": 36.36,
       "estado": "apto",
       "fecha": "2026-10-05"
+    },
+    {
+      "num": 2983,
+      "nombre": "ROSA FIGUEROA, RAUL",
+      "trib": 6,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-06"
+    },
+    {
+      "num": 2989,
+      "nombre": "ROSES SANCHEZ-ANDRADE, AMALIA",
+      "trib": 6,
+      "nota3": 30.25,
+      "estado": "apto",
+      "fecha": "2026-10-06"
+    },
+    {
+      "num": 2999,
+      "nombre": "RUBIO BARBA, INES",
+      "trib": 6,
+      "nota3": 31.37,
+      "estado": "apto",
+      "fecha": "2026-10-07"
+    },
+    {
+      "num": 3002,
+      "nombre": "RUBIO VENTURA, PABLO FERNANDO",
+      "trib": 6,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-07"
+    },
+    {
+      "num": 3007,
+      "nombre": "RUIZ CARCHANO, LAURA",
+      "trib": 6,
+      "nota3": 30.75,
+      "estado": "apto",
+      "fecha": "2026-10-08"
+    },
+    {
+      "num": 3010,
+      "nombre": "RUIZ CASTILLO, FATIMA",
+      "trib": 6,
+      "nota3": 34.12,
+      "estado": "apto",
+      "fecha": "2026-10-08"
+    },
+    {
+      "num": 3015,
+      "nombre": "RUIZ GARCIA, MARTA",
+      "trib": 6,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-13"
     },
     {
       "num": 3021,
@@ -461,25 +765,65 @@
       "num": 3500,
       "nombre": "VILLA GARCIA, CLAUDIA",
       "trib": 1,
-      "nota3": 20.0,
-      "estado": "20",
+      "nota3": 42.2,
+      "estado": "apto",
       "fecha": "2026-10-05"
+    },
+    {
+      "num": 3520,
+      "nombre": "VILLOSLADA ADAN, EVA",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-06"
+    },
+    {
+      "num": 3521,
+      "nombre": "VINAGRE FERNANDEZ, ELENA",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-06"
     },
     {
       "num": 3522,
       "nombre": "VINAGRE GONZALEZ, ABARNE",
       "trib": 1,
-      "nota3": null,
-      "estado": "no_apto",
+      "nota3": 29.6,
+      "estado": "apto",
       "fecha": "2026-10-07"
     },
     {
       "num": 3537,
       "nombre": "ZAFORTEZA CERDA, PEDRO TOMAS",
       "trib": 1,
+      "nota3": 37.98,
+      "estado": "apto",
+      "fecha": "2026-10-07"
+    },
+    {
+      "num": 3540,
+      "nombre": "ZAFRILLA FILIPPINI, PAULA",
+      "trib": 1,
+      "nota3": 26.75,
+      "estado": "apto",
+      "fecha": "2026-10-08"
+    },
+    {
+      "num": 3552,
+      "nombre": "ZARAUZA GONZALEZ, SANTIAGO",
+      "trib": 1,
       "nota3": null,
       "estado": "no_apto",
-      "fecha": "2026-10-07"
+      "fecha": "2026-10-08"
+    },
+    {
+      "num": 3556,
+      "nombre": "ZAZO MORENO, RAFAEL",
+      "trib": 1,
+      "nota3": 46.0,
+      "estado": "apto",
+      "fecha": "2026-10-09"
     },
     {
       "num": 3849,
