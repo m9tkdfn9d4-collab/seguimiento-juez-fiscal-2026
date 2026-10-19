@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17",
+  "updated": "2026-10-19",
   "items": [
     {
       "num": 5,
@@ -48,6 +48,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-10-15"
+    },
+    {
+      "num": 147,
+      "nombre": "ANDRES PEREZ, CELIA",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-19"
+    },
+    {
+      "num": 154,
+      "nombre": "ANGOS MORA, LAURA",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-19"
     },
     {
       "num": 190,
@@ -160,6 +176,22 @@
       "nota3": 30.75,
       "estado": "apto",
       "fecha": "2026-10-15"
+    },
+    {
+      "num": 679,
+      "nombre": "CONEJERO ORDOÑEZ, PABLO",
+      "trib": 2,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-19"
+    },
+    {
+      "num": 685,
+      "nombre": "CORBACHO MONCADA, MARIA",
+      "trib": 2,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-19"
     },
     {
       "num": 1026,
@@ -296,6 +328,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-10-16"
+    },
+    {
+      "num": 1279,
+      "nombre": "GARCIA RIVAS CARMONA, CLARA",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-19"
+    },
+    {
+      "num": 1280,
+      "nombre": "GARCIA VALDECASAS GARCIA, LUCIA",
+      "trib": 3,
+      "nota3": 34.33,
+      "estado": "apto",
+      "fecha": "2026-10-19"
     },
     {
       "num": 1596,
@@ -442,6 +490,22 @@
       "fecha": "2026-10-15"
     },
     {
+      "num": 1917,
+      "nombre": "MARIN NAVARRO, NOELIA",
+      "trib": 4,
+      "nota3": 32.12,
+      "estado": "apto",
+      "fecha": "2026-10-19"
+    },
+    {
+      "num": 1930,
+      "nombre": "MARQUINA PEÑALOSA, IRENE",
+      "trib": 4,
+      "nota3": 37.99,
+      "estado": "apto",
+      "fecha": "2026-10-19"
+    },
+    {
       "num": 2190,
       "nombre": "PALOMAR GARRIDO, JUAN CARLOS",
       "trib": 3,
@@ -552,6 +616,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-10-15"
+    },
+    {
+      "num": 2540,
+      "nombre": "PEREIRA DE VICENTE, CANDELA",
+      "trib": 5,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-19"
+    },
+    {
+      "num": 2555,
+      "nombre": "PEREZ DIAZ, JULIA",
+      "trib": 5,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-19"
     },
     {
       "num": 2781,
@@ -672,6 +752,14 @@
       "nota3": 41.5,
       "estado": "apto",
       "fecha": "2026-10-15"
+    },
+    {
+      "num": 3049,
+      "nombre": "SACRISTAN PRIETO, DANIEL",
+      "trib": 6,
+      "nota3": 39.5,
+      "estado": "apto",
+      "fecha": "2026-10-19"
     },
     {
       "num": 3223,
