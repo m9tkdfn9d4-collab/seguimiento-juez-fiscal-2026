@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "items": [
     {
       "num": 5,
@@ -64,6 +64,14 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-10-19"
+    },
+    {
+      "num": 165,
+      "nombre": "ARANDA ESLAVA, LUISA",
+      "trib": 1,
+      "nota3": 40.5,
+      "estado": "apto",
+      "fecha": "2026-10-20"
     },
     {
       "num": 190,
@@ -192,6 +200,14 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-10-19"
+    },
+    {
+      "num": 695,
+      "nombre": "CORNAGO PEREZ-HERRERO, MARIA BELEN",
+      "trib": 2,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-20"
     },
     {
       "num": 1026,
@@ -344,6 +360,22 @@
       "nota3": 34.33,
       "estado": "apto",
       "fecha": "2026-10-19"
+    },
+    {
+      "num": 1286,
+      "nombre": "GARCIES DEIA, CARME",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-20"
+    },
+    {
+      "num": 1292,
+      "nombre": "GARRIDO GONZALEZ, SARA",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-20"
     },
     {
       "num": 1596,
@@ -506,6 +538,14 @@
       "fecha": "2026-10-19"
     },
     {
+      "num": 1933,
+      "nombre": "MARRON SANTOS, ALBA",
+      "trib": 4,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-20"
+    },
+    {
       "num": 2190,
       "nombre": "PALOMAR GARRIDO, JUAN CARLOS",
       "trib": 3,
@@ -634,6 +674,22 @@
       "fecha": "2026-10-19"
     },
     {
+      "num": 2564,
+      "nombre": "PEREZ GOMEZ, IGNACIO",
+      "trib": 5,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-20"
+    },
+    {
+      "num": 2569,
+      "nombre": "PEREZ GUTIERREZ, DOLORES MARIA",
+      "trib": 5,
+      "nota3": 40.0,
+      "estado": "apto",
+      "fecha": "2026-10-20"
+    },
+    {
       "num": 2781,
       "nombre": "RODRIGUEZ FERNANDEZ, ALEJANDRO",
       "trib": 4,
@@ -760,6 +816,22 @@
       "nota3": 39.5,
       "estado": "apto",
       "fecha": "2026-10-19"
+    },
+    {
+      "num": 3082,
+      "nombre": "SANABRIA FREJO, RAFAEL",
+      "trib": 6,
+      "nota3": 37.81,
+      "estado": "apto",
+      "fecha": "2026-10-20"
+    },
+    {
+      "num": 3084,
+      "nombre": "SANCHEZ ALCON, MIGUEL",
+      "trib": 6,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-20"
     },
     {
       "num": 3223,
