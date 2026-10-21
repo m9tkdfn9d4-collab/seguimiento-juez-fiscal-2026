@@ -997,8 +997,8 @@
       "num": 3457,
       "nombre": "VEGA MAYOR, ALEJANDRO",
       "trib": 1,
-      "nota3": null,
-      "estado": "no_apto",
+      "nota3": 30.66,
+      "estado": "apto",
       "fecha": "2026-10-01"
     },
     {
