@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "items": [
     {
       "num": 5,
@@ -72,6 +72,22 @@
       "nota3": 40.5,
       "estado": "apto",
       "fecha": "2026-10-20"
+    },
+    {
+      "num": 172,
+      "nombre": "ARDOY SEGARRA, MARIA",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-21"
+    },
+    {
+      "num": 180,
+      "nombre": "AREVALO DORADO, GLORIA",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-21"
     },
     {
       "num": 190,
@@ -208,6 +224,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-10-20"
+    },
+    {
+      "num": 733,
+      "nombre": "CUERO CASTRO, ELIANA",
+      "trib": 2,
+      "nota3": 25.66,
+      "estado": "apto",
+      "fecha": "2026-10-21"
+    },
+    {
+      "num": 739,
+      "nombre": "CUNILLERA FIGUERAS, LAIA",
+      "trib": 2,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-21"
     },
     {
       "num": 1026,
@@ -378,6 +410,14 @@
       "fecha": "2026-10-20"
     },
     {
+      "num": 1306,
+      "nombre": "GIL LOPEZ, RAQUEL",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-21"
+    },
+    {
       "num": 1596,
       "nombre": "LOPEZ GARCIA, ANDREA",
       "trib": 2,
@@ -546,6 +586,22 @@
       "fecha": "2026-10-20"
     },
     {
+      "num": 1943,
+      "nombre": "MARTIN CORROTO, MARIA",
+      "trib": 4,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-21"
+    },
+    {
+      "num": 1946,
+      "nombre": "MARTIN DOMINGUEZ, ANDREA",
+      "trib": 4,
+      "nota3": 25.0,
+      "estado": "apto",
+      "fecha": "2026-10-21"
+    },
+    {
       "num": 2190,
       "nombre": "PALOMAR GARRIDO, JUAN CARLOS",
       "trib": 3,
@@ -690,6 +746,22 @@
       "fecha": "2026-10-20"
     },
     {
+      "num": 2574,
+      "nombre": "PEREZ LICERAS, JAVIER",
+      "trib": 5,
+      "nota3": 35.75,
+      "estado": "apto",
+      "fecha": "2026-10-21"
+    },
+    {
+      "num": 2582,
+      "nombre": "PEREZ MARIÑO, ELENA",
+      "trib": 5,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-21"
+    },
+    {
       "num": 2781,
       "nombre": "RODRIGUEZ FERNANDEZ, ALEJANDRO",
       "trib": 4,
@@ -832,6 +904,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-10-20"
+    },
+    {
+      "num": 3091,
+      "nombre": "SANCHEZ BLANCO, MARIA ISABEL",
+      "trib": 6,
+      "nota3": 33.6,
+      "estado": "apto",
+      "fecha": "2026-10-21"
+    },
+    {
+      "num": 3092,
+      "nombre": "SANCHEZ BLANCO-ONS, MARIA",
+      "trib": 6,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-21"
     },
     {
       "num": 3223,
