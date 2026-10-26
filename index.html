@@ -97,6 +97,22 @@ footer{margin-top:28px;color:var(--muted);font-size:12px}
 .stat-list li:last-child{border-bottom:none}
 .stat-list li span{color:#666}
 .stat-list li b{font-weight:600;font-variant-numeric:tabular-nums}
+
+.test-banner{background:linear-gradient(135deg,#fffcf7 0%,#f7efe0 100%);border:1.5px solid var(--gold);border-radius:14px;padding:18px 20px;margin:0 0 22px;box-shadow:0 2px 10px rgba(184,137,45,.1)}
+.test-badge{display:inline-block;background:var(--navy);color:var(--gold2);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:999px;margin-bottom:8px}
+.test-banner h2{font-family:"Instrument Serif",serif;font-size:25px;font-weight:400;margin:0 0 6px;color:var(--navy)}
+.test-banner p{margin:0 0 14px;font-size:14px;color:var(--muted);line-height:1.45}
+.doc-links{display:flex;flex-wrap:wrap;gap:10px}
+.doc-btn{display:inline-flex;align-items:center;gap:7px;padding:9px 14px;border-radius:10px;font-size:13.5px;font-weight:600;text-decoration:none;border:1px solid var(--line);background:#fff;color:var(--navy);cursor:pointer;transition:all .15s ease;font-family:inherit}
+.doc-btn:hover{border-color:var(--gold);background:#fdf8ee}
+.doc-btn.primary{background:var(--navy);color:#fff;border-color:var(--navy)}
+.doc-btn.primary:hover{background:var(--navy2)}
+.doc-btn.gold{background:linear-gradient(135deg,#d4a853,#b8892d);color:#1b1408;border-color:#b8892d}
+.ans-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:16px}
+@media(max-width:860px){.ans-grid{grid-template-columns:repeat(2,1fr)}}
+.ans-col{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.ans-col table th,.ans-col table td{padding:7px 10px;text-align:center;font-size:14px}
+.ans-col table td:last-child{font-weight:700;color:var(--navy)}
 </style>
 </head>
 <body>
@@ -107,10 +123,11 @@ footer{margin-top:28px;color:var(--muted);font-size:12px}
       <b style="color:#d4a853">3.er y último ejercicio</b><br>
       En curso · Seguimiento en vivo
     </p>
-    <p style="font-size:12px;color:#a89880;margin:0 0 20px">Actualizado a 22 oct 2026</p>
+    <p style="font-size:12px;color:#a89880;margin:0 0 20px">Actualizado a 26 oct 2026</p>
     <nav id="nav">
       <button data-tab="home" class="active">Comparativa</button>
       <button data-tab="aptos">Aprobados</button>
+      <button data-tab="test2026">Test 2026 · Plantilla</button>
       <button data-tab="t1">Tribunal 1</button>
       <button data-tab="t2">Tribunal 2</button>
       <button data-tab="t3">Tribunal 3</button>
@@ -122,6 +139,17 @@ footer{margin-top:28px;color:var(--muted);font-size:12px}
   <main>
     <section id="home" class="section on">
       <h1>Visión general</h1>
+      <div class="test-banner">
+        <span class="test-badge">Nuevo · Convocatoria 2026 · 1.er Ejercicio (Test)</span>
+        <h2>Plantilla de respuestas correctas y cuestionario del test (25 oct 2026)</h2>
+        <p>Publicados el <b>26 de octubre de 2026</b> por Acuerdo del Tribunal calificador n.º 1 (proceso selectivo convocado por Acuerdo de 4 de junio de 2026, BOE 15/06/2026, base octava B.3).</p>
+        <div class="doc-links">
+          <a class="doc-btn primary" href="https://www.poderjudicial.es/stfls/CGPJ/PERSONAL%20JUDICIAL/ACCESO%20A%20LA%20CARRERA%20JUDICIAL/JUEZFISCAL/FICHERO/2025/20261026%20Juez-Fiscal%202026%20Desarrollo%20-%20Respuestas%20consideradas%20correctas%20del%20primer%20ejercicio.pdf" target="_blank" rel="noopener">📄 Plantilla de respuestas correctas (PDF)</a>
+          <a class="doc-btn primary" href="https://www.poderjudicial.es/stfls/CGPJ/PERSONAL%20JUDICIAL/ACCESO%20A%20LA%20CARRERA%20JUDICIAL/JUEZFISCAL/FICHERO/2025/20261026%20Juez-Fiscal%202026%20Desarrollo%20-%20Preguntas%20del%20primer%20ejercicio.pdf" target="_blank" rel="noopener">📋 Cuestionario de preguntas (PDF)</a>
+          <a class="doc-btn" href="https://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-categoria-de-Juez-a/Convocatorias-en-curso/Acceso-a-la-carrera-judicial--Juez---Fiscal-2026--Desarrollo-de-las-pruebas---Preguntas-y-respuestas-correctas-del-primer-ejercicio" target="_blank" rel="noopener">🔗 Anuncio oficial CGPJ</a>
+          <button type="button" class="doc-btn gold" data-go="test2026">Ver plantilla 1–100 aquí →</button>
+        </div>
+      </div>
       
       <div class="kpis" id="kpis"></div>
       <div class="tiles" id="tiles"></div>
@@ -132,8 +160,151 @@ footer{margin-top:28px;color:var(--muted);font-size:12px}
       
       <div id="aptosBody"></div>
     </section>
+    <section id="test2026" class="section">
+      <h1>Primer ejercicio · Convocatoria 2026</h1>
+      <div class="test-banner">
+        <span class="test-badge">Acuerdo de 26 de octubre de 2026 · Tribunal calificador n.º 1</span>
+        <h2>Preguntas y plantilla de respuestas correctas del test (25 de octubre de 2026)</h2>
+        <p>Proceso selectivo para el ingreso en las Carreras Judicial y Fiscal convocado por Acuerdo de 4 de junio de 2026 de la Comisión de Selección (BOE 15/06/2026). Publicación oficial conforme a la base octava B).3.</p>
+        <div class="doc-links">
+          <a class="doc-btn primary" href="https://www.poderjudicial.es/stfls/CGPJ/PERSONAL%20JUDICIAL/ACCESO%20A%20LA%20CARRERA%20JUDICIAL/JUEZFISCAL/FICHERO/2025/20261026%20Juez-Fiscal%202026%20Desarrollo%20-%20Respuestas%20consideradas%20correctas%20del%20primer%20ejercicio.pdf" target="_blank" rel="noopener">📄 Descargar plantilla de respuestas correctas (PDF oficial CGPJ)</a>
+          <a class="doc-btn primary" href="https://www.poderjudicial.es/stfls/CGPJ/PERSONAL%20JUDICIAL/ACCESO%20A%20LA%20CARRERA%20JUDICIAL/JUEZFISCAL/FICHERO/2025/20261026%20Juez-Fiscal%202026%20Desarrollo%20-%20Preguntas%20del%20primer%20ejercicio.pdf" target="_blank" rel="noopener">📋 Descargar cuestionario de 100 preguntas (PDF oficial CGPJ)</a>
+          <a class="doc-btn" href="https://www.poderjudicial.es/cgpj/es/Servicios/Acceso-a-la-categoria-de-Juez-a/Convocatorias-en-curso/Acceso-a-la-carrera-judicial--Juez---Fiscal-2026--Desarrollo-de-las-pruebas---Preguntas-y-respuestas-correctas-del-primer-ejercicio" target="_blank" rel="noopener">🔗 Página oficial en poderjudicial.es</a>
+        </div>
+      </div>
+      <ul class="stat-list">
+        <li><span>Fecha del examen (1.er ejercicio)</span><b>Domingo, 25 de octubre de 2026</b></li>
+        <li><span>Fecha del Acuerdo de plantilla</span><b>Lunes, 26 de octubre de 2026</b></li>
+        <li><span>Órgano</span><b>Tribunal calificador n.º 1 (Presidenta: María Pilar Martín Nájera)</b></li>
+        <li><span>Cuestionario</span><b>100 preguntas (modelo único)</b></li>
+      </ul>
+      <h2 style="font-family:'Instrument Serif',serif;font-size:28px;font-weight:400;margin:20px 0 8px">Plantilla oficial de respuestas consideradas correctas (1–100)</h2>
+      <div class="ans-grid">
+        <div class="ans-col">
+      <table>
+        <thead><tr><th>Preg.</th><th>Resp.</th></tr></thead>
+        <tbody><tr><td>1</td><td>B</td></tr>
+<tr><td>2</td><td>D</td></tr>
+<tr><td>3</td><td>B</td></tr>
+<tr><td>4</td><td>D</td></tr>
+<tr><td>5</td><td>C</td></tr>
+<tr><td>6</td><td>C</td></tr>
+<tr><td>7</td><td>A</td></tr>
+<tr><td>8</td><td>B</td></tr>
+<tr><td>9</td><td>C</td></tr>
+<tr><td>10</td><td>B</td></tr>
+<tr><td>11</td><td>D</td></tr>
+<tr><td>12</td><td>C</td></tr>
+<tr><td>13</td><td>A</td></tr>
+<tr><td>14</td><td>D</td></tr>
+<tr><td>15</td><td>D</td></tr>
+<tr><td>16</td><td>A</td></tr>
+<tr><td>17</td><td>B</td></tr>
+<tr><td>18</td><td>C</td></tr>
+<tr><td>19</td><td>D</td></tr>
+<tr><td>20</td><td>B</td></tr></tbody>
+      </table>
+    </div><div class="ans-col">
+      <table>
+        <thead><tr><th>Preg.</th><th>Resp.</th></tr></thead>
+        <tbody><tr><td>21</td><td>B</td></tr>
+<tr><td>22</td><td>B</td></tr>
+<tr><td>23</td><td>A</td></tr>
+<tr><td>24</td><td>D</td></tr>
+<tr><td>25</td><td>D</td></tr>
+<tr><td>26</td><td>B</td></tr>
+<tr><td>27</td><td>C</td></tr>
+<tr><td>28</td><td>B</td></tr>
+<tr><td>29</td><td>A</td></tr>
+<tr><td>30</td><td>B</td></tr>
+<tr><td>31</td><td>C</td></tr>
+<tr><td>32</td><td>C</td></tr>
+<tr><td>33</td><td>B</td></tr>
+<tr><td>34</td><td>B</td></tr>
+<tr><td>35</td><td>D</td></tr>
+<tr><td>36</td><td>C</td></tr>
+<tr><td>37</td><td>D</td></tr>
+<tr><td>38</td><td>A</td></tr>
+<tr><td>39</td><td>B</td></tr>
+<tr><td>40</td><td>B</td></tr></tbody>
+      </table>
+    </div><div class="ans-col">
+      <table>
+        <thead><tr><th>Preg.</th><th>Resp.</th></tr></thead>
+        <tbody><tr><td>41</td><td>A</td></tr>
+<tr><td>42</td><td>D</td></tr>
+<tr><td>43</td><td>B</td></tr>
+<tr><td>44</td><td>B</td></tr>
+<tr><td>45</td><td>A</td></tr>
+<tr><td>46</td><td>A</td></tr>
+<tr><td>47</td><td>C</td></tr>
+<tr><td>48</td><td>D</td></tr>
+<tr><td>49</td><td>C</td></tr>
+<tr><td>50</td><td>B</td></tr>
+<tr><td>51</td><td>B</td></tr>
+<tr><td>52</td><td>C</td></tr>
+<tr><td>53</td><td>B</td></tr>
+<tr><td>54</td><td>C</td></tr>
+<tr><td>55</td><td>A</td></tr>
+<tr><td>56</td><td>A</td></tr>
+<tr><td>57</td><td>B</td></tr>
+<tr><td>58</td><td>C</td></tr>
+<tr><td>59</td><td>B</td></tr>
+<tr><td>60</td><td>D</td></tr></tbody>
+      </table>
+    </div><div class="ans-col">
+      <table>
+        <thead><tr><th>Preg.</th><th>Resp.</th></tr></thead>
+        <tbody><tr><td>61</td><td>C</td></tr>
+<tr><td>62</td><td>B</td></tr>
+<tr><td>63</td><td>C</td></tr>
+<tr><td>64</td><td>C</td></tr>
+<tr><td>65</td><td>C</td></tr>
+<tr><td>66</td><td>B</td></tr>
+<tr><td>67</td><td>C</td></tr>
+<tr><td>68</td><td>D</td></tr>
+<tr><td>69</td><td>A</td></tr>
+<tr><td>70</td><td>A</td></tr>
+<tr><td>71</td><td>A</td></tr>
+<tr><td>72</td><td>C</td></tr>
+<tr><td>73</td><td>B</td></tr>
+<tr><td>74</td><td>D</td></tr>
+<tr><td>75</td><td>C</td></tr>
+<tr><td>76</td><td>B</td></tr>
+<tr><td>77</td><td>C</td></tr>
+<tr><td>78</td><td>A</td></tr>
+<tr><td>79</td><td>B</td></tr>
+<tr><td>80</td><td>B</td></tr></tbody>
+      </table>
+    </div><div class="ans-col">
+      <table>
+        <thead><tr><th>Preg.</th><th>Resp.</th></tr></thead>
+        <tbody><tr><td>81</td><td>A</td></tr>
+<tr><td>82</td><td>A</td></tr>
+<tr><td>83</td><td>C</td></tr>
+<tr><td>84</td><td>A</td></tr>
+<tr><td>85</td><td>B</td></tr>
+<tr><td>86</td><td>C</td></tr>
+<tr><td>87</td><td>A</td></tr>
+<tr><td>88</td><td>C</td></tr>
+<tr><td>89</td><td>B</td></tr>
+<tr><td>90</td><td>C</td></tr>
+<tr><td>91</td><td>A</td></tr>
+<tr><td>92</td><td>B</td></tr>
+<tr><td>93</td><td>B</td></tr>
+<tr><td>94</td><td>B</td></tr>
+<tr><td>95</td><td>C</td></tr>
+<tr><td>96</td><td>C</td></tr>
+<tr><td>97</td><td>C</td></tr>
+<tr><td>98</td><td>C</td></tr>
+<tr><td>99</td><td>D</td></tr>
+<tr><td>100</td><td>B</td></tr></tbody>
+      </table>
+    </div>
+      </div>
+    </section>
     <div id="tribPages"></div>
-    <footer>Convocatoria 2025 · Carreras Judicial y Fiscal · Actualizado a 22 oct 2026</footer>
+    <footer>Convocatoria 2025 · Carreras Judicial y Fiscal · Actualizado a 26 oct 2026</footer>
   </main>
 </div>
 <script>
