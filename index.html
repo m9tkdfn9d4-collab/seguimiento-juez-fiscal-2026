@@ -9,105 +9,118 @@
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet"/>
 <style>
 :root{
-  --navy:#1b2a4a;
-  --navy2:#24365c;
-  --ink:#1c1917;
-  --muted:#6b635b;
-  --paper:#f6f1e8;
-  --card:#fffcf7;
-  --line:#e4d9c8;
-  --gold:#b8892d;
-  --gold2:#d4a853;
-  --rep:#8a5a12;
-  --repbg:#f3e3c4;
+  --bg:#f8f9fb;
+  --card:#fff;
+  --ink:#1a1a1a;
+  --muted:#6b7280;
+  --line:#e5e7eb;
+  --accent:#2563eb;
+  --accent-soft:#eff6ff;
+  --green:#059669;
+  --green-soft:#ecfdf5;
+  --red:#dc2626;
+  --red-soft:#fef2f2;
+  --amber:#d97706;
+  --amber-soft:#fffbeb;
 }
 *{box-sizing:border-box}
-html,body{margin:0;height:100%;background:var(--paper);color:var(--ink);
-  font-family:"Source Sans 3",system-ui,sans-serif}
-.app{display:grid;grid-template-columns:232px 1fr;min-height:100vh}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.app{display:grid;grid-template-columns:240px 1fr;min-height:100vh}
 aside{
-  background:var(--navy);color:#efe6d6;padding:28px 18px;
-  position:sticky;top:0;height:100vh
+  background:#111827;color:#f3f4f6;padding:24px 16px;
+  position:sticky;top:0;height:100vh;overflow-y:auto
 }
-.brand{font-family:"Instrument Serif",serif;font-size:26px;line-height:1.15;margin:0 0 6px;color:#fff}
-.brand span{display:block;font-family:"Source Sans 3",sans-serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold2);margin-bottom:8px;font-weight:600}
-aside p{font-size:13px;color:#cbbfaa;margin:0 0 28px;line-height:1.4}
+.brand{font-size:20px;font-weight:700;line-height:1.2;margin:0 0 4px;color:#fff}
+.brand span{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#9ca3af;margin-bottom:6px;font-weight:500}
+.live-badge{
+  display:inline-flex;align-items:center;gap:6px;
+  background:#059669;color:#fff;font-size:11px;font-weight:600;
+  padding:4px 10px;border-radius:999px;margin:12px 0 8px;
+  animation:pulse 2s ease-in-out infinite
+}
+.live-badge::before{content:"";width:6px;height:6px;background:#fff;border-radius:50%;animation:blink 1.2s ease-in-out infinite}
+.updated-badge{
+  display:inline-block;background:#374151;color:#d1d5db;font-size:11px;
+  padding:3px 8px;border-radius:6px;margin-bottom:20px
+}
+aside p{font-size:13px;color:#9ca3af;margin:0 0 16px;line-height:1.4}
 aside button{
   display:flex;align-items:center;gap:8px;width:100%;text-align:left;border:0;background:transparent;
-  color:#d7ccbb;padding:10px 14px;border-radius:10px;font:inherit;font-size:14.5px;
-  cursor:pointer;margin-bottom:4px;transition:all .15s ease
+  color:#d1d5db;padding:10px 12px;border-radius:8px;font:inherit;font-size:14px;
+  cursor:pointer;margin-bottom:2px;transition:all .12s ease
 }
-aside button:hover{background:rgba(255,255,255,.08);color:#fff}
-aside button.active{background:linear-gradient(135deg,#d4a853,#b8892d);color:#1b1408;font-weight:600;box-shadow:0 2px 8px rgba(184,137,45,.3)}
-main{padding:36px 40px 72px;max-width:1100px}
-h1{font-family:"Instrument Serif",serif;font-size:42px;font-weight:400;margin:0 0 8px;letter-spacing:-.02em}
-.lead{color:var(--muted);margin:0 0 28px;max-width:560px}
-.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:22px}
-.kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
-.kpi .lbl{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
-.kpi b{display:block;font-family:"Instrument Serif",serif;font-size:32px;font-weight:400;margin-top:4px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
-.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:22px}
-.tile{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;cursor:pointer;text-align:left}
-.tile:hover{border-color:var(--gold)}
-.tile h3{margin:0;font-family:"Instrument Serif",serif;font-size:22px;font-weight:400}
-.tile .meta{color:var(--muted);font-size:13px;margin-top:6px}
-.tile b{color:var(--navy)}
-table{width:100%;border-collapse:collapse;font-size:14.5px}
+aside button:hover{background:rgba(255,255,255,.06);color:#fff}
+aside button.active{background:var(--accent);color:#fff;font-weight:600}
+main{padding:32px 36px 64px;max-width:1080px}
+h1{font-size:28px;font-weight:700;margin:0 0 6px;letter-spacing:-.02em}
+.lead{color:var(--muted);margin:0 0 24px;font-size:15px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:20px}
+.tile{
+  background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;
+  text-align:left;cursor:pointer;font:inherit;color:inherit;transition:transform .12s,box-shadow .12s
+}
+.tile:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.06)}
+.tile h3{margin:0 0 8px;font-size:15px;font-weight:600}
+.tile .meta{font-size:13px;color:var(--muted);line-height:1.5}
+.tile .meta b{color:var(--ink)}
+table{width:100%;border-collapse:collapse;font-size:14px}
 th,td{padding:10px 14px;text-align:left;border-bottom:1px solid var(--line)}
-th{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:#f3ece1;font-weight:600}
-tr:last-child td{border-bottom:0}
-tr.row-apto td{background:#e7f6ee}
-tr.row-apto td:first-child{box-shadow:inset 3px 0 0 #1f7a4d}
-tr.row-no td{background:#fbeceb}
-tr.row-no td:first-child{box-shadow:inset 3px 0 0 #a33b32}
-tr.row-pend td{background:#f8f1df}
-tfoot td{background:#f4efe6;font-weight:650}
-tr:hover td{background:#faf4ea}
-tr.row-apto:hover td{background:#d9f0e4}
-tr.row-no:hover td{background:#f6e0dc}
-.tag-apto{color:#14643c;font-weight:700}
-.tag-no{color:#8a332c;font-weight:700}
-.tag-pend{color:#8a5a12;font-weight:650}
-.sum{font-weight:700;font-variant-numeric:tabular-nums}
-
+th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600;background:#fafafa}
+td{font-variant-numeric:tabular-nums}
+tr.row-apto td{background:var(--green-soft)}
+tr.row-apto td:first-child{box-shadow:inset 3px 0 0 var(--green)}
+tr.row-no td{background:var(--red-soft)}
+tr.row-no td:first-child{box-shadow:inset 3px 0 0 var(--red)}
+tr:hover td{background:#f9fafb}
+tr.row-apto:hover td{background:#d1fae5}
+tr.row-no:hover td{background:#fee2e2}
+.tag-apto{color:var(--green);font-weight:600}
+.tag-no{color:var(--red);font-weight:600}
+.sum{font-weight:700}
 .search{
-  width:100%;max-width:280px;margin:0 0 14px;padding:9px 12px;
-  border:1px solid var(--line);border-radius:10px;background:#fff;font:inherit
+  width:100%;max-width:260px;margin:0 0 12px;padding:8px 12px;
+  border:1px solid var(--line);border-radius:8px;background:#fff;font:inherit;font-size:14px
 }
-.rep{display:inline-block;margin-left:8px;background:var(--repbg);color:var(--rep);
-  font-size:11px;font-weight:600;padding:1px 7px;border-radius:999px;letter-spacing:.02em}
+.rep{display:inline-block;margin-left:6px;background:#fef3c7;color:#92400e;
+  font-size:10px;font-weight:600;padding:1px 6px;border-radius:999px}
 .section{display:none}
 .section.on{display:block}
-.topbar{display:none}
-footer{margin-top:28px;color:var(--muted);font-size:12px}
+footer{margin-top:24px;color:var(--muted);font-size:12px}
+.stat-list{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:4px 0;margin:0 0 16px}
+.stat-list li{display:flex;justify-content:space-between;align-items:center;padding:10px 16px;font-size:14px;border-bottom:1px solid #f3f4f6}
+.stat-list li:last-child{border-bottom:none}
+.stat-list li span{color:var(--muted)}
+.stat-list li b{font-weight:600;font-variant-numeric:tabular-nums}
+.pulse-dot{display:inline-block;width:8px;height:8px;background:var(--green);border-radius:50%;margin-right:6px;animation:blink 1.2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.7}}
+@keyframes blink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.85)}}
 @media(max-width:860px){
   .app{grid-template-columns:1fr}
   aside{position:relative;height:auto;padding:16px}
-  .topbar{display:block}
-  .kpis,.tiles{grid-template-columns:1fr 1fr}
+  .tiles{grid-template-columns:1fr 1fr}
   main{padding:20px 16px 48px}
-  h1{font-size:32px}
+  h1{font-size:24px}
   aside nav{display:flex;flex-wrap:wrap;gap:4px}
   aside button{width:auto}
 }
-
-.stat-list{background:#fff;border:1px solid #e5e5e7;border-radius:14px;padding:6px 0;margin:0 0 20px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
-.stat-list li{display:flex;justify-content:space-between;align-items:center;padding:11px 18px;font-size:15px;border-bottom:1px solid #f2f2f4}
-.stat-list li:last-child{border-bottom:none}
-.stat-list li span{color:#666}
-.stat-list li b{font-weight:600;font-variant-numeric:tabular-nums}
 </style>
 </head>
 <body>
 <div class="app">
   <aside>
     <div class="brand"><span>Convocatoria 2025</span>Carreras Judicial y Fiscal</div>
-    <p style="background:rgba(184,137,45,.15);border-radius:8px;padding:10px 12px;margin:12px 0 20px;font-size:13px;line-height:1.45">
-      <b style="color:#d4a853">3.er y último ejercicio</b><br>
-      En curso · Seguimiento en vivo
-    </p>
-    <p style="font-size:12px;color:#a89880;margin:0 0 20px">Actualizado a 22 oct 2026</p>
+    <div class="live-badge">En curso</div>
+    <p>3.er y último ejercicio</p>
+    <div class="updated-badge">Actualizado a 22 oct 2026</div>
+    <div style="margin-bottom:16px">
+      <div style="font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:#6b7280;margin-bottom:6px">Convocatoria</div>
+      <div style="display:flex;gap:4px">
+        <button class="conv-btn active" data-conv="2025" style="flex:1;padding:6px 8px;border-radius:6px;border:0;background:#2563eb;color:#fff;font-size:12px;font-weight:600;cursor:pointer">2025</button>
+        <button class="conv-btn" data-conv="2026" style="flex:1;padding:6px 8px;border-radius:6px;border:0;background:#374151;color:#d1d5db;font-size:12px;cursor:pointer">2026</button>
+      </div>
+    </div>
     <nav id="nav">
       <button data-tab="home" class="active">Comparativa</button>
       <button data-tab="aptos">Aprobados</button>
@@ -126,6 +139,32 @@ footer{margin-top:28px;color:var(--muted);font-size:12px}
       <div class="kpis" id="kpis"></div>
       <div class="tiles" id="tiles"></div>
 
+    </section>
+    <section id="conv2026" class="section">
+      <h1>Convocatoria 2026</h1>
+      <p class="lead">Primer ejercicio: domingo 25 de octubre de 2026</p>
+      <div class="live-badge" style="margin-bottom:16px">Este domingo</div>
+      <div class="card" style="padding:20px;margin-bottom:16px">
+        <h3 style="margin:0 0 12px;font-size:16px">Datos de la convocatoria</h3>
+        <ul class="stat-list" style="margin:0">
+          <li><span>Plazas</span><b>575</b></li>
+          <li><span>Jueces</span><b>375</b></li>
+          <li><span>Fiscales</span><b>200</b></li>
+          <li><span>Primer ejercicio</span><b>Dom 25 oct 2026</b></li>
+          <li><span>Llamamiento</span><b>10:00</b></li>
+          <li><span>Inicio examen</span><b>11:00</b></li>
+          <li><span>Sedes</span><b>Barcelona, Granada, Madrid, Valencia, Valladolid</b></li>
+        </ul>
+      </div>
+      <div class="card" style="padding:20px">
+        <h3 style="margin:0 0 12px;font-size:16px">Calendario estimativo</h3>
+        <ul class="stat-list" style="margin:0">
+          <li><span>1.er ejercicio (test)</span><b>25 oct 2026</b></li>
+          <li><span>2.º ejercicio (oral)</span><b>Feb–Jun 2027</b></li>
+          <li><span>3.er ejercicio (oral)</span><b>Sep 2027</b></li>
+        </ul>
+      </div>
+      <p style="margin-top:16px;font-size:13px;color:#6b7280">El seguimiento detallado de notas se activará cuando salgan los resultados del primer ejercicio.</p>
     </section>
     <section id="aptos" class="section">
       <h1>Aprobados</h1>
@@ -198,6 +237,23 @@ function go(id){
   document.querySelectorAll('.section').forEach(s => s.classList.toggle('on', s.id===id));
   window.scrollTo(0,0);
 }
+document.querySelectorAll('.conv-btn').forEach(btn => {
+  btn.onclick = () => {
+    document.querySelectorAll('.conv-btn').forEach(b => {
+      b.classList.toggle('active', b===btn);
+      b.style.background = b===btn ? '#2563eb' : '#374151';
+      b.style.color = b===btn ? '#fff' : '#d1d5db';
+    });
+    const conv = btn.dataset.conv;
+    if(conv==='2026'){
+      go('conv2026');
+      document.getElementById('nav').style.display='none';
+    } else {
+      go('home');
+      document.getElementById('nav').style.display='';
+    }
+  };
+});
 document.querySelectorAll('#nav button').forEach(b => b.onclick = () => go(b.dataset.tab));
 
 function renderAptos(){
