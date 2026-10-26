@@ -433,7 +433,7 @@ document.querySelectorAll('.search').forEach(inp => {
   };
 });
 
-fetch('notas.json').then(r=>r.ok?r.json():null).then(j=>{
+fetch('https://raw.githubusercontent.com/m9tkdfn9d4-collab/seguimiento-juez-fiscal-2026/main/notas.json?t='+Date.now()).catch(()=>fetch('notas.json')).then(r=>r&&r.ok?r.json():fetch('notas.json').then(r2=>r2.ok?r2.json():null)).then(j=>{
   if(!j || !j.items || !j.items.length) return;
   const by = new Map(NOTAS.items.map(x => [x.num, x]));
   j.items.forEach(x => by.set(x.num, x));
