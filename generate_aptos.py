@@ -1,7 +1,29 @@
 #!/usr/bin/env python3
-import json, re, os
+import json, re, os, urllib.request
 
 base = os.path.dirname(os.path.abspath(__file__))
+aptos_path = os.path.join(base, "aptos.json")
+
+existing_carrera = {}
+if os.path.exists(aptos_path):
+    try:
+        with open(aptos_path, "r", encoding="utf-8") as f:
+            for item in json.load(f):
+                if item.get("num") is not None and item.get("carrera") in ("juez", "fiscal"):
+                    existing_carrera[int(item["num"])] = item["carrera"]
+    except Exception:
+        pass
+
+try:
+    req = urllib.request.Request("https://eleccionjudicatura.netlify.app/.netlify/functions/elecciones", headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=5) as resp:
+        data_remote = json.loads(resp.read().decode("utf-8"))
+        for item in data_remote.get("items", []):
+            if item.get("num") is not None and item.get("carrera") in ("juez", "fiscal"):
+                existing_carrera[int(item["num"])] = item["carrera"]
+except Exception:
+    pass
+
 with open(os.path.join(base, "index.html"), "r", encoding="utf-8") as f:
     html = f.read()
 
@@ -33,12 +55,13 @@ for num, x in by_num.items():
             "nota2": nota2,
             "nota3": nota3,
             "suma": suma,
-            "fecha": x.get("fecha")
+            "fecha": x.get("fecha"),
+            "carrera": existing_carrera.get(int(num), None)
         })
 
 aptos.sort(key=lambda r: (r["trib"], -(r["suma"] or 0), r["num"]))
 
-with open(os.path.join(base, "aptos.json"), "w", encoding="utf-8") as f:
+with open(aptos_path, "w", encoding="utf-8") as f:
     json.dump(aptos, f, ensure_ascii=False, indent=2)
 
-print(f"aptos.json updated with {len(aptos)} aptos")
+print(f"aptos.json updated with {len(aptos)} aptos ({sum(1 for a in aptos if a['carrera']=='juez')} juez, {sum(1 for a in aptos if a['carrera']=='fiscal')} fiscal)")
