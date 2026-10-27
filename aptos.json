@@ -47,7 +47,7 @@
     "nota3": 40.75,
     "suma": 83.25,
     "fecha": "2026-09-30",
-    "carrera": null
+    "carrera": "fiscal"
   },
   {
     "num": 2588,
@@ -437,7 +437,7 @@
     "nota3": 37.98,
     "suma": 73.97,
     "fecha": "2026-10-07",
-    "carrera": null
+    "carrera": "fiscal"
   },
   {
     "num": 1645,
@@ -617,7 +617,7 @@
     "nota3": 33.32,
     "suma": 70.64,
     "fecha": "2026-10-26",
-    "carrera": null
+    "carrera": "juez"
   },
   {
     "num": 1123,
@@ -697,7 +697,7 @@
     "nota3": 30.5,
     "suma": 63.12,
     "fecha": "2026-10-26",
-    "carrera": null
+    "carrera": "juez"
   },
   {
     "num": 413,
@@ -1107,7 +1107,7 @@
     "nota3": 26.0,
     "suma": 51.0,
     "fecha": "2026-10-01",
-    "carrera": null
+    "carrera": "fiscal"
   },
   {
     "num": 2418,
