@@ -32,7 +32,7 @@ m_data = re.search(r"const DATA = (\{.*?\});\n", html)
 data = json.loads(m_data.group(1))
 people_by_num = {p["num"]: p for p in data["people"]}
 
-m_notas = re.search(r"let NOTAS = \{updated:\"[^\"]*\", items:(\[.*?\])\};", html)
+m_notas = re.search(r"let NOTAS = \{\"?updated\"?:\s*\"[^\"]*\",\s*\"?items\"?:\s*(\[.*?\])\};", html)
 embedded_items = json.loads(m_notas.group(1))
 
 with open(os.path.join(base, "notas.json"), "r", encoding="utf-8") as f:

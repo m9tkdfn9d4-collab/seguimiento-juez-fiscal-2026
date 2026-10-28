@@ -370,6 +370,22 @@
       "fecha": "2026-10-27"
     },
     {
+      "num": 200,
+      "nombre": "ARNO SANCHEZ, ALBA",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-28"
+    },
+    {
+      "num": 205,
+      "nombre": "ARRESE GARZON, IRIDE",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-28"
+    },
+    {
       "num": 413,
       "nombre": "BRUNO MATEU, ADRIA",
       "trib": 2,
@@ -1354,6 +1370,22 @@
       "fecha": "2026-10-27"
     },
     {
+      "num": 2002,
+      "nombre": "MARTINEZ GARCIA, LUCIA",
+      "trib": 4,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-28"
+    },
+    {
+      "num": 2004,
+      "nombre": "MARTINEZ GIL, ANGELA",
+      "trib": 4,
+      "nota3": 31.75,
+      "estado": "apto",
+      "fecha": "2026-10-28"
+    },
+    {
       "num": 2232,
       "nombre": "MORALES RODRIGUEZ, SALVADOR",
       "trib": 5,
@@ -1664,6 +1696,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-10-27"
+    },
+    {
+      "num": 2603,
+      "nombre": "PEREZ RODRIGUEZ, ELENA ANGELA",
+      "trib": 5,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-28"
+    },
+    {
+      "num": 2605,
+      "nombre": "PEREZ SANCHEZ, MARIA",
+      "trib": 5,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-28"
     },
     {
       "num": 2797,
@@ -1984,6 +2032,22 @@
       "nota3": 37.2,
       "estado": "apto",
       "fecha": "2026-10-27"
+    },
+    {
+      "num": 3127,
+      "nombre": "SANCHEZ MARTIN, ANTONIO",
+      "trib": 6,
+      "nota3": 32.25,
+      "estado": "apto",
+      "fecha": "2026-10-28"
+    },
+    {
+      "num": 3140,
+      "nombre": "SANCHEZ NIETO, LUIS",
+      "trib": 6,
+      "nota3": 42.6,
+      "estado": "apto",
+      "fecha": "2026-10-28"
     }
   ]
 }
