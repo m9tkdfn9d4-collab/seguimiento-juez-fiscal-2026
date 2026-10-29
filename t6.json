@@ -1,6 +1,6 @@
 {
   "trib": 6,
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "items": [
     {
       "num": 2797,
@@ -195,14 +195,6 @@
       "fecha": "2026-10-08"
     },
     {
-      "num": 3012,
-      "nombre": "RUIZ CERDAN, JAVIER",
-      "trib": 6,
-      "nota3": null,
-      "estado": "no_apto",
-      "fecha": "2026-10-16"
-    },
-    {
       "num": 3015,
       "nombre": "RUIZ GARCIA, MARTA",
       "trib": 6,
@@ -337,6 +329,14 @@
       "nota3": 42.6,
       "estado": "apto",
       "fecha": "2026-10-28"
+    },
+    {
+      "num": 3012,
+      "nombre": "RUIZ CERDAN, JAVIER",
+      "trib": 6,
+      "nota3": 27.98,
+      "estado": "apto",
+      "fecha": "2026-10-29"
     }
   ]
 }
