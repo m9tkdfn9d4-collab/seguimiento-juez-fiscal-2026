@@ -1,6 +1,6 @@
 {
   "trib": 3,
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "items": [
     {
       "num": 1026,
@@ -91,14 +91,6 @@
       "fecha": "2026-09-28"
     },
     {
-      "num": 1092,
-      "nombre": "FONT FABRA, ARTUR",
-      "trib": 3,
-      "nota3": null,
-      "estado": "no_apto",
-      "fecha": "2026-10-02"
-    },
-    {
       "num": 1097,
       "nombre": "FOS DE LA RUBIA, JOSE MANUEL",
       "trib": 3,
@@ -139,6 +131,14 @@
       "fecha": "2026-10-01"
     },
     {
+      "num": 1092,
+      "nombre": "FONT FABRA, ARTUR",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-02"
+    },
+    {
       "num": 1136,
       "nombre": "GALLARDO PORRAS, ANTONIO",
       "trib": 3,
@@ -169,14 +169,6 @@
       "nota3": 35.25,
       "estado": "apto",
       "fecha": "2026-10-05"
-    },
-    {
-      "num": 1160,
-      "nombre": "GANDIA PONCE, ISABEL MARIA",
-      "trib": 3,
-      "nota3": null,
-      "estado": "no_apto",
-      "fecha": "2026-10-09"
     },
     {
       "num": 1177,
@@ -227,6 +219,14 @@
       "fecha": "2026-10-08"
     },
     {
+      "num": 1160,
+      "nombre": "GANDIA PONCE, ISABEL MARIA",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-09"
+    },
+    {
       "num": 1218,
       "nombre": "GARCIA LOPEZ, ANDREA ENCARNACION",
       "trib": 3,
@@ -267,14 +267,6 @@
       "fecha": "2026-10-14"
     },
     {
-      "num": 1253,
-      "nombre": "GARCIA RODRIGUEZ, MAR",
-      "trib": 3,
-      "nota3": null,
-      "estado": "no_apto",
-      "fecha": "2026-10-16"
-    },
-    {
       "num": 1257,
       "nombre": "GARCIA ROMERO, DANIEL",
       "trib": 3,
@@ -289,6 +281,14 @@
       "nota3": 38.33,
       "estado": "apto",
       "fecha": "2026-10-15"
+    },
+    {
+      "num": 1253,
+      "nombre": "GARCIA RODRIGUEZ, MAR",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-16"
     },
     {
       "num": 1271,
@@ -385,6 +385,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-10-27"
+    },
+    {
+      "num": 1357,
+      "nombre": "GOMEZ PUEYO, DIEGO",
+      "trib": 3,
+      "nota3": 33.62,
+      "estado": "apto",
+      "fecha": "2026-10-28"
+    },
+    {
+      "num": 1367,
+      "nombre": "GOMEZ SANTIAGO, CRISTINA",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-28"
     }
   ]
 }

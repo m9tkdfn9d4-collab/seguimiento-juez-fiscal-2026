@@ -397,7 +397,7 @@
     "nota3": 31.75,
     "suma": 71.99,
     "fecha": "2026-10-28",
-    "carrera": null
+    "carrera": "juez"
   },
   {
     "num": 2454,
@@ -680,6 +680,16 @@
     "carrera": "fiscal"
   },
   {
+    "num": 1357,
+    "nombre": "GOMEZ PUEYO, DIEGO",
+    "trib": 3,
+    "nota2": 32.33,
+    "nota3": 33.62,
+    "suma": 65.95,
+    "fecha": "2026-10-28",
+    "carrera": null
+  },
+  {
     "num": 1844,
     "nombre": "LOPEZ ZAMORA, MARIA",
     "trib": 4,
@@ -688,16 +698,6 @@
     "suma": 64.62,
     "fecha": "2026-10-07",
     "carrera": "juez"
-  },
-  {
-    "num": 1077,
-    "nombre": "FEU RAMOS, BEGOÑA",
-    "trib": 3,
-    "nota2": 32.5,
-    "nota3": 31.5,
-    "suma": 64.0,
-    "fecha": "2026-09-24",
-    "carrera": "fiscal"
   },
   {
     "num": 413,
@@ -740,6 +740,16 @@
     "carrera": "juez"
   },
   {
+    "num": 1077,
+    "nombre": "FEU RAMOS, BEGOÑA",
+    "trib": 3,
+    "nota2": 32.5,
+    "nota3": 31.5,
+    "suma": 64.0,
+    "fecha": "2026-09-24",
+    "carrera": "fiscal"
+  },
+  {
     "num": 1988,
     "nombre": "MARTINEZ CARRODEGUAS, LAURA",
     "trib": 4,
@@ -747,16 +757,6 @@
     "nota3": 30.5,
     "suma": 63.12,
     "fecha": "2026-10-26",
-    "carrera": "juez"
-  },
-  {
-    "num": 1026,
-    "nombre": "FERNANDEZ HERNANDEZ, VICTOR MANUEL",
-    "trib": 3,
-    "nota2": 32.4,
-    "nota3": 28.5,
-    "suma": 60.9,
-    "fecha": "2026-09-21",
     "carrera": "juez"
   },
   {
@@ -810,14 +810,14 @@
     "carrera": "juez"
   },
   {
-    "num": 1082,
-    "nombre": "FINCH VAZQUEZ, ALBA",
+    "num": 1026,
+    "nombre": "FERNANDEZ HERNANDEZ, VICTOR MANUEL",
     "trib": 3,
-    "nota2": 34.0,
-    "nota3": 25.0,
-    "suma": 59.0,
-    "fecha": "2026-09-25",
-    "carrera": "fiscal"
+    "nota2": 32.4,
+    "nota3": 28.5,
+    "suma": 60.9,
+    "fecha": "2026-09-21",
+    "carrera": "juez"
   },
   {
     "num": 2484,
@@ -870,6 +870,16 @@
     "carrera": null
   },
   {
+    "num": 1082,
+    "nombre": "FINCH VAZQUEZ, ALBA",
+    "trib": 3,
+    "nota2": 34.0,
+    "nota3": 25.0,
+    "suma": 59.0,
+    "fecha": "2026-09-25",
+    "carrera": "fiscal"
+  },
+  {
     "num": 2314,
     "nombre": "MUÑOZ SANCHO, MARIO",
     "trib": 5,
@@ -877,16 +887,6 @@
     "nota3": 30.7,
     "suma": 58.7,
     "fecha": "2026-09-24",
-    "carrera": "juez"
-  },
-  {
-    "num": 1215,
-    "nombre": "GARCIA LECHUGA, LUCIA",
-    "trib": 3,
-    "nota2": 29.66,
-    "nota3": 29.0,
-    "suma": 58.66,
-    "fecha": "2026-10-08",
     "carrera": "juez"
   },
   {
@@ -930,14 +930,14 @@
     "carrera": "juez"
   },
   {
-    "num": 1097,
-    "nombre": "FOS DE LA RUBIA, JOSE MANUEL",
+    "num": 1215,
+    "nombre": "GARCIA LECHUGA, LUCIA",
     "trib": 3,
-    "nota2": 28.25,
-    "nota3": 30.25,
-    "suma": 58.5,
-    "fecha": "2026-09-29",
-    "carrera": "fiscal"
+    "nota2": 29.66,
+    "nota3": 29.0,
+    "suma": 58.66,
+    "fecha": "2026-10-08",
+    "carrera": "juez"
   },
   {
     "num": 2594,
@@ -980,14 +980,14 @@
     "carrera": null
   },
   {
-    "num": 1177,
-    "nombre": "GARCIA CALVO, GUILLERMO",
+    "num": 1097,
+    "nombre": "FOS DE LA RUBIA, JOSE MANUEL",
     "trib": 3,
-    "nota2": 33.0,
-    "nota3": 25.0,
-    "suma": 58.0,
-    "fecha": "2026-10-06",
-    "carrera": "juez"
+    "nota2": 28.25,
+    "nota3": 30.25,
+    "suma": 58.5,
+    "fecha": "2026-09-29",
+    "carrera": "fiscal"
   },
   {
     "num": 1848,
@@ -1040,6 +1040,16 @@
     "carrera": null
   },
   {
+    "num": 1177,
+    "nombre": "GARCIA CALVO, GUILLERMO",
+    "trib": 3,
+    "nota2": 33.0,
+    "nota3": 25.0,
+    "suma": 58.0,
+    "fecha": "2026-10-06",
+    "carrera": "juez"
+  },
+  {
     "num": 1946,
     "nombre": "MARTIN DOMINGUEZ, ANDREA",
     "trib": 4,
@@ -1048,16 +1058,6 @@
     "suma": 54.49,
     "fecha": "2026-10-21",
     "carrera": "fiscal"
-  },
-  {
-    "num": 1065,
-    "nombre": "FERNANDEZ VERA, MARIA ITZIAR",
-    "trib": 3,
-    "nota2": 26.62,
-    "nota3": 26.0,
-    "suma": 52.62,
-    "fecha": "2026-09-23",
-    "carrera": null
   },
   {
     "num": 762,
@@ -1098,6 +1098,16 @@
     "suma": 57.0,
     "fecha": "2026-09-24",
     "carrera": "fiscal"
+  },
+  {
+    "num": 1065,
+    "nombre": "FERNANDEZ VERA, MARIA ITZIAR",
+    "trib": 3,
+    "nota2": 26.62,
+    "nota3": 26.0,
+    "suma": 52.62,
+    "fecha": "2026-09-23",
+    "carrera": "juez"
   },
   {
     "num": 1720,
