@@ -1,6 +1,6 @@
 {
   "trib": 2,
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "items": [
     {
       "num": 413,
@@ -273,6 +273,22 @@
       "nota3": 33.25,
       "estado": "apto",
       "fecha": "2026-10-27"
+    },
+    {
+      "num": 782,
+      "nombre": "DE LACY CANAVES, RAFAEL ANTONIO",
+      "trib": 2,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-29"
+    },
+    {
+      "num": 785,
+      "nombre": "DE LUCAS GIL, JULIO",
+      "trib": 2,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-29"
     }
   ]
 }

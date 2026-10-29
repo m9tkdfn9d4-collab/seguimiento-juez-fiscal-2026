@@ -401,6 +401,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-10-28"
+    },
+    {
+      "num": 1370,
+      "nombre": "GOMEZ VAZQUEZ, ANDREA",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-29"
+    },
+    {
+      "num": 1372,
+      "nombre": "GOMEZ VILA, NIEVES",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-29"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "trib": 4,
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "items": [
     {
       "num": 1645,
@@ -345,6 +345,22 @@
       "nota3": 31.75,
       "estado": "apto",
       "fecha": "2026-10-28"
+    },
+    {
+      "num": 2008,
+      "nombre": "MARTINEZ GUTIERREZ, ANGELA",
+      "trib": 4,
+      "nota3": 31.75,
+      "estado": "apto",
+      "fecha": "2026-10-29"
+    },
+    {
+      "num": 2018,
+      "nombre": "MARTINEZ MARTIN, ANGELA",
+      "trib": 4,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-29"
     }
   ]
 }
