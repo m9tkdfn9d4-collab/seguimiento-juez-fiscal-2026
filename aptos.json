@@ -77,7 +77,7 @@
     "nota3": 42.6,
     "suma": 85.6,
     "fecha": "2026-10-28",
-    "carrera": null
+    "carrera": "juez"
   },
   {
     "num": 1120,
@@ -307,7 +307,7 @@
     "nota3": 42.8,
     "suma": 82.91,
     "fecha": "2026-10-26",
-    "carrera": null
+    "carrera": "juez"
   },
   {
     "num": 5,
@@ -670,14 +670,14 @@
     "carrera": "fiscal"
   },
   {
-    "num": 3378,
-    "nombre": "UCAR MARCOTEGUI, MARIA",
+    "num": 217,
+    "nombre": "ARTEAGA MARTIN, NOELIA",
     "trib": 1,
-    "nota2": 34.4,
-    "nota3": 34.0,
-    "suma": 68.4,
-    "fecha": "2026-09-23",
-    "carrera": "fiscal"
+    "nota2": 30.75,
+    "nota3": 37.75,
+    "suma": 68.5,
+    "fecha": "2026-10-29",
+    "carrera": null
   },
   {
     "num": 1357,
@@ -730,14 +730,14 @@
     "carrera": null
   },
   {
-    "num": 116,
-    "nombre": "ALVAREZ MAYOR, CLAUDIA",
+    "num": 3378,
+    "nombre": "UCAR MARCOTEGUI, MARIA",
     "trib": 1,
-    "nota2": 28.75,
-    "nota3": 36.5,
-    "suma": 65.25,
-    "fecha": "2026-10-15",
-    "carrera": "juez"
+    "nota2": 34.4,
+    "nota3": 34.0,
+    "suma": 68.4,
+    "fecha": "2026-09-23",
+    "carrera": "fiscal"
   },
   {
     "num": 1077,
@@ -750,14 +750,14 @@
     "carrera": "fiscal"
   },
   {
-    "num": 1988,
-    "nombre": "MARTINEZ CARRODEGUAS, LAURA",
+    "num": 2008,
+    "nombre": "MARTINEZ GUTIERREZ, ANGELA",
     "trib": 4,
-    "nota2": 32.62,
-    "nota3": 30.5,
-    "suma": 63.12,
-    "fecha": "2026-10-26",
-    "carrera": "juez"
+    "nota2": 31.5,
+    "nota3": 31.75,
+    "suma": 63.25,
+    "fecha": "2026-10-29",
+    "carrera": null
   },
   {
     "num": 757,
@@ -790,23 +790,23 @@
     "carrera": "juez"
   },
   {
-    "num": 3391,
-    "nombre": "URQUIDI VEGA, ADRIAN",
+    "num": 116,
+    "nombre": "ALVAREZ MAYOR, CLAUDIA",
     "trib": 1,
-    "nota2": 38.75,
-    "nota3": 25.0,
-    "suma": 63.75,
-    "fecha": "2026-09-24",
+    "nota2": 28.75,
+    "nota3": 36.5,
+    "suma": 65.25,
+    "fecha": "2026-10-15",
     "carrera": "juez"
   },
   {
-    "num": 1671,
-    "nombre": "JORDA GARCIA, LUIS",
+    "num": 1988,
+    "nombre": "MARTINEZ CARRODEGUAS, LAURA",
     "trib": 4,
-    "nota2": 37.5,
-    "nota3": 25.0,
-    "suma": 62.5,
-    "fecha": "2026-09-21",
+    "nota2": 32.62,
+    "nota3": 30.5,
+    "suma": 63.12,
+    "fecha": "2026-10-26",
     "carrera": "juez"
   },
   {
@@ -850,24 +850,24 @@
     "carrera": "juez"
   },
   {
-    "num": 3522,
-    "nombre": "VINAGRE GONZALEZ, ABARNE",
+    "num": 3391,
+    "nombre": "URQUIDI VEGA, ADRIAN",
     "trib": 1,
-    "nota2": 33.66,
-    "nota3": 29.6,
-    "suma": 63.26,
-    "fecha": "2026-10-07",
+    "nota2": 38.75,
+    "nota3": 25.0,
+    "suma": 63.75,
+    "fecha": "2026-09-24",
     "carrera": "juez"
   },
   {
-    "num": 1812,
-    "nombre": "LOPEZ LOPEZ, ALFONSO",
+    "num": 1671,
+    "nombre": "JORDA GARCIA, LUIS",
     "trib": 4,
-    "nota2": 35.36,
-    "nota3": 26.5,
-    "suma": 61.86,
-    "fecha": "2026-10-05",
-    "carrera": null
+    "nota2": 37.5,
+    "nota3": 25.0,
+    "suma": 62.5,
+    "fecha": "2026-09-21",
+    "carrera": "juez"
   },
   {
     "num": 1082,
@@ -907,27 +907,27 @@
     "nota3": 32.25,
     "suma": 67.24,
     "fecha": "2026-10-28",
-    "carrera": null
-  },
-  {
-    "num": 3540,
-    "nombre": "ZAFRILLA FILIPPINI, PAULA",
-    "trib": 1,
-    "nota2": 35.0,
-    "nota3": 26.75,
-    "suma": 61.75,
-    "fecha": "2026-10-08",
-    "carrera": "fiscal"
-  },
-  {
-    "num": 1697,
-    "nombre": "LACASA ROYO, IRENE",
-    "trib": 4,
-    "nota2": 27.49,
-    "nota3": 31.57,
-    "suma": 59.06,
-    "fecha": "2026-09-22",
     "carrera": "juez"
+  },
+  {
+    "num": 3522,
+    "nombre": "VINAGRE GONZALEZ, ABARNE",
+    "trib": 1,
+    "nota2": 33.66,
+    "nota3": 29.6,
+    "suma": 63.26,
+    "fecha": "2026-10-07",
+    "carrera": "juez"
+  },
+  {
+    "num": 1812,
+    "nombre": "LOPEZ LOPEZ, ALFONSO",
+    "trib": 4,
+    "nota2": 35.36,
+    "nota3": 26.5,
+    "suma": 61.86,
+    "fecha": "2026-10-05",
+    "carrera": null
   },
   {
     "num": 1215,
@@ -970,14 +970,24 @@
     "carrera": null
   },
   {
-    "num": 191,
-    "nombre": "ARMARIO CUMBRERA, NATALIA",
+    "num": 3540,
+    "nombre": "ZAFRILLA FILIPPINI, PAULA",
     "trib": 1,
-    "nota2": 32.75,
-    "nota3": 28.25,
-    "suma": 61.0,
-    "fecha": "2026-10-27",
-    "carrera": null
+    "nota2": 35.0,
+    "nota3": 26.75,
+    "suma": 61.75,
+    "fecha": "2026-10-08",
+    "carrera": "fiscal"
+  },
+  {
+    "num": 1697,
+    "nombre": "LACASA ROYO, IRENE",
+    "trib": 4,
+    "nota2": 27.49,
+    "nota3": 31.57,
+    "suma": 59.06,
+    "fecha": "2026-09-22",
+    "carrera": "juez"
   },
   {
     "num": 1097,
@@ -987,16 +997,6 @@
     "nota3": 30.25,
     "suma": 58.5,
     "fecha": "2026-09-29",
-    "carrera": "fiscal"
-  },
-  {
-    "num": 1848,
-    "nombre": "LORENZO ELIZALDE, JULIA",
-    "trib": 4,
-    "nota2": 28.48,
-    "nota3": 28.99,
-    "suma": 57.47,
-    "fecha": "2026-10-07",
     "carrera": "fiscal"
   },
   {
@@ -1030,13 +1030,13 @@
     "carrera": "fiscal"
   },
   {
-    "num": 3457,
-    "nombre": "VEGA MAYOR, ALEJANDRO",
+    "num": 191,
+    "nombre": "ARMARIO CUMBRERA, NATALIA",
     "trib": 1,
-    "nota2": 30.25,
-    "nota3": 30.66,
-    "suma": 60.91,
-    "fecha": "2026-10-01",
+    "nota2": 32.75,
+    "nota3": 28.25,
+    "suma": 61.0,
+    "fecha": "2026-10-27",
     "carrera": null
   },
   {
@@ -1050,13 +1050,13 @@
     "carrera": "juez"
   },
   {
-    "num": 1946,
-    "nombre": "MARTIN DOMINGUEZ, ANDREA",
+    "num": 1848,
+    "nombre": "LORENZO ELIZALDE, JULIA",
     "trib": 4,
-    "nota2": 29.49,
-    "nota3": 25.0,
-    "suma": 54.49,
-    "fecha": "2026-10-21",
+    "nota2": 28.48,
+    "nota3": 28.99,
+    "suma": 57.47,
+    "fecha": "2026-10-07",
     "carrera": "fiscal"
   },
   {
@@ -1090,13 +1090,23 @@
     "carrera": null
   },
   {
-    "num": 3385,
-    "nombre": "URBANO JIMENEZ, MERCEDES MARIA",
+    "num": 3457,
+    "nombre": "VEGA MAYOR, ALEJANDRO",
     "trib": 1,
-    "nota2": 30.0,
-    "nota3": 27.0,
-    "suma": 57.0,
-    "fecha": "2026-09-24",
+    "nota2": 30.25,
+    "nota3": 30.66,
+    "suma": 60.91,
+    "fecha": "2026-10-01",
+    "carrera": null
+  },
+  {
+    "num": 1946,
+    "nombre": "MARTIN DOMINGUEZ, ANDREA",
+    "trib": 4,
+    "nota2": 29.49,
+    "nota3": 25.0,
+    "suma": 54.49,
+    "fecha": "2026-10-21",
     "carrera": "fiscal"
   },
   {
@@ -1107,16 +1117,6 @@
     "nota3": 26.0,
     "suma": 52.62,
     "fecha": "2026-09-23",
-    "carrera": "juez"
-  },
-  {
-    "num": 1720,
-    "nombre": "LATORRE RABASCO, MANUEL",
-    "trib": 4,
-    "nota2": 26.37,
-    "nota3": 25.0,
-    "suma": 51.37,
-    "fecha": "2026-09-24",
     "carrera": "juez"
   },
   {
@@ -1138,6 +1138,36 @@
     "suma": 50.0,
     "fecha": "2026-10-05",
     "carrera": null
+  },
+  {
+    "num": 3012,
+    "nombre": "RUIZ CERDAN, JAVIER",
+    "trib": 6,
+    "nota2": 33.87,
+    "nota3": 27.98,
+    "suma": 61.85,
+    "fecha": "2026-10-29",
+    "carrera": null
+  },
+  {
+    "num": 3385,
+    "nombre": "URBANO JIMENEZ, MERCEDES MARIA",
+    "trib": 1,
+    "nota2": 30.0,
+    "nota3": 27.0,
+    "suma": 57.0,
+    "fecha": "2026-09-24",
+    "carrera": "fiscal"
+  },
+  {
+    "num": 1720,
+    "nombre": "LATORRE RABASCO, MANUEL",
+    "trib": 4,
+    "nota2": 26.37,
+    "nota3": 25.0,
+    "suma": 51.37,
+    "fecha": "2026-09-24",
+    "carrera": "juez"
   },
   {
     "num": 2909,

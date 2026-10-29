@@ -1,6 +1,6 @@
 {
   "trib": 1,
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "items": [
     {
       "num": 5,
@@ -385,6 +385,22 @@
       "nota3": 46.0,
       "estado": "apto",
       "fecha": "2026-10-09"
+    },
+    {
+      "num": 217,
+      "nombre": "ARTEAGA MARTIN, NOELIA",
+      "trib": 1,
+      "nota3": 37.75,
+      "estado": "apto",
+      "fecha": "2026-10-29"
+    },
+    {
+      "num": 238,
+      "nombre": "AYALA VALIENTE, ANA MARIA",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-29"
     }
   ]
 }

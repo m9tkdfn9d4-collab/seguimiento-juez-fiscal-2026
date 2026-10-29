@@ -1490,14 +1490,6 @@
       "fecha": "2026-10-16"
     },
     {
-      "num": 3012,
-      "nombre": "RUIZ CERDAN, JAVIER",
-      "trib": 6,
-      "nota3": null,
-      "estado": "no_apto",
-      "fecha": "2026-10-16"
-    },
-    {
       "num": 3034,
       "nombre": "RUIZ SOTO, LIBERTAD",
       "trib": 6,
@@ -2064,6 +2056,78 @@
       "nota3": 42.6,
       "estado": "apto",
       "fecha": "2026-10-28"
+    },
+    {
+      "num": 217,
+      "nombre": "ARTEAGA MARTIN, NOELIA",
+      "trib": 1,
+      "nota3": 37.75,
+      "estado": "apto",
+      "fecha": "2026-10-29"
+    },
+    {
+      "num": 238,
+      "nombre": "AYALA VALIENTE, ANA MARIA",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-29"
+    },
+    {
+      "num": 782,
+      "nombre": "DE LACY CANAVES, RAFAEL ANTONIO",
+      "trib": 2,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-29"
+    },
+    {
+      "num": 785,
+      "nombre": "DE LUCAS GIL, JULIO",
+      "trib": 2,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-29"
+    },
+    {
+      "num": 1370,
+      "nombre": "GOMEZ VAZQUEZ, ANDREA",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-29"
+    },
+    {
+      "num": 1372,
+      "nombre": "GOMEZ VILA, NIEVES",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-29"
+    },
+    {
+      "num": 2008,
+      "nombre": "MARTINEZ GUTIERREZ, ANGELA",
+      "trib": 4,
+      "nota3": 31.75,
+      "estado": "apto",
+      "fecha": "2026-10-29"
+    },
+    {
+      "num": 2018,
+      "nombre": "MARTINEZ MARTIN, ANGELA",
+      "trib": 4,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-10-29"
+    },
+    {
+      "num": 3012,
+      "nombre": "RUIZ CERDAN, JAVIER",
+      "trib": 6,
+      "nota3": 27.98,
+      "estado": "apto",
+      "fecha": "2026-10-29"
     }
   ]
 }
