@@ -1,6 +1,6 @@
 {
   "trib": 4,
-  "updated": "2026-10-29",
+  "updated": "2026-11-03",
   "items": [
     {
       "num": 1645,
@@ -361,6 +361,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-10-29"
+    },
+    {
+      "num": 2029,
+      "nombre": "MARTINEZ OTIN, ANA",
+      "trib": 4,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-03"
+    },
+    {
+      "num": 2032,
+      "nombre": "MARTINEZ PEREIRAS, LAURA",
+      "trib": 4,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-03"
     }
   ]
 }
