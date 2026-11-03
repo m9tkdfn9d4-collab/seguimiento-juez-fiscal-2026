@@ -2192,6 +2192,22 @@
    "nota3": null,
    "estado": "no_apto",
    "fecha": "2026-11-03"
+  },
+  {
+   "num": 808,
+   "nombre": "DEL CID REGUEIRA, CARLOS",
+   "trib": 2,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-03"
+  },
+  {
+   "num": 817,
+   "nombre": "DELGADO GARCIA, JAVIER",
+   "trib": 2,
+   "nota3": 29.75,
+   "estado": "apto",
+   "fecha": "2026-11-03"
   }
  ]
 }
