@@ -1,6 +1,6 @@
 {
   "trib": 5,
-  "updated": "2026-10-29",
+  "updated": "2026-11-03",
   "items": [
     {
       "num": 2232,
@@ -329,6 +329,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-10-28"
+    },
+    {
+      "num": 2615,
+      "nombre": "PEREZ-GUZMAN PEREZ, JESUS MARIA",
+      "trib": 5,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-03"
+    },
+    {
+      "num": 2607,
+      "nombre": "PEREZ SEGOVIA, ANA MARIA",
+      "trib": 5,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-03"
     }
   ]
 }

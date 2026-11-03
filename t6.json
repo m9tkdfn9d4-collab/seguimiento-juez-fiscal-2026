@@ -1,6 +1,6 @@
 {
   "trib": 6,
-  "updated": "2026-10-29",
+  "updated": "2026-11-03",
   "items": [
     {
       "num": 2797,
@@ -337,6 +337,22 @@
       "nota3": 27.98,
       "estado": "apto",
       "fecha": "2026-10-29"
+    },
+    {
+      "num": 3164,
+      "nombre": "SANCHEZ-PAULETE GOMEZ, ENRIQUE",
+      "trib": 6,
+      "nota3": 40.0,
+      "estado": "apto",
+      "fecha": "2026-11-03"
+    },
+    {
+      "num": 3173,
+      "nombre": "SANDUBETE BAUTISTA, Mª DEL SAGRARIO",
+      "trib": 6,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-03"
     }
   ]
 }
