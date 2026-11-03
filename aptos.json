@@ -470,14 +470,14 @@
     "carrera": "fiscal"
   },
   {
-    "num": 506,
-    "nombre": "CANAS CANCELA, ARACELI",
+    "num": 817,
+    "nombre": "DELGADO GARCIA, JAVIER",
     "trib": 2,
-    "nota2": 30.75,
-    "nota3": 31.75,
-    "suma": 62.5,
-    "fecha": "2026-09-28",
-    "carrera": "fiscal"
+    "nota2": 33.0,
+    "nota3": 29.75,
+    "suma": 62.75,
+    "fecha": "2026-11-03",
+    "carrera": null
   },
   {
     "num": 3164,
@@ -530,13 +530,13 @@
     "carrera": "juez"
   },
   {
-    "num": 766,
-    "nombre": "DE JUAN BOCOS, MARIA",
+    "num": 506,
+    "nombre": "CANAS CANCELA, ARACELI",
     "trib": 2,
-    "nota2": 29.25,
-    "nota3": 33.25,
+    "nota2": 30.75,
+    "nota3": 31.75,
     "suma": 62.5,
-    "fecha": "2026-10-27",
+    "fecha": "2026-09-28",
     "carrera": "fiscal"
   },
   {
@@ -590,13 +590,13 @@
     "carrera": "juez"
   },
   {
-    "num": 627,
-    "nombre": "CERVERA RODRIGUEZ, SERGIO",
+    "num": 766,
+    "nombre": "DE JUAN BOCOS, MARIA",
     "trib": 2,
-    "nota2": 32.37,
-    "nota3": 30.0,
-    "suma": 62.37,
-    "fecha": "2026-10-13",
+    "nota2": 29.25,
+    "nota3": 33.25,
+    "suma": 62.5,
+    "fecha": "2026-10-27",
     "carrera": "fiscal"
   },
   {
@@ -640,14 +640,14 @@
     "carrera": "fiscal"
   },
   {
-    "num": 733,
-    "nombre": "CUERO CASTRO, ELIANA",
+    "num": 627,
+    "nombre": "CERVERA RODRIGUEZ, SERGIO",
     "trib": 2,
-    "nota2": 35.25,
-    "nota3": 25.66,
-    "suma": 60.91,
-    "fecha": "2026-10-21",
-    "carrera": null
+    "nota2": 32.37,
+    "nota3": 30.0,
+    "suma": 62.37,
+    "fecha": "2026-10-13",
+    "carrera": "fiscal"
   },
   {
     "num": 2390,
@@ -700,14 +700,14 @@
     "carrera": "juez"
   },
   {
-    "num": 413,
-    "nombre": "BRUNO MATEU, ADRIA",
+    "num": 733,
+    "nombre": "CUERO CASTRO, ELIANA",
     "trib": 2,
-    "nota2": 29.69,
-    "nota3": 30.85,
-    "suma": 60.54,
-    "fecha": "2026-09-21",
-    "carrera": "juez"
+    "nota2": 35.25,
+    "nota3": 25.66,
+    "suma": 60.91,
+    "fecha": "2026-10-21",
+    "carrera": null
   },
   {
     "num": 2432,
@@ -760,14 +760,14 @@
     "carrera": null
   },
   {
-    "num": 757,
-    "nombre": "DE CASTRO BAUTISTA, PATRICIA",
+    "num": 413,
+    "nombre": "BRUNO MATEU, ADRIA",
     "trib": 2,
-    "nota2": 34.0,
-    "nota3": 25.0,
-    "suma": 59.0,
-    "fecha": "2026-10-26",
-    "carrera": null
+    "nota2": 29.69,
+    "nota3": 30.85,
+    "suma": 60.54,
+    "fecha": "2026-09-21",
+    "carrera": "juez"
   },
   {
     "num": 2430,
@@ -820,6 +820,16 @@
     "carrera": "juez"
   },
   {
+    "num": 757,
+    "nombre": "DE CASTRO BAUTISTA, PATRICIA",
+    "trib": 2,
+    "nota2": 34.0,
+    "nota3": 25.0,
+    "suma": 59.0,
+    "fecha": "2026-10-26",
+    "carrera": null
+  },
+  {
     "num": 2484,
     "nombre": "PARDO DE MANUEL, CARLOTA",
     "trib": 5,
@@ -827,16 +837,6 @@
     "nota3": 25.0,
     "suma": 58.77,
     "fecha": "2026-10-13",
-    "carrera": "juez"
-  },
-  {
-    "num": 444,
-    "nombre": "CABELLO PINEDO, CRISTINA",
-    "trib": 2,
-    "nota2": 33.25,
-    "nota3": 25.0,
-    "suma": 58.25,
-    "fecha": "2026-09-22",
     "carrera": "juez"
   },
   {
@@ -890,13 +890,13 @@
     "carrera": "juez"
   },
   {
-    "num": 665,
-    "nombre": "COLL JAUME, FRANCISCA VICTORIA",
+    "num": 444,
+    "nombre": "CABELLO PINEDO, CRISTINA",
     "trib": 2,
-    "nota2": 25.0,
-    "nota3": 30.75,
-    "suma": 55.75,
-    "fecha": "2026-10-15",
+    "nota2": 33.25,
+    "nota3": 25.0,
+    "suma": 58.25,
+    "fecha": "2026-09-22",
     "carrera": "juez"
   },
   {
@@ -940,6 +940,16 @@
     "carrera": "fiscal"
   },
   {
+    "num": 665,
+    "nombre": "COLL JAUME, FRANCISCA VICTORIA",
+    "trib": 2,
+    "nota2": 25.0,
+    "nota3": 30.75,
+    "suma": 55.75,
+    "fecha": "2026-10-15",
+    "carrera": "juez"
+  },
+  {
     "num": 2594,
     "nombre": "PEREZ OLIVARES, CARLOS",
     "trib": 5,
@@ -948,16 +958,6 @@
     "suma": 54.9,
     "fecha": "2026-10-27",
     "carrera": null
-  },
-  {
-    "num": 526,
-    "nombre": "CAÑAVERAS MARTIN, CRISTINA",
-    "trib": 2,
-    "nota2": 28.36,
-    "nota3": 25.0,
-    "suma": 53.36,
-    "fecha": "2026-09-29",
-    "carrera": "juez"
   },
   {
     "num": 3127,
@@ -1000,14 +1000,14 @@
     "carrera": "juez"
   },
   {
-    "num": 477,
-    "nombre": "CALPE RIOS, LAURA",
+    "num": 526,
+    "nombre": "CAÑAVERAS MARTIN, CRISTINA",
     "trib": 2,
-    "nota2": 28.0,
+    "nota2": 28.36,
     "nota3": 25.0,
-    "suma": 53.0,
-    "fecha": "2026-09-23",
-    "carrera": "fiscal"
+    "suma": 53.36,
+    "fecha": "2026-09-29",
+    "carrera": "juez"
   },
   {
     "num": 2428,
@@ -1060,14 +1060,14 @@
     "carrera": "fiscal"
   },
   {
-    "num": 762,
-    "nombre": "DE GABRIEL RUEDA, BEATRIZ",
+    "num": 477,
+    "nombre": "CALPE RIOS, LAURA",
     "trib": 2,
-    "nota2": 27.5,
+    "nota2": 28.0,
     "nota3": 25.0,
-    "suma": 52.5,
-    "fecha": "2026-10-27",
-    "carrera": "juez"
+    "suma": 53.0,
+    "fecha": "2026-09-23",
+    "carrera": "fiscal"
   },
   {
     "num": 2311,
@@ -1120,14 +1120,14 @@
     "carrera": "fiscal"
   },
   {
-    "num": 530,
-    "nombre": "CAPAPE TEJEDOR, VIOLETA",
+    "num": 762,
+    "nombre": "DE GABRIEL RUEDA, BEATRIZ",
     "trib": 2,
-    "nota2": 25.0,
-    "nota3": 26.0,
-    "suma": 51.0,
-    "fecha": "2026-10-01",
-    "carrera": "fiscal"
+    "nota2": 27.5,
+    "nota3": 25.0,
+    "suma": 52.5,
+    "fecha": "2026-10-27",
+    "carrera": "juez"
   },
   {
     "num": 2418,
@@ -1178,6 +1178,16 @@
     "suma": 51.37,
     "fecha": "2026-09-24",
     "carrera": "juez"
+  },
+  {
+    "num": 530,
+    "nombre": "CAPAPE TEJEDOR, VIOLETA",
+    "trib": 2,
+    "nota2": 25.0,
+    "nota3": 26.0,
+    "suma": 51.0,
+    "fecha": "2026-10-01",
+    "carrera": "fiscal"
   },
   {
     "num": 3012,
