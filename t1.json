@@ -1,6 +1,6 @@
 {
   "trib": 1,
-  "updated": "2026-10-29",
+  "updated": "2026-11-04",
   "items": [
     {
       "num": 5,
@@ -401,6 +401,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-10-29"
+    },
+    {
+      "num": 239,
+      "nombre": "AYUSO SOTO, PABLO",
+      "trib": 1,
+      "nota3": 41.25,
+      "estado": "apto",
+      "fecha": "2026-11-04"
+    },
+    {
+      "num": 241,
+      "nombre": "AZCUE FERNANDEZ, PEDRO",
+      "trib": 1,
+      "nota3": 37.4,
+      "estado": "apto",
+      "fecha": "2026-11-04"
     }
   ]
 }

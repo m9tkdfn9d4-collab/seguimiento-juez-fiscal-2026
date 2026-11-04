@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "items": [
   {
    "num": 190,
@@ -2224,6 +2224,102 @@
    "nota3": 30.75,
    "estado": "apto",
    "fecha": "2026-11-03"
+  },
+  {
+   "num": 239,
+   "nombre": "AYUSO SOTO, PABLO",
+   "trib": 1,
+   "nota3": 41.25,
+   "estado": "apto",
+   "fecha": "2026-11-04"
+  },
+  {
+   "num": 241,
+   "nombre": "AZCUE FERNANDEZ, PEDRO",
+   "trib": 1,
+   "nota3": 37.4,
+   "estado": "apto",
+   "fecha": "2026-11-04"
+  },
+  {
+   "num": 848,
+   "nombre": "DIAZ SANCHEZ, FRANCISCO",
+   "trib": 2,
+   "nota3": 26.25,
+   "estado": "apto",
+   "fecha": "2026-11-04"
+  },
+  {
+   "num": 832,
+   "nombre": "DIAZ GARCIA, ALBERTO",
+   "trib": 2,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-04"
+  },
+  {
+   "num": 1393,
+   "nombre": "GONZALEZ CHILLA, CARMEN",
+   "trib": 3,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-04"
+  },
+  {
+   "num": 1396,
+   "nombre": "GONZALEZ DIEZ, EVA",
+   "trib": 3,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-04"
+  },
+  {
+   "num": 2036,
+   "nombre": "MARTINEZ REVERTE, VICTORIA",
+   "trib": 4,
+   "nota3": 31.0,
+   "estado": "apto",
+   "fecha": "2026-11-04"
+  },
+  {
+   "num": 2037,
+   "nombre": "MARTINEZ RICO, ANGELA",
+   "trib": 4,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-04"
+  },
+  {
+   "num": 2618,
+   "nombre": "PERNAS PEDREIRA, MARTA",
+   "trib": 5,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-04"
+  },
+  {
+   "num": 2622,
+   "nombre": "PICON GAITEIRO, IRIA MARIA",
+   "trib": 5,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-04"
+  },
+  {
+   "num": 3180,
+   "nombre": "SANTAMARIA JUESAS, FELIPE",
+   "trib": 6,
+   "nota3": 30.5,
+   "estado": "apto",
+   "fecha": "2026-11-04"
+  },
+  {
+   "num": 3196,
+   "nombre": "SANZ GAGO, ANTONIO",
+   "trib": 6,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-04"
   }
  ]
 }
