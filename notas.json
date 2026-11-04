@@ -2208,6 +2208,22 @@
    "nota3": 29.75,
    "estado": "apto",
    "fecha": "2026-11-03"
+  },
+  {
+   "num": 1376,
+   "nombre": "GOMEZ-TORGA UCEDA, BLANCA",
+   "trib": 3,
+   "nota3": 27.25,
+   "estado": "apto",
+   "fecha": "2026-11-03"
+  },
+  {
+   "num": 1377,
+   "nombre": "GOMEZ-VILLABOA GUERRERO, CARMEN",
+   "trib": 3,
+   "nota3": 30.75,
+   "estado": "apto",
+   "fecha": "2026-11-03"
   }
  ]
 }
