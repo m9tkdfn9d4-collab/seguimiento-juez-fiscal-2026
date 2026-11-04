@@ -1,6 +1,6 @@
 {
   "trib": 4,
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "items": [
     {
       "num": 1645,
@@ -377,6 +377,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-03"
+    },
+    {
+      "num": 2036,
+      "nombre": "MARTINEZ REVERTE, VICTORIA",
+      "trib": 4,
+      "nota3": 31.0,
+      "estado": "apto",
+      "fecha": "2026-11-04"
+    },
+    {
+      "num": 2037,
+      "nombre": "MARTINEZ RICO, ANGELA",
+      "trib": 4,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-04"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "trib": 5,
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "items": [
     {
       "num": 2232,
@@ -345,6 +345,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-03"
+    },
+    {
+      "num": 2618,
+      "nombre": "PERNAS PEDREIRA, MARTA",
+      "trib": 5,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-04"
+    },
+    {
+      "num": 2622,
+      "nombre": "PICON GAITEIRO, IRIA MARIA",
+      "trib": 5,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-04"
     }
   ]
 }

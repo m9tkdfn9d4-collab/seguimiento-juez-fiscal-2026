@@ -1,6 +1,6 @@
 {
   "trib": 2,
-  "updated": "2026-10-29",
+  "updated": "2026-11-04",
   "items": [
     {
       "num": 413,
@@ -289,6 +289,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-10-29"
+    },
+    {
+      "num": 848,
+      "nombre": "DIAZ SANCHEZ, FRANCISCO",
+      "trib": 2,
+      "nota3": 26.25,
+      "estado": "apto",
+      "fecha": "2026-11-04"
+    },
+    {
+      "num": 832,
+      "nombre": "DIAZ GARCIA, ALBERTO",
+      "trib": 2,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-04"
     }
   ]
 }
