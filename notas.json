@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "items": [
   {
    "num": 190,
@@ -2320,6 +2320,102 @@
    "nota3": null,
    "estado": "no_apto",
    "fecha": "2026-11-04"
+  },
+  {
+   "num": 253,
+   "nombre": "BAIGORRI LLAMAS, LORENA",
+   "trib": 1,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-05"
+  },
+  {
+   "num": 266,
+   "nombre": "BALSALOBRE CONESA, JOAQUIN",
+   "trib": 1,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-05"
+  },
+  {
+   "num": 850,
+   "nombre": "DIAZ URBANO, GUILLERMO",
+   "trib": 2,
+   "nota3": 31.75,
+   "estado": "apto",
+   "fecha": "2026-11-05"
+  },
+  {
+   "num": 856,
+   "nombre": "DIEZ GAYAN, REBECA",
+   "trib": 2,
+   "nota3": 34.25,
+   "estado": "apto",
+   "fecha": "2026-11-05"
+  },
+  {
+   "num": 1412,
+   "nombre": "GONZALEZ HERNANDEZ, JOSE PABLO",
+   "trib": 3,
+   "nota3": 25.75,
+   "estado": "apto",
+   "fecha": "2026-11-05"
+  },
+  {
+   "num": 1424,
+   "nombre": "GONZALEZ NAVAS, NEREA DEL ROSARIO",
+   "trib": 3,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-05"
+  },
+  {
+   "num": 2043,
+   "nombre": "MARTINEZ SALINAS, ROCIO",
+   "trib": 4,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-05"
+  },
+  {
+   "num": 2059,
+   "nombre": "MATAMALA VALPARAISO, REBECA",
+   "trib": 4,
+   "nota3": 32.5,
+   "estado": "apto",
+   "fecha": "2026-11-05"
+  },
+  {
+   "num": 2637,
+   "nombre": "PINAS RUIZ, JUAN MANUEL",
+   "trib": 5,
+   "nota3": 33.63,
+   "estado": "apto",
+   "fecha": "2026-11-05"
+  },
+  {
+   "num": 2638,
+   "nombre": "PINERO MARTINEZ, AMPARO",
+   "trib": 5,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-05"
+  },
+  {
+   "num": 3203,
+   "nombre": "SAPORTA TARAZONA, LAURA",
+   "trib": 6,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-05"
+  },
+  {
+   "num": 3204,
+   "nombre": "SARACIBAR PABLOS, GORKA",
+   "trib": 6,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-05"
   }
  ]
 }

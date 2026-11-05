@@ -1,6 +1,6 @@
 {
   "trib": 1,
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "items": [
     {
       "num": 5,
@@ -417,6 +417,22 @@
       "nota3": 37.4,
       "estado": "apto",
       "fecha": "2026-11-04"
+    },
+    {
+      "num": 253,
+      "nombre": "BAIGORRI LLAMAS, LORENA",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-05"
+    },
+    {
+      "num": 266,
+      "nombre": "BALSALOBRE CONESA, JOAQUIN",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-05"
     }
   ]
 }
