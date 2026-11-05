@@ -1,6 +1,6 @@
 {
   "trib": 3,
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "items": [
     {
       "num": 1026,
@@ -465,6 +465,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-04"
+    },
+    {
+      "num": 1412,
+      "nombre": "GONZALEZ HERNANDEZ, JOSE PABLO",
+      "trib": 3,
+      "nota3": 25.75,
+      "estado": "apto",
+      "fecha": "2026-11-05"
+    },
+    {
+      "num": 1424,
+      "nombre": "GONZALEZ NAVAS, NEREA DEL ROSARIO",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-05"
     }
   ]
 }

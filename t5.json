@@ -1,6 +1,6 @@
 {
   "trib": 5,
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "items": [
     {
       "num": 2232,
@@ -361,6 +361,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-04"
+    },
+    {
+      "num": 2637,
+      "nombre": "PINAS RUIZ, JUAN MANUEL",
+      "trib": 5,
+      "nota3": 33.63,
+      "estado": "apto",
+      "fecha": "2026-11-05"
+    },
+    {
+      "num": 2638,
+      "nombre": "PINERO MARTINEZ, AMPARO",
+      "trib": 5,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-05"
     }
   ]
 }

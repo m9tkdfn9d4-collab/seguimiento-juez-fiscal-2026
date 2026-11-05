@@ -1,6 +1,6 @@
 {
   "trib": 6,
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "items": [
     {
       "num": 2797,
@@ -369,6 +369,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-04"
+    },
+    {
+      "num": 3203,
+      "nombre": "SAPORTA TARAZONA, LAURA",
+      "trib": 6,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-05"
+    },
+    {
+      "num": 3204,
+      "nombre": "SARACIBAR PABLOS, GORKA",
+      "trib": 6,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-05"
     }
   ]
 }
