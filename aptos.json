@@ -1090,14 +1090,14 @@
     "carrera": "fiscal"
   },
   {
-    "num": 3540,
-    "nombre": "ZAFRILLA FILIPPINI, PAULA",
+    "num": 281,
+    "nombre": "BARDES VERA, JUDITH",
     "trib": 1,
-    "nota2": 35.0,
-    "nota3": 26.75,
-    "suma": 61.75,
-    "fecha": "2026-10-08",
-    "carrera": "fiscal"
+    "nota2": 29.5,
+    "nota3": 32.66,
+    "suma": 62.16,
+    "fecha": "2026-11-06",
+    "carrera": null
   },
   {
     "num": 1215,
@@ -1150,14 +1150,14 @@
     "carrera": null
   },
   {
-    "num": 191,
-    "nombre": "ARMARIO CUMBRERA, NATALIA",
+    "num": 3540,
+    "nombre": "ZAFRILLA FILIPPINI, PAULA",
     "trib": 1,
-    "nota2": 32.75,
-    "nota3": 28.25,
-    "suma": 61.0,
-    "fecha": "2026-10-27",
-    "carrera": null
+    "nota2": 35.0,
+    "nota3": 26.75,
+    "suma": 61.75,
+    "fecha": "2026-10-08",
+    "carrera": "fiscal"
   },
   {
     "num": 1097,
@@ -1210,13 +1210,13 @@
     "carrera": null
   },
   {
-    "num": 3457,
-    "nombre": "VEGA MAYOR, ALEJANDRO",
+    "num": 191,
+    "nombre": "ARMARIO CUMBRERA, NATALIA",
     "trib": 1,
-    "nota2": 30.25,
-    "nota3": 30.66,
-    "suma": 60.91,
-    "fecha": "2026-10-01",
+    "nota2": 32.75,
+    "nota3": 28.25,
+    "suma": 61.0,
+    "fecha": "2026-10-27",
     "carrera": null
   },
   {
@@ -1250,6 +1250,16 @@
     "carrera": "juez"
   },
   {
+    "num": 3457,
+    "nombre": "VEGA MAYOR, ALEJANDRO",
+    "trib": 1,
+    "nota2": 30.25,
+    "nota3": 30.66,
+    "suma": 60.91,
+    "fecha": "2026-10-01",
+    "carrera": null
+  },
+  {
     "num": 2909,
     "nombre": "RODRIGUEZ NIZA, MARIA",
     "trib": 6,
@@ -1258,16 +1268,6 @@
     "suma": 58.12,
     "fecha": "2026-10-01",
     "carrera": "juez"
-  },
-  {
-    "num": 3385,
-    "nombre": "URBANO JIMENEZ, MERCEDES MARIA",
-    "trib": 1,
-    "nota2": 30.0,
-    "nota3": 27.0,
-    "suma": 57.0,
-    "fecha": "2026-09-24",
-    "carrera": "fiscal"
   },
   {
     "num": 1412,
@@ -1298,6 +1298,16 @@
     "suma": 51.37,
     "fecha": "2026-09-24",
     "carrera": "juez"
+  },
+  {
+    "num": 275,
+    "nombre": "BARBA FIGUERAS, MARTA",
+    "trib": 1,
+    "nota2": 30.0,
+    "nota3": 29.38,
+    "suma": 59.38,
+    "fecha": "2026-11-06",
+    "carrera": null
   },
   {
     "num": 3180,
@@ -1337,6 +1347,16 @@
     "nota3": 29.8,
     "suma": 57.05,
     "fecha": "2026-09-23",
+    "carrera": "fiscal"
+  },
+  {
+    "num": 3385,
+    "nombre": "URBANO JIMENEZ, MERCEDES MARIA",
+    "trib": 1,
+    "nota2": 30.0,
+    "nota3": 27.0,
+    "suma": 57.0,
+    "fecha": "2026-09-24",
     "carrera": "fiscal"
   },
   {
