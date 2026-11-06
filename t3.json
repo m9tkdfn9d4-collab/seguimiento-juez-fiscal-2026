@@ -1,6 +1,6 @@
 {
   "trib": 3,
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "items": [
     {
       "num": 1026,
@@ -481,6 +481,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-05"
+    },
+    {
+      "num": 1426,
+      "nombre": "GONZALEZ OCANA, CLAUDIA",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-06"
+    },
+    {
+      "num": 1427,
+      "nombre": "GONZALEZ OLALLA, LARA EZTIZEN",
+      "trib": 3,
+      "nota3": 27.5,
+      "estado": "apto",
+      "fecha": "2026-11-06"
     }
   ]
 }

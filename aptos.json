@@ -157,7 +157,7 @@
     "nota3": 34.25,
     "suma": 79.25,
     "fecha": "2026-11-05",
-    "carrera": null
+    "carrera": "juez"
   },
   {
     "num": 2059,
@@ -317,7 +317,7 @@
     "nota3": 41.25,
     "suma": 81.58,
     "fecha": "2026-11-04",
-    "carrera": null
+    "carrera": "juez"
   },
   {
     "num": 1193,
@@ -767,7 +767,7 @@
     "nota3": 31.75,
     "suma": 61.75,
     "fecha": "2026-11-05",
-    "carrera": null
+    "carrera": "juez"
   },
   {
     "num": 2432,
@@ -1177,7 +1177,7 @@
     "nota3": 31.0,
     "suma": 57.0,
     "fecha": "2026-11-04",
-    "carrera": null
+    "carrera": "fiscal"
   },
   {
     "num": 477,
@@ -1310,14 +1310,14 @@
     "carrera": "juez"
   },
   {
-    "num": 1065,
-    "nombre": "FERNANDEZ VERA, MARIA ITZIAR",
+    "num": 1427,
+    "nombre": "GONZALEZ OLALLA, LARA EZTIZEN",
     "trib": 3,
-    "nota2": 26.62,
-    "nota3": 26.0,
-    "suma": 52.62,
-    "fecha": "2026-09-23",
-    "carrera": "juez"
+    "nota2": 25.6,
+    "nota3": 27.5,
+    "suma": 53.1,
+    "fecha": "2026-11-06",
+    "carrera": null
   },
   {
     "num": 530,
@@ -1340,13 +1340,13 @@
     "carrera": "fiscal"
   },
   {
-    "num": 1374,
-    "nombre": "GOMEZ DE MERCADO LOPEZ, NICOLAS",
+    "num": 1065,
+    "nombre": "FERNANDEZ VERA, MARIA ITZIAR",
     "trib": 3,
-    "nota2": 25.0,
-    "nota3": 25.0,
-    "suma": 50.0,
-    "fecha": "2026-10-30",
+    "nota2": 26.62,
+    "nota3": 26.0,
+    "suma": 52.62,
+    "fecha": "2026-09-23",
     "carrera": "juez"
   },
   {
@@ -1357,6 +1357,16 @@
     "nota3": 25.0,
     "suma": 56.96,
     "fecha": "2026-09-21",
+    "carrera": "juez"
+  },
+  {
+    "num": 1374,
+    "nombre": "GOMEZ DE MERCADO LOPEZ, NICOLAS",
+    "trib": 3,
+    "nota2": 25.0,
+    "nota3": 25.0,
+    "suma": 50.0,
+    "fecha": "2026-10-30",
     "carrera": "juez"
   },
   {
