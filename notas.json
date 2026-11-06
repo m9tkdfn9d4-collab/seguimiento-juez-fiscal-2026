@@ -2432,6 +2432,22 @@
    "nota3": 27.5,
    "estado": "apto",
    "fecha": "2026-11-06"
+  },
+  {
+   "num": 275,
+   "nombre": "BARBA FIGUERAS, MARTA",
+   "trib": 1,
+   "nota3": 29.38,
+   "estado": "apto",
+   "fecha": "2026-11-06"
+  },
+  {
+   "num": 281,
+   "nombre": "BARDES VERA, JUDITH",
+   "trib": 1,
+   "nota3": 32.66,
+   "estado": "apto",
+   "fecha": "2026-11-06"
   }
  ]
 }
