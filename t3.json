@@ -1,6 +1,6 @@
 {
   "trib": 3,
-  "updated": "2026-11-06",
+  "updated": "2026-11-10",
   "items": [
     {
       "num": 1026,
@@ -497,6 +497,22 @@
       "nota3": 27.5,
       "estado": "apto",
       "fecha": "2026-11-06"
+    },
+    {
+      "num": 1432,
+      "nombre": "GONZALEZ RIVERO, ANA",
+      "trib": 3,
+      "nota3": 29.33,
+      "estado": "apto",
+      "fecha": "2026-11-10"
+    },
+    {
+      "num": 1435,
+      "nombre": "GONZALEZ RODRIGUEZ, MANUEL",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-10"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "trib": 4,
-  "updated": "2026-11-05",
+  "updated": "2026-11-10",
   "items": [
     {
       "num": 1645,
@@ -409,6 +409,22 @@
       "nota3": 32.5,
       "estado": "apto",
       "fecha": "2026-11-05"
+    },
+    {
+      "num": 2071,
+      "nombre": "MATO SALAN, DANIEL",
+      "trib": 4,
+      "nota3": 40.0,
+      "estado": "apto",
+      "fecha": "2026-11-10"
+    },
+    {
+      "num": 2076,
+      "nombre": "MECA FERNANDEZ, JAVIER",
+      "trib": 4,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-10"
     }
   ]
 }

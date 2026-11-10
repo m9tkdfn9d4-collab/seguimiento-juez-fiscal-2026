@@ -1,6 +1,6 @@
 {
   "trib": 5,
-  "updated": "2026-11-05",
+  "updated": "2026-11-10",
   "items": [
     {
       "num": 2232,
@@ -377,6 +377,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-05"
+    },
+    {
+      "num": 2642,
+      "nombre": "PLANAS ESTAÑ, ANA",
+      "trib": 5,
+      "nota3": 29.0,
+      "estado": "apto",
+      "fecha": "2026-11-10"
+    },
+    {
+      "num": 2643,
+      "nombre": "PLANCHART I TORRENT, MARIONA",
+      "trib": 5,
+      "nota3": 27.75,
+      "estado": "apto",
+      "fecha": "2026-11-10"
     }
   ]
 }

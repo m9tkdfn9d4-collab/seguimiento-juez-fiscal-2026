@@ -1,6 +1,6 @@
 {
   "trib": 6,
-  "updated": "2026-11-05",
+  "updated": "2026-11-10",
   "items": [
     {
       "num": 2797,
@@ -385,6 +385,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-05"
+    },
+    {
+      "num": 3233,
+      "nombre": "SERRANO GUTIERREZ, MARIA DEL MAR",
+      "trib": 6,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-10"
+    },
+    {
+      "num": 3236,
+      "nombre": "SERRANO NIETO, POL",
+      "trib": 6,
+      "nota3": 38.66,
+      "estado": "apto",
+      "fecha": "2026-11-10"
     }
   ]
 }
