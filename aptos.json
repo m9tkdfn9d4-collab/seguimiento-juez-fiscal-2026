@@ -100,14 +100,14 @@
     "carrera": "juez"
   },
   {
-    "num": 1878,
-    "nombre": "MADRONA GARCIA, MARIA",
+    "num": 2071,
+    "nombre": "MATO SALAN, DANIEL",
     "trib": 4,
-    "nota2": 42.5,
-    "nota3": 35.75,
-    "suma": 78.25,
-    "fecha": "2026-10-13",
-    "carrera": "juez"
+    "nota2": 40.0,
+    "nota3": 40.0,
+    "suma": 80.0,
+    "fecha": "2026-11-10",
+    "carrera": null
   },
   {
     "num": 2574,
@@ -160,14 +160,14 @@
     "carrera": "juez"
   },
   {
-    "num": 2059,
-    "nombre": "MATAMALA VALPARAISO, REBECA",
+    "num": 1878,
+    "nombre": "MADRONA GARCIA, MARIA",
     "trib": 4,
-    "nota2": 45.0,
-    "nota3": 32.5,
-    "suma": 77.5,
-    "fecha": "2026-11-05",
-    "carrera": null
+    "nota2": 42.5,
+    "nota3": 35.75,
+    "suma": 78.25,
+    "fecha": "2026-10-13",
+    "carrera": "juez"
   },
   {
     "num": 2392,
@@ -210,14 +210,14 @@
     "carrera": "fiscal"
   },
   {
-    "num": 1917,
-    "nombre": "MARIN NAVARRO, NOELIA",
+    "num": 2059,
+    "nombre": "MATAMALA VALPARAISO, REBECA",
     "trib": 4,
-    "nota2": 44.1,
-    "nota3": 32.12,
-    "suma": 76.22,
-    "fecha": "2026-10-19",
-    "carrera": "fiscal"
+    "nota2": 45.0,
+    "nota3": 32.5,
+    "suma": 77.5,
+    "fecha": "2026-11-05",
+    "carrera": null
   },
   {
     "num": 533,
@@ -270,14 +270,14 @@
     "carrera": "juez"
   },
   {
-    "num": 1998,
-    "nombre": "MARTINEZ FERNANDEZ, ISABEL",
+    "num": 1917,
+    "nombre": "MARIN NAVARRO, NOELIA",
     "trib": 4,
-    "nota2": 40.36,
-    "nota3": 35.0,
-    "suma": 75.36,
-    "fecha": "2026-10-27",
-    "carrera": null
+    "nota2": 44.1,
+    "nota3": 32.12,
+    "suma": 76.22,
+    "fecha": "2026-10-19",
+    "carrera": "fiscal"
   },
   {
     "num": 644,
@@ -330,14 +330,14 @@
     "carrera": "juez"
   },
   {
-    "num": 1784,
-    "nombre": "LOPEZ BENITEZ, PILAR",
+    "num": 1998,
+    "nombre": "MARTINEZ FERNANDEZ, ISABEL",
     "trib": 4,
-    "nota2": 42.5,
-    "nota3": 32.75,
-    "suma": 75.25,
-    "fecha": "2026-09-29",
-    "carrera": "fiscal"
+    "nota2": 40.36,
+    "nota3": 35.0,
+    "suma": 75.36,
+    "fecha": "2026-10-27",
+    "carrera": null
   },
   {
     "num": 490,
@@ -390,14 +390,14 @@
     "carrera": "fiscal"
   },
   {
-    "num": 1930,
-    "nombre": "MARQUINA PEÑALOSA, IRENE",
+    "num": 1784,
+    "nombre": "LOPEZ BENITEZ, PILAR",
     "trib": 4,
-    "nota2": 34.36,
-    "nota3": 37.99,
-    "suma": 72.35,
-    "fecha": "2026-10-19",
-    "carrera": "juez"
+    "nota2": 42.5,
+    "nota3": 32.75,
+    "suma": 75.25,
+    "fecha": "2026-09-29",
+    "carrera": "fiscal"
   },
   {
     "num": 632,
@@ -420,14 +420,14 @@
     "carrera": "fiscal"
   },
   {
-    "num": 3082,
-    "nombre": "SANABRIA FREJO, RAFAEL",
+    "num": 3236,
+    "nombre": "SERRANO NIETO, POL",
     "trib": 6,
-    "nota2": 41.9,
-    "nota3": 37.81,
-    "suma": 79.71,
-    "fecha": "2026-10-20",
-    "carrera": "juez"
+    "nota2": 42.75,
+    "nota3": 38.66,
+    "suma": 81.41,
+    "fecha": "2026-11-10",
+    "carrera": null
   },
   {
     "num": 241,
@@ -437,26 +437,26 @@
     "nota3": 37.4,
     "suma": 77.06,
     "fecha": "2026-11-04",
+    "carrera": "fiscal"
+  },
+  {
+    "num": 1432,
+    "nombre": "GONZALEZ RIVERO, ANA",
+    "trib": 3,
+    "nota2": 46.33,
+    "nota3": 29.33,
+    "suma": 75.66,
+    "fecha": "2026-11-10",
     "carrera": null
   },
   {
-    "num": 1257,
-    "nombre": "GARCIA ROMERO, DANIEL",
-    "trib": 3,
-    "nota2": 37.0,
-    "nota3": 38.0,
-    "suma": 75.0,
-    "fecha": "2026-10-15",
-    "carrera": "juez"
-  },
-  {
-    "num": 2004,
-    "nombre": "MARTINEZ GIL, ANGELA",
+    "num": 1930,
+    "nombre": "MARQUINA PEÑALOSA, IRENE",
     "trib": 4,
-    "nota2": 40.24,
-    "nota3": 31.75,
-    "suma": 71.99,
-    "fecha": "2026-10-28",
+    "nota2": 34.36,
+    "nota3": 37.99,
+    "suma": 72.35,
+    "fecha": "2026-10-19",
     "carrera": "juez"
   },
   {
@@ -480,14 +480,14 @@
     "carrera": "juez"
   },
   {
-    "num": 3164,
-    "nombre": "SANCHEZ-PAULETE GOMEZ, ENRIQUE",
+    "num": 3082,
+    "nombre": "SANABRIA FREJO, RAFAEL",
     "trib": 6,
-    "nota2": 37.11,
-    "nota3": 40.0,
-    "suma": 77.11,
-    "fecha": "2026-11-03",
-    "carrera": null
+    "nota2": 41.9,
+    "nota3": 37.81,
+    "suma": 79.71,
+    "fecha": "2026-10-20",
+    "carrera": "juez"
   },
   {
     "num": 3472,
@@ -500,24 +500,24 @@
     "carrera": null
   },
   {
-    "num": 1718,
-    "nombre": "LATORRE CORRAL, GLORIA",
-    "trib": 4,
-    "nota2": 32.24,
-    "nota3": 37.14,
-    "suma": 69.38,
-    "fecha": "2026-09-24",
-    "carrera": "fiscal"
+    "num": 1257,
+    "nombre": "GARCIA ROMERO, DANIEL",
+    "trib": 3,
+    "nota2": 37.0,
+    "nota3": 38.0,
+    "suma": 75.0,
+    "fecha": "2026-10-15",
+    "carrera": "juez"
   },
   {
-    "num": 1104,
-    "nombre": "FRAU PEREZ, PAULA",
-    "trib": 3,
-    "nota2": 36.83,
-    "nota3": 31.62,
-    "suma": 68.45,
-    "fecha": "2026-09-29",
-    "carrera": null
+    "num": 2004,
+    "nombre": "MARTINEZ GIL, ANGELA",
+    "trib": 4,
+    "nota2": 40.24,
+    "nota3": 31.75,
+    "suma": 71.99,
+    "fecha": "2026-10-28",
+    "carrera": "juez"
   },
   {
     "num": 2310,
@@ -540,14 +540,14 @@
     "carrera": null
   },
   {
-    "num": 2989,
-    "nombre": "ROSES SANCHEZ-ANDRADE, AMALIA",
+    "num": 3164,
+    "nombre": "SANCHEZ-PAULETE GOMEZ, ENRIQUE",
     "trib": 6,
-    "nota2": 44.74,
-    "nota3": 30.25,
-    "suma": 74.99,
-    "fecha": "2026-10-06",
-    "carrera": "fiscal"
+    "nota2": 37.11,
+    "nota3": 40.0,
+    "suma": 77.11,
+    "fecha": "2026-11-03",
+    "carrera": null
   },
   {
     "num": 3537,
@@ -560,23 +560,23 @@
     "carrera": "fiscal"
   },
   {
-    "num": 1645,
-    "nombre": "JIMENEZ COSTELA, MARTA",
+    "num": 1718,
+    "nombre": "LATORRE CORRAL, GLORIA",
     "trib": 4,
-    "nota2": 35.1,
-    "nota3": 33.85,
-    "suma": 68.95,
-    "fecha": "2026-09-21",
-    "carrera": "juez"
+    "nota2": 32.24,
+    "nota3": 37.14,
+    "suma": 69.38,
+    "fecha": "2026-09-24",
+    "carrera": "fiscal"
   },
   {
-    "num": 1159,
-    "nombre": "GANDIA CANOVAS, ANA MARIA",
+    "num": 1104,
+    "nombre": "FRAU PEREZ, PAULA",
     "trib": 3,
-    "nota2": 32.83,
-    "nota3": 35.25,
-    "suma": 68.08,
-    "fecha": "2026-10-05",
+    "nota2": 36.83,
+    "nota3": 31.62,
+    "suma": 68.45,
+    "fecha": "2026-09-29",
     "carrera": null
   },
   {
@@ -600,13 +600,13 @@
     "carrera": "fiscal"
   },
   {
-    "num": 3120,
-    "nombre": "SANCHEZ HORTIGUELA, MARIA ENCARNACION",
+    "num": 2989,
+    "nombre": "ROSES SANCHEZ-ANDRADE, AMALIA",
     "trib": 6,
-    "nota2": 37.75,
-    "nota3": 37.2,
-    "suma": 74.95,
-    "fecha": "2026-10-27",
+    "nota2": 44.74,
+    "nota3": 30.25,
+    "suma": 74.99,
+    "fecha": "2026-10-06",
     "carrera": "fiscal"
   },
   {
@@ -620,24 +620,24 @@
     "carrera": "fiscal"
   },
   {
-    "num": 1822,
-    "nombre": "LOPEZ MENARGUES, ALICIA INMACULADA",
+    "num": 1645,
+    "nombre": "JIMENEZ COSTELA, MARTA",
     "trib": 4,
-    "nota2": 38.07,
-    "nota3": 30.06,
-    "suma": 68.13,
-    "fecha": "2026-10-06",
+    "nota2": 35.1,
+    "nota3": 33.85,
+    "suma": 68.95,
+    "fecha": "2026-09-21",
     "carrera": "juez"
   },
   {
-    "num": 1240,
-    "nombre": "GARCIA ORELLANA, FRANCISCO DE BORJA",
+    "num": 1159,
+    "nombre": "GANDIA CANOVAS, ANA MARIA",
     "trib": 3,
-    "nota2": 39.25,
-    "nota3": 28.62,
-    "suma": 67.87,
-    "fecha": "2026-10-13",
-    "carrera": "juez"
+    "nota2": 32.83,
+    "nota3": 35.25,
+    "suma": 68.08,
+    "fecha": "2026-10-05",
+    "carrera": null
   },
   {
     "num": 766,
@@ -660,13 +660,13 @@
     "carrera": null
   },
   {
-    "num": 3028,
-    "nombre": "RUIZ PEÑATE, SARA RITA",
+    "num": 3120,
+    "nombre": "SANCHEZ HORTIGUELA, MARIA ENCARNACION",
     "trib": 6,
-    "nota2": 38.0,
-    "nota3": 36.12,
-    "suma": 74.12,
-    "fecha": "2026-10-14",
+    "nota2": 37.75,
+    "nota3": 37.2,
+    "suma": 74.95,
+    "fecha": "2026-10-27",
     "carrera": "fiscal"
   },
   {
@@ -680,23 +680,23 @@
     "carrera": null
   },
   {
-    "num": 1807,
-    "nombre": "LOPEZ JOVER, MONICA",
+    "num": 1822,
+    "nombre": "LOPEZ MENARGUES, ALICIA INMACULADA",
     "trib": 4,
-    "nota2": 39.86,
-    "nota3": 27.5,
-    "suma": 67.36,
-    "fecha": "2026-10-01",
-    "carrera": "fiscal"
+    "nota2": 38.07,
+    "nota3": 30.06,
+    "suma": 68.13,
+    "fecha": "2026-10-06",
+    "carrera": "juez"
   },
   {
-    "num": 1123,
-    "nombre": "FUSTER MOLL, XAVIER",
+    "num": 1240,
+    "nombre": "GARCIA ORELLANA, FRANCISCO DE BORJA",
     "trib": 3,
-    "nota2": 29.0,
-    "nota3": 37.0,
-    "suma": 66.0,
-    "fecha": "2026-10-01",
+    "nota2": 39.25,
+    "nota3": 28.62,
+    "suma": 67.87,
+    "fecha": "2026-10-13",
     "carrera": "juez"
   },
   {
@@ -720,13 +720,13 @@
     "carrera": "juez"
   },
   {
-    "num": 2842,
-    "nombre": "ROCA MORENO TORRES, BLANCA",
+    "num": 3028,
+    "nombre": "RUIZ PEÑATE, SARA RITA",
     "trib": 6,
-    "nota2": 38.74,
-    "nota3": 33.0,
-    "suma": 71.74,
-    "fecha": "2026-09-23",
+    "nota2": 38.0,
+    "nota3": 36.12,
+    "suma": 74.12,
+    "fecha": "2026-10-14",
     "carrera": "fiscal"
   },
   {
@@ -740,23 +740,23 @@
     "carrera": "juez"
   },
   {
-    "num": 1357,
-    "nombre": "GOMEZ PUEYO, DIEGO",
-    "trib": 3,
-    "nota2": 32.33,
-    "nota3": 33.62,
-    "suma": 65.95,
-    "fecha": "2026-10-28",
+    "num": 1807,
+    "nombre": "LOPEZ JOVER, MONICA",
+    "trib": 4,
+    "nota2": 39.86,
+    "nota3": 27.5,
+    "suma": 67.36,
+    "fecha": "2026-10-01",
     "carrera": "fiscal"
   },
   {
-    "num": 1844,
-    "nombre": "LOPEZ ZAMORA, MARIA",
-    "trib": 4,
-    "nota2": 32.75,
-    "nota3": 31.87,
-    "suma": 64.62,
-    "fecha": "2026-10-07",
+    "num": 1123,
+    "nombre": "FUSTER MOLL, XAVIER",
+    "trib": 3,
+    "nota2": 29.0,
+    "nota3": 37.0,
+    "suma": 66.0,
+    "fecha": "2026-10-01",
     "carrera": "juez"
   },
   {
@@ -780,6 +780,66 @@
     "carrera": "juez"
   },
   {
+    "num": 2842,
+    "nombre": "ROCA MORENO TORRES, BLANCA",
+    "trib": 6,
+    "nota2": 38.74,
+    "nota3": 33.0,
+    "suma": 71.74,
+    "fecha": "2026-09-23",
+    "carrera": "fiscal"
+  },
+  {
+    "num": 217,
+    "nombre": "ARTEAGA MARTIN, NOELIA",
+    "trib": 1,
+    "nota2": 30.75,
+    "nota3": 37.75,
+    "suma": 68.5,
+    "fecha": "2026-10-29",
+    "carrera": "fiscal"
+  },
+  {
+    "num": 1357,
+    "nombre": "GOMEZ PUEYO, DIEGO",
+    "trib": 3,
+    "nota2": 32.33,
+    "nota3": 33.62,
+    "suma": 65.95,
+    "fecha": "2026-10-28",
+    "carrera": "fiscal"
+  },
+  {
+    "num": 1844,
+    "nombre": "LOPEZ ZAMORA, MARIA",
+    "trib": 4,
+    "nota2": 32.75,
+    "nota3": 31.87,
+    "suma": 64.62,
+    "fecha": "2026-10-07",
+    "carrera": "juez"
+  },
+  {
+    "num": 733,
+    "nombre": "CUERO CASTRO, ELIANA",
+    "trib": 2,
+    "nota2": 35.25,
+    "nota3": 25.66,
+    "suma": 60.91,
+    "fecha": "2026-10-21",
+    "carrera": "fiscal"
+  },
+  {
+    "num": 2430,
+    "nombre": "ORTEGA HIDALGO, FRANCISCO JESUS",
+    "trib": 5,
+    "nota2": 32.25,
+    "nota3": 26.75,
+    "suma": 59.0,
+    "fecha": "2026-10-06",
+    "carrera": "juez"
+  },
+  {
     "num": 3007,
     "nombre": "RUIZ CARCHANO, LAURA",
     "trib": 6,
@@ -790,13 +850,13 @@
     "carrera": null
   },
   {
-    "num": 217,
-    "nombre": "ARTEAGA MARTIN, NOELIA",
+    "num": 3378,
+    "nombre": "UCAR MARCOTEGUI, MARIA",
     "trib": 1,
-    "nota2": 30.75,
-    "nota3": 37.75,
-    "suma": 68.5,
-    "fecha": "2026-10-29",
+    "nota2": 34.4,
+    "nota3": 34.0,
+    "suma": 68.4,
+    "fecha": "2026-09-23",
     "carrera": "fiscal"
   },
   {
@@ -820,66 +880,6 @@
     "carrera": null
   },
   {
-    "num": 733,
-    "nombre": "CUERO CASTRO, ELIANA",
-    "trib": 2,
-    "nota2": 35.25,
-    "nota3": 25.66,
-    "suma": 60.91,
-    "fecha": "2026-10-21",
-    "carrera": null
-  },
-  {
-    "num": 2430,
-    "nombre": "ORTEGA HIDALGO, FRANCISCO JESUS",
-    "trib": 5,
-    "nota2": 32.25,
-    "nota3": 26.75,
-    "suma": 59.0,
-    "fecha": "2026-10-06",
-    "carrera": "juez"
-  },
-  {
-    "num": 2823,
-    "nombre": "RIVAS PALOMINO, ANA",
-    "trib": 6,
-    "nota2": 37.36,
-    "nota3": 32.75,
-    "suma": 70.11,
-    "fecha": "2026-09-22",
-    "carrera": "juez"
-  },
-  {
-    "num": 3378,
-    "nombre": "UCAR MARCOTEGUI, MARIA",
-    "trib": 1,
-    "nota2": 34.4,
-    "nota3": 34.0,
-    "suma": 68.4,
-    "fecha": "2026-09-23",
-    "carrera": "fiscal"
-  },
-  {
-    "num": 1077,
-    "nombre": "FEU RAMOS, BEGOÑA",
-    "trib": 3,
-    "nota2": 32.5,
-    "nota3": 31.5,
-    "suma": 64.0,
-    "fecha": "2026-09-24",
-    "carrera": "fiscal"
-  },
-  {
-    "num": 1988,
-    "nombre": "MARTINEZ CARRODEGUAS, LAURA",
-    "trib": 4,
-    "nota2": 32.62,
-    "nota3": 30.5,
-    "suma": 63.12,
-    "fecha": "2026-10-26",
-    "carrera": "juez"
-  },
-  {
     "num": 413,
     "nombre": "BRUNO MATEU, ADRIA",
     "trib": 2,
@@ -900,13 +900,13 @@
     "carrera": "juez"
   },
   {
-    "num": 3010,
-    "nombre": "RUIZ CASTILLO, FATIMA",
+    "num": 2823,
+    "nombre": "RIVAS PALOMINO, ANA",
     "trib": 6,
-    "nota2": 34.98,
-    "nota3": 34.12,
-    "suma": 69.1,
-    "fecha": "2026-10-08",
+    "nota2": 37.36,
+    "nota3": 32.75,
+    "suma": 70.11,
+    "fecha": "2026-09-22",
     "carrera": "juez"
   },
   {
@@ -920,23 +920,23 @@
     "carrera": "juez"
   },
   {
-    "num": 1671,
-    "nombre": "JORDA GARCIA, LUIS",
-    "trib": 4,
-    "nota2": 37.5,
-    "nota3": 25.0,
-    "suma": 62.5,
-    "fecha": "2026-09-21",
-    "carrera": "juez"
+    "num": 1077,
+    "nombre": "FEU RAMOS, BEGOÑA",
+    "trib": 3,
+    "nota2": 32.5,
+    "nota3": 31.5,
+    "suma": 64.0,
+    "fecha": "2026-09-24",
+    "carrera": "fiscal"
   },
   {
-    "num": 1026,
-    "nombre": "FERNANDEZ HERNANDEZ, VICTOR MANUEL",
-    "trib": 3,
-    "nota2": 32.4,
-    "nota3": 28.5,
-    "suma": 60.9,
-    "fecha": "2026-09-21",
+    "num": 1988,
+    "nombre": "MARTINEZ CARRODEGUAS, LAURA",
+    "trib": 4,
+    "nota2": 32.62,
+    "nota3": 30.5,
+    "suma": 63.12,
+    "fecha": "2026-10-26",
     "carrera": "juez"
   },
   {
@@ -960,13 +960,13 @@
     "carrera": "juez"
   },
   {
-    "num": 3127,
-    "nombre": "SANCHEZ MARTIN, ANTONIO",
+    "num": 3010,
+    "nombre": "RUIZ CASTILLO, FATIMA",
     "trib": 6,
-    "nota2": 34.99,
-    "nota3": 32.25,
-    "suma": 67.24,
-    "fecha": "2026-10-28",
+    "nota2": 34.98,
+    "nota3": 34.12,
+    "suma": 69.1,
+    "fecha": "2026-10-08",
     "carrera": "juez"
   },
   {
@@ -977,6 +977,66 @@
     "nota3": 25.0,
     "suma": 63.75,
     "fecha": "2026-09-24",
+    "carrera": "juez"
+  },
+  {
+    "num": 1671,
+    "nombre": "JORDA GARCIA, LUIS",
+    "trib": 4,
+    "nota2": 37.5,
+    "nota3": 25.0,
+    "suma": 62.5,
+    "fecha": "2026-09-21",
+    "carrera": "juez"
+  },
+  {
+    "num": 1026,
+    "nombre": "FERNANDEZ HERNANDEZ, VICTOR MANUEL",
+    "trib": 3,
+    "nota2": 32.4,
+    "nota3": 28.5,
+    "suma": 60.9,
+    "fecha": "2026-09-21",
+    "carrera": "juez"
+  },
+  {
+    "num": 2642,
+    "nombre": "PLANAS ESTAÑ, ANA",
+    "trib": 5,
+    "nota2": 29.33,
+    "nota3": 29.0,
+    "suma": 58.33,
+    "fecha": "2026-11-10",
+    "carrera": null
+  },
+  {
+    "num": 444,
+    "nombre": "CABELLO PINEDO, CRISTINA",
+    "trib": 2,
+    "nota2": 33.25,
+    "nota3": 25.0,
+    "suma": 58.25,
+    "fecha": "2026-09-22",
+    "carrera": "juez"
+  },
+  {
+    "num": 3127,
+    "nombre": "SANCHEZ MARTIN, ANTONIO",
+    "trib": 6,
+    "nota2": 34.99,
+    "nota3": 32.25,
+    "suma": 67.24,
+    "fecha": "2026-10-28",
+    "carrera": "juez"
+  },
+  {
+    "num": 3522,
+    "nombre": "VINAGRE GONZALEZ, ABARNE",
+    "trib": 1,
+    "nota2": 33.66,
+    "nota3": 29.6,
+    "suma": 63.26,
+    "fecha": "2026-10-07",
     "carrera": "juez"
   },
   {
@@ -1000,24 +1060,24 @@
     "carrera": "fiscal"
   },
   {
-    "num": 444,
-    "nombre": "CABELLO PINEDO, CRISTINA",
-    "trib": 2,
-    "nota2": 33.25,
-    "nota3": 25.0,
-    "suma": 58.25,
-    "fecha": "2026-09-22",
-    "carrera": "juez"
+    "num": 2643,
+    "nombre": "PLANCHART I TORRENT, MARIONA",
+    "trib": 5,
+    "nota2": 29.66,
+    "nota3": 27.75,
+    "suma": 57.41,
+    "fecha": "2026-11-10",
+    "carrera": null
   },
   {
-    "num": 2594,
-    "nombre": "PEREZ OLIVARES, CARLOS",
-    "trib": 5,
+    "num": 665,
+    "nombre": "COLL JAUME, FRANCISCA VICTORIA",
+    "trib": 2,
     "nota2": 25.0,
-    "nota3": 29.9,
-    "suma": 54.9,
-    "fecha": "2026-10-27",
-    "carrera": null
+    "nota3": 30.75,
+    "suma": 55.75,
+    "fecha": "2026-10-15",
+    "carrera": "juez"
   },
   {
     "num": 3091,
@@ -1030,13 +1090,13 @@
     "carrera": "juez"
   },
   {
-    "num": 3522,
-    "nombre": "VINAGRE GONZALEZ, ABARNE",
+    "num": 281,
+    "nombre": "BARDES VERA, JUDITH",
     "trib": 1,
-    "nota2": 33.66,
-    "nota3": 29.6,
-    "suma": 63.26,
-    "fecha": "2026-10-07",
+    "nota2": 29.5,
+    "nota3": 32.66,
+    "suma": 62.16,
+    "fecha": "2026-11-06",
     "carrera": "juez"
   },
   {
@@ -1060,24 +1120,24 @@
     "carrera": "fiscal"
   },
   {
-    "num": 665,
-    "nombre": "COLL JAUME, FRANCISCA VICTORIA",
+    "num": 880,
+    "nombre": "DOMINGUEZ NUÑEZ, MARTA",
     "trib": 2,
-    "nota2": 25.0,
-    "nota3": 30.75,
-    "suma": 55.75,
-    "fecha": "2026-10-15",
-    "carrera": "juez"
+    "nota2": 30.25,
+    "nota3": 25.0,
+    "suma": 55.25,
+    "fecha": "2026-11-10",
+    "carrera": null
   },
   {
-    "num": 2428,
-    "nombre": "ORTEGA FERNANDEZ DE CORDOBA, DIEGO",
+    "num": 2594,
+    "nombre": "PEREZ OLIVARES, CARLOS",
     "trib": 5,
-    "nota2": 26.02,
-    "nota3": 26.0,
-    "suma": 52.02,
-    "fecha": "2026-10-06",
-    "carrera": "juez"
+    "nota2": 25.0,
+    "nota3": 29.9,
+    "suma": 54.9,
+    "fecha": "2026-10-27",
+    "carrera": null
   },
   {
     "num": 2937,
@@ -1090,14 +1150,14 @@
     "carrera": "fiscal"
   },
   {
-    "num": 281,
-    "nombre": "BARDES VERA, JUDITH",
+    "num": 3540,
+    "nombre": "ZAFRILLA FILIPPINI, PAULA",
     "trib": 1,
-    "nota2": 29.5,
-    "nota3": 32.66,
-    "suma": 62.16,
-    "fecha": "2026-11-06",
-    "carrera": null
+    "nota2": 35.0,
+    "nota3": 26.75,
+    "suma": 61.75,
+    "fecha": "2026-10-08",
+    "carrera": "fiscal"
   },
   {
     "num": 1215,
@@ -1130,13 +1190,13 @@
     "carrera": "juez"
   },
   {
-    "num": 2311,
-    "nombre": "MUÑOZ PEREZ DE LAZARRAGA, DANIEL",
+    "num": 2428,
+    "nombre": "ORTEGA FERNANDEZ DE CORDOBA, DIEGO",
     "trib": 5,
-    "nota2": 25.0,
-    "nota3": 26.4,
-    "suma": 51.4,
-    "fecha": "2026-09-23",
+    "nota2": 26.02,
+    "nota3": 26.0,
+    "suma": 52.02,
+    "fecha": "2026-10-06",
     "carrera": "juez"
   },
   {
@@ -1150,14 +1210,14 @@
     "carrera": null
   },
   {
-    "num": 3540,
-    "nombre": "ZAFRILLA FILIPPINI, PAULA",
+    "num": 191,
+    "nombre": "ARMARIO CUMBRERA, NATALIA",
     "trib": 1,
-    "nota2": 35.0,
-    "nota3": 26.75,
-    "suma": 61.75,
-    "fecha": "2026-10-08",
-    "carrera": "fiscal"
+    "nota2": 32.75,
+    "nota3": 28.25,
+    "suma": 61.0,
+    "fecha": "2026-10-27",
+    "carrera": null
   },
   {
     "num": 1097,
@@ -1190,13 +1250,13 @@
     "carrera": "fiscal"
   },
   {
-    "num": 2418,
-    "nombre": "OPERE GAONA, LAURA",
+    "num": 2311,
+    "nombre": "MUÑOZ PEREZ DE LAZARRAGA, DANIEL",
     "trib": 5,
     "nota2": 25.0,
-    "nota3": 25.0,
-    "suma": 50.0,
-    "fecha": "2026-10-05",
+    "nota3": 26.4,
+    "suma": 51.4,
+    "fecha": "2026-09-23",
     "carrera": "juez"
   },
   {
@@ -1210,13 +1270,13 @@
     "carrera": null
   },
   {
-    "num": 191,
-    "nombre": "ARMARIO CUMBRERA, NATALIA",
+    "num": 3457,
+    "nombre": "VEGA MAYOR, ALEJANDRO",
     "trib": 1,
-    "nota2": 32.75,
-    "nota3": 28.25,
-    "suma": 61.0,
-    "fecha": "2026-10-27",
+    "nota2": 30.25,
+    "nota3": 30.66,
+    "suma": 60.91,
+    "fecha": "2026-10-01",
     "carrera": null
   },
   {
@@ -1250,13 +1310,23 @@
     "carrera": "juez"
   },
   {
-    "num": 3457,
-    "nombre": "VEGA MAYOR, ALEJANDRO",
+    "num": 2418,
+    "nombre": "OPERE GAONA, LAURA",
+    "trib": 5,
+    "nota2": 25.0,
+    "nota3": 25.0,
+    "suma": 50.0,
+    "fecha": "2026-10-05",
+    "carrera": "juez"
+  },
+  {
+    "num": 289,
+    "nombre": "BARRANCO CABELLO, INES",
     "trib": 1,
-    "nota2": 30.25,
-    "nota3": 30.66,
-    "suma": 60.91,
-    "fecha": "2026-10-01",
+    "nota2": 31.15,
+    "nota3": 28.3,
+    "suma": 59.45,
+    "fecha": "2026-11-10",
     "carrera": null
   },
   {
@@ -1277,7 +1347,7 @@
     "nota3": 25.75,
     "suma": 55.5,
     "fecha": "2026-11-05",
-    "carrera": null
+    "carrera": "juez"
   },
   {
     "num": 848,
@@ -1287,7 +1357,7 @@
     "nota3": 26.25,
     "suma": 52.25,
     "fecha": "2026-11-04",
-    "carrera": null
+    "carrera": "fiscal"
   },
   {
     "num": 1720,
@@ -1307,7 +1377,7 @@
     "nota3": 29.38,
     "suma": 59.38,
     "fecha": "2026-11-06",
-    "carrera": null
+    "carrera": "fiscal"
   },
   {
     "num": 3180,

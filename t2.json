@@ -1,6 +1,6 @@
 {
   "trib": 2,
-  "updated": "2026-11-05",
+  "updated": "2026-11-10",
   "items": [
     {
       "num": 413,
@@ -321,6 +321,22 @@
       "nota3": 34.25,
       "estado": "apto",
       "fecha": "2026-11-05"
+    },
+    {
+      "num": 880,
+      "nombre": "DOMINGUEZ NUÑEZ, MARTA",
+      "trib": 2,
+      "nota3": 25.0,
+      "estado": "apto",
+      "fecha": "2026-11-10"
+    },
+    {
+      "num": 889,
+      "nombre": "DONCEL ORTIZ, MARCOS",
+      "trib": 2,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-10"
     }
   ]
 }

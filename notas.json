@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "items": [
   {
    "num": 190,
@@ -2448,6 +2448,102 @@
    "nota3": 32.66,
    "estado": "apto",
    "fecha": "2026-11-06"
+  },
+  {
+   "num": 286,
+   "nombre": "BARONA ALBA, PAULA",
+   "trib": 1,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-10"
+  },
+  {
+   "num": 289,
+   "nombre": "BARRANCO CABELLO, INES",
+   "trib": 1,
+   "nota3": 28.3,
+   "estado": "apto",
+   "fecha": "2026-11-10"
+  },
+  {
+   "num": 880,
+   "nombre": "DOMINGUEZ NUÑEZ, MARTA",
+   "trib": 2,
+   "nota3": 25.0,
+   "estado": "apto",
+   "fecha": "2026-11-10"
+  },
+  {
+   "num": 889,
+   "nombre": "DONCEL ORTIZ, MARCOS",
+   "trib": 2,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-10"
+  },
+  {
+   "num": 1432,
+   "nombre": "GONZALEZ RIVERO, ANA",
+   "trib": 3,
+   "nota3": 29.33,
+   "estado": "apto",
+   "fecha": "2026-11-10"
+  },
+  {
+   "num": 1435,
+   "nombre": "GONZALEZ RODRIGUEZ, MANUEL",
+   "trib": 3,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-10"
+  },
+  {
+   "num": 2071,
+   "nombre": "MATO SALAN, DANIEL",
+   "trib": 4,
+   "nota3": 40.0,
+   "estado": "apto",
+   "fecha": "2026-11-10"
+  },
+  {
+   "num": 2076,
+   "nombre": "MECA FERNANDEZ, JAVIER",
+   "trib": 4,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-10"
+  },
+  {
+   "num": 2642,
+   "nombre": "PLANAS ESTAÑ, ANA",
+   "trib": 5,
+   "nota3": 29.0,
+   "estado": "apto",
+   "fecha": "2026-11-10"
+  },
+  {
+   "num": 2643,
+   "nombre": "PLANCHART I TORRENT, MARIONA",
+   "trib": 5,
+   "nota3": 27.75,
+   "estado": "apto",
+   "fecha": "2026-11-10"
+  },
+  {
+   "num": 3233,
+   "nombre": "SERRANO GUTIERREZ, MARIA DEL MAR",
+   "trib": 6,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-10"
+  },
+  {
+   "num": 3236,
+   "nombre": "SERRANO NIETO, POL",
+   "trib": 6,
+   "nota3": 38.66,
+   "estado": "apto",
+   "fecha": "2026-11-10"
   }
  ]
 }

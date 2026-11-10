@@ -1,6 +1,6 @@
 {
   "trib": 1,
-  "updated": "2026-11-05",
+  "updated": "2026-11-10",
   "items": [
     {
       "num": 5,
@@ -433,6 +433,38 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-05"
+    },
+    {
+      "num": 275,
+      "nombre": "BARBA FIGUERAS, MARTA",
+      "trib": 1,
+      "nota3": 29.38,
+      "estado": "apto",
+      "fecha": "2026-11-06"
+    },
+    {
+      "num": 281,
+      "nombre": "BARDES VERA, JUDITH",
+      "trib": 1,
+      "nota3": 32.66,
+      "estado": "apto",
+      "fecha": "2026-11-06"
+    },
+    {
+      "num": 286,
+      "nombre": "BARONA ALBA, PAULA",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-10"
+    },
+    {
+      "num": 289,
+      "nombre": "BARRANCO CABELLO, INES",
+      "trib": 1,
+      "nota3": 28.3,
+      "estado": "apto",
+      "fecha": "2026-11-10"
     }
   ]
 }
