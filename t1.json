@@ -1,6 +1,6 @@
 {
   "trib": 1,
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "items": [
     {
       "num": 5,
@@ -465,6 +465,22 @@
       "nota3": 28.3,
       "estado": "apto",
       "fecha": "2026-11-10"
+    },
+    {
+      "num": 292,
+      "nombre": "BARRENECHEA GARCIA, ELISA MARIA",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-11"
+    },
+    {
+      "num": 310,
+      "nombre": "BAUTISTA MARTINEZ, CARMEN",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-11"
     }
   ]
 }

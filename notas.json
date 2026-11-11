@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "items": [
   {
    "num": 190,
@@ -2544,6 +2544,38 @@
    "nota3": 38.66,
    "estado": "apto",
    "fecha": "2026-11-10"
+  },
+  {
+   "num": 292,
+   "nombre": "BARRENECHEA GARCIA, ELISA MARIA",
+   "trib": 1,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-11"
+  },
+  {
+   "num": 310,
+   "nombre": "BAUTISTA MARTINEZ, CARMEN",
+   "trib": 1,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-11"
+  },
+  {
+   "num": 2080,
+   "nombre": "MEDIN ROIBAS, PABLO",
+   "trib": 4,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-11"
+  },
+  {
+   "num": 2093,
+   "nombre": "MEDINA YSASI, PALOMA MATILDE",
+   "trib": 4,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-11"
   }
  ]
 }

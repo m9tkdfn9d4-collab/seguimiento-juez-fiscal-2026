@@ -1,6 +1,6 @@
 {
   "trib": 4,
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "items": [
     {
       "num": 1645,
@@ -425,6 +425,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-10"
+    },
+    {
+      "num": 2080,
+      "nombre": "MEDIN ROIBAS, PABLO",
+      "trib": 4,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-11"
+    },
+    {
+      "num": 2093,
+      "nombre": "MEDINA YSASI, PALOMA MATILDE",
+      "trib": 4,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-11"
     }
   ]
 }
