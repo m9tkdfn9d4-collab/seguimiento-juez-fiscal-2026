@@ -670,14 +670,14 @@
     "carrera": "fiscal"
   },
   {
-    "num": 311,
-    "nombre": "BAUTISTA MUÑOZ, ELENA",
+    "num": 3418,
+    "nombre": "VALLVERDU DELGADO, CLAUDIA",
     "trib": 1,
-    "nota2": 37.33,
-    "nota3": 34.99,
-    "suma": 72.32,
-    "fecha": "2026-11-12",
-    "carrera": null
+    "nota2": 31.98,
+    "nota3": 40.0,
+    "suma": 71.98,
+    "fecha": "2026-09-25",
+    "carrera": "juez"
   },
   {
     "num": 1822,
@@ -730,13 +730,13 @@
     "carrera": "fiscal"
   },
   {
-    "num": 3418,
-    "nombre": "VALLVERDU DELGADO, CLAUDIA",
+    "num": 184,
+    "nombre": "ARIAS ARELLANO, JESUS MARIA",
     "trib": 1,
-    "nota2": 31.98,
-    "nota3": 40.0,
-    "suma": 71.98,
-    "fecha": "2026-09-25",
+    "nota2": 37.32,
+    "nota3": 33.32,
+    "suma": 70.64,
+    "fecha": "2026-10-26",
     "carrera": "juez"
   },
   {
@@ -790,14 +790,14 @@
     "carrera": "fiscal"
   },
   {
-    "num": 184,
-    "nombre": "ARIAS ARELLANO, JESUS MARIA",
+    "num": 311,
+    "nombre": "BAUTISTA MUÑOZ, ELENA",
     "trib": 1,
-    "nota2": 37.32,
-    "nota3": 33.32,
-    "suma": 70.64,
-    "fecha": "2026-10-26",
-    "carrera": "juez"
+    "nota2": 37.33,
+    "nota3": 31.99,
+    "suma": 69.32,
+    "fecha": "2026-11-12",
+    "carrera": null
   },
   {
     "num": 1123,
