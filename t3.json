@@ -1,6 +1,6 @@
 {
   "trib": 3,
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "items": [
     {
       "num": 1026,
@@ -513,6 +513,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-10"
+    },
+    {
+      "num": 1443,
+      "nombre": "GONZALEZ SELLAN, DANIEL",
+      "trib": 3,
+      "nota3": 42.75,
+      "estado": "apto",
+      "fecha": "2026-11-11"
+    },
+    {
+      "num": 1476,
+      "nombre": "GRAU RUIZ, FRANCISCO JAVIER",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-11"
     }
   ]
 }

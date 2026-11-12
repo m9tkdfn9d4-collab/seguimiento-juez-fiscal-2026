@@ -1,6 +1,6 @@
 {
   "trib": 2,
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "items": [
     {
       "num": 413,
@@ -337,6 +337,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-10"
+    },
+    {
+      "num": 893,
+      "nombre": "DORADO PARRA, SARA",
+      "trib": 2,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-11"
+    },
+    {
+      "num": 899,
+      "nombre": "DURAN DE LOS RIOS, SILVIA",
+      "trib": 2,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-11"
     }
   ]
 }
