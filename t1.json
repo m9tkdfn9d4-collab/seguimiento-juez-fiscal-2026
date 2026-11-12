@@ -1,6 +1,6 @@
 {
   "trib": 1,
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "items": [
     {
       "num": 5,
@@ -481,6 +481,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-11"
+    },
+    {
+      "num": 311,
+      "nombre": "BAUTISTA MUÑOZ, ELENA",
+      "trib": 1,
+      "nota3": 34.99,
+      "estado": "apto",
+      "fecha": "2026-11-12"
+    },
+    {
+      "num": 316,
+      "nombre": "BEATO BEATO, MARIA ARACELI",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-12"
     }
   ]
 }

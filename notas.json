@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "items": [
   {
    "num": 5,
@@ -256,6 +256,22 @@
    "nota3": null,
    "estado": "no_apto",
    "fecha": "2026-11-11"
+  },
+  {
+   "num": 311,
+   "nombre": "BAUTISTA MUÑOZ, ELENA",
+   "trib": 1,
+   "nota3": 34.99,
+   "estado": "apto",
+   "fecha": "2026-11-12"
+  },
+  {
+   "num": 316,
+   "nombre": "BEATO BEATO, MARIA ARACELI",
+   "trib": 1,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-12"
   },
   {
    "num": 413,
@@ -624,6 +640,22 @@
    "nota3": null,
    "estado": "no_apto",
    "fecha": "2026-11-11"
+  },
+  {
+   "num": 914,
+   "nombre": "EL AZAMI EL HASSANI ZAAITAR, LOUBNA",
+   "trib": 2,
+   "nota3": 25.0,
+   "estado": "apto",
+   "fecha": "2026-11-12"
+  },
+  {
+   "num": 921,
+   "nombre": "ELBAL GASCON, MARIA",
+   "trib": 2,
+   "nota3": 47.5,
+   "estado": "apto",
+   "fecha": "2026-11-12"
   },
   {
    "num": 1026,
@@ -1162,6 +1194,22 @@
    "fecha": "2026-11-11"
   },
   {
+   "num": 1496,
+   "nombre": "GUIJARRO DEL OLMO, LUCAS",
+   "trib": 3,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-12"
+  },
+  {
+   "num": 1499,
+   "nombre": "GUILLEM RICO, MARIA",
+   "trib": 3,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-12"
+  },
+  {
    "num": 1645,
    "nombre": "JIMENEZ COSTELA, MARTA",
    "trib": 4,
@@ -1602,6 +1650,22 @@
    "fecha": "2026-11-11"
   },
   {
+   "num": 2116,
+   "nombre": "MENDO RIVERA, SARA",
+   "trib": 4,
+   "nota3": 25,
+   "estado": "apto",
+   "fecha": "2026-11-12"
+  },
+  {
+   "num": 2123,
+   "nombre": "MERINO LUNA, CLAUDIA",
+   "trib": 4,
+   "nota3": 32.37,
+   "estado": "apto",
+   "fecha": "2026-11-12"
+  },
+  {
    "num": 2232,
    "nombre": "MORALES RODRIGUEZ, SALVADOR",
    "trib": 5,
@@ -1992,6 +2056,22 @@
    "nota3": 27.75,
    "estado": "apto",
    "fecha": "2026-11-10"
+  },
+  {
+   "num": 2661,
+   "nombre": "POPOLITOVA KULYNYAK, MARYANA",
+   "trib": 5,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-12"
+  },
+  {
+   "num": 2679,
+   "nombre": "PRIETO MORENO-MANZANARO, ELENA",
+   "trib": 5,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-12"
   },
   {
    "num": 2797,
@@ -2400,6 +2480,22 @@
    "nota3": 38.66,
    "estado": "apto",
    "fecha": "2026-11-10"
+  },
+  {
+   "num": 3239,
+   "nombre": "SEVILLA ROMERO, NATALIA",
+   "trib": 6,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-12"
+  },
+  {
+   "num": 3250,
+   "nombre": "SILVESTRE DIAGO, AMANDA",
+   "trib": 6,
+   "nota3": null,
+   "estado": "no_apto",
+   "fecha": "2026-11-12"
   },
   {
    "num": 3298,

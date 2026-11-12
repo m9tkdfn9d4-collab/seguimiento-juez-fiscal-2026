@@ -1,6 +1,6 @@
 {
   "trib": 2,
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "items": [
     {
       "num": 413,
@@ -353,6 +353,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-11"
+    },
+    {
+      "num": 914,
+      "nombre": "EL AZAMI EL HASSANI ZAAITAR, LOUBNA",
+      "trib": 2,
+      "nota3": 25.0,
+      "estado": "apto",
+      "fecha": "2026-11-12"
+    },
+    {
+      "num": 921,
+      "nombre": "ELBAL GASCON, MARIA",
+      "trib": 2,
+      "nota3": 47.5,
+      "estado": "apto",
+      "fecha": "2026-11-12"
     }
   ]
 }
