@@ -1,6 +1,6 @@
 {
   "trib": 3,
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "items": [
     {
       "num": 1026,
@@ -529,6 +529,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-11"
+    },
+    {
+      "num": 1496,
+      "nombre": "GUIJARRO DEL OLMO, LUCAS",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-12"
+    },
+    {
+      "num": 1499,
+      "nombre": "GUILLEM RICO, MARIA",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-12"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "trib": 4,
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "items": [
     {
       "num": 1645,
@@ -441,6 +441,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-11"
+    },
+    {
+      "num": 2116,
+      "nombre": "MENDO RIVERA, SARA",
+      "trib": 4,
+      "nota3": 25,
+      "estado": "apto",
+      "fecha": "2026-11-12"
+    },
+    {
+      "num": 2123,
+      "nombre": "MERINO LUNA, CLAUDIA",
+      "trib": 4,
+      "nota3": 32.37,
+      "estado": "apto",
+      "fecha": "2026-11-12"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "trib": 6,
-  "updated": "2026-11-10",
+  "updated": "2026-11-12",
   "items": [
     {
       "num": 2797,
@@ -401,6 +401,22 @@
       "nota3": 38.66,
       "estado": "apto",
       "fecha": "2026-11-10"
+    },
+    {
+      "num": 3239,
+      "nombre": "SEVILLA ROMERO, NATALIA",
+      "trib": 6,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-12"
+    },
+    {
+      "num": 3250,
+      "nombre": "SILVESTRE DIAGO, AMANDA",
+      "trib": 6,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-12"
     }
   ]
 }

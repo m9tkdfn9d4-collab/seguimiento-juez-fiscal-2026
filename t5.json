@@ -1,6 +1,6 @@
 {
   "trib": 5,
-  "updated": "2026-11-10",
+  "updated": "2026-11-12",
   "items": [
     {
       "num": 2232,
@@ -393,6 +393,22 @@
       "nota3": 27.75,
       "estado": "apto",
       "fecha": "2026-11-10"
+    },
+    {
+      "num": 2661,
+      "nombre": "POPOLITOVA KULYNYAK, MARYANA",
+      "trib": 5,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-12"
+    },
+    {
+      "num": 2679,
+      "nombre": "PRIETO MORENO-MANZANARO, ELENA",
+      "trib": 5,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-12"
     }
   ]
 }
