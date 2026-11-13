@@ -1,6 +1,6 @@
 {
   "trib": 5,
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "items": [
     {
       "num": 2232,
@@ -409,6 +409,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-12"
+    },
+    {
+      "num": 2694,
+      "nombre": "PUIG PASTALLE, MARTA",
+      "trib": 5,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-13"
+    },
+    {
+      "num": 2703,
+      "nombre": "QUESADA PARRAS, ANA",
+      "trib": 5,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-13"
     }
   ]
 }

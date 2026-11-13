@@ -1,6 +1,6 @@
 {
   "trib": 6,
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "items": [
     {
       "num": 2797,
@@ -417,6 +417,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-12"
+    },
+    {
+      "num": 3259,
+      "nombre": "SOLANO MELITON, CLARA DE ASIS",
+      "trib": 6,
+      "nota3": 44.7,
+      "estado": "apto",
+      "fecha": "2026-11-13"
+    },
+    {
+      "num": 3266,
+      "nombre": "SOLIS TRAPERO, LAURA",
+      "trib": 6,
+      "nota3": 25.0,
+      "estado": "apto",
+      "fecha": "2026-11-13"
     }
   ]
 }
