@@ -490,14 +490,14 @@
     "carrera": null
   },
   {
-    "num": 1432,
-    "nombre": "GONZALEZ RIVERO, ANA",
+    "num": 1515,
+    "nombre": "GUTIERREZ OLIET, MARTA",
     "trib": 3,
-    "nota2": 46.33,
-    "nota3": 29.33,
-    "suma": 75.66,
-    "fecha": "2026-11-10",
-    "carrera": "juez"
+    "nota2": 39.62,
+    "nota3": 36.75,
+    "suma": 76.37,
+    "fecha": "2026-11-13",
+    "carrera": null
   },
   {
     "num": 3472,
@@ -550,13 +550,13 @@
     "carrera": "juez"
   },
   {
-    "num": 1257,
-    "nombre": "GARCIA ROMERO, DANIEL",
+    "num": 1432,
+    "nombre": "GONZALEZ RIVERO, ANA",
     "trib": 3,
-    "nota2": 37.0,
-    "nota3": 38.0,
-    "suma": 75.0,
-    "fecha": "2026-10-15",
+    "nota2": 46.33,
+    "nota3": 29.33,
+    "suma": 75.66,
+    "fecha": "2026-11-10",
     "carrera": "juez"
   },
   {
@@ -610,6 +610,16 @@
     "carrera": null
   },
   {
+    "num": 1257,
+    "nombre": "GARCIA ROMERO, DANIEL",
+    "trib": 3,
+    "nota2": 37.0,
+    "nota3": 38.0,
+    "suma": 75.0,
+    "fecha": "2026-10-15",
+    "carrera": "juez"
+  },
+  {
     "num": 3443,
     "nombre": "VAZQUEZ MORALES, CRISTINA",
     "trib": 1,
@@ -628,16 +638,6 @@
     "suma": 68.95,
     "fecha": "2026-09-21",
     "carrera": "juez"
-  },
-  {
-    "num": 1104,
-    "nombre": "FRAU PEREZ, PAULA",
-    "trib": 3,
-    "nota2": 36.83,
-    "nota3": 31.62,
-    "suma": 68.45,
-    "fecha": "2026-09-29",
-    "carrera": null
   },
   {
     "num": 506,
@@ -680,6 +680,16 @@
     "carrera": "juez"
   },
   {
+    "num": 1104,
+    "nombre": "FRAU PEREZ, PAULA",
+    "trib": 3,
+    "nota2": 36.83,
+    "nota3": 31.62,
+    "suma": 68.45,
+    "fecha": "2026-09-29",
+    "carrera": null
+  },
+  {
     "num": 1822,
     "nombre": "LOPEZ MENARGUES, ALICIA INMACULADA",
     "trib": 4,
@@ -688,16 +698,6 @@
     "suma": 68.13,
     "fecha": "2026-10-06",
     "carrera": "juez"
-  },
-  {
-    "num": 1159,
-    "nombre": "GANDIA CANOVAS, ANA MARIA",
-    "trib": 3,
-    "nota2": 32.83,
-    "nota3": 35.25,
-    "suma": 68.08,
-    "fecha": "2026-10-05",
-    "carrera": null
   },
   {
     "num": 766,
@@ -740,14 +740,14 @@
     "carrera": "juez"
   },
   {
-    "num": 1240,
-    "nombre": "GARCIA ORELLANA, FRANCISCO DE BORJA",
+    "num": 1159,
+    "nombre": "GANDIA CANOVAS, ANA MARIA",
     "trib": 3,
-    "nota2": 39.25,
-    "nota3": 28.62,
-    "suma": 67.87,
-    "fecha": "2026-10-13",
-    "carrera": "juez"
+    "nota2": 32.83,
+    "nota3": 35.25,
+    "suma": 68.08,
+    "fecha": "2026-10-05",
+    "carrera": null
   },
   {
     "num": 1807,
@@ -800,13 +800,13 @@
     "carrera": "juez"
   },
   {
-    "num": 1123,
-    "nombre": "FUSTER MOLL, XAVIER",
+    "num": 1240,
+    "nombre": "GARCIA ORELLANA, FRANCISCO DE BORJA",
     "trib": 3,
-    "nota2": 29.0,
-    "nota3": 37.0,
-    "suma": 66.0,
-    "fecha": "2026-10-01",
+    "nota2": 39.25,
+    "nota3": 28.62,
+    "suma": 67.87,
+    "fecha": "2026-10-13",
     "carrera": "juez"
   },
   {
@@ -860,14 +860,14 @@
     "carrera": "fiscal"
   },
   {
-    "num": 1357,
-    "nombre": "GOMEZ PUEYO, DIEGO",
+    "num": 1123,
+    "nombre": "FUSTER MOLL, XAVIER",
     "trib": 3,
-    "nota2": 32.33,
-    "nota3": 33.62,
-    "suma": 65.95,
-    "fecha": "2026-10-28",
-    "carrera": "fiscal"
+    "nota2": 29.0,
+    "nota3": 37.0,
+    "suma": 66.0,
+    "fecha": "2026-10-01",
+    "carrera": "juez"
   },
   {
     "num": 1844,
@@ -920,14 +920,14 @@
     "carrera": "fiscal"
   },
   {
-    "num": 1377,
-    "nombre": "GOMEZ-VILLABOA GUERRERO, CARMEN",
+    "num": 1357,
+    "nombre": "GOMEZ PUEYO, DIEGO",
     "trib": 3,
-    "nota2": 34.5,
-    "nota3": 30.75,
-    "suma": 65.25,
-    "fecha": "2026-11-03",
-    "carrera": "juez"
+    "nota2": 32.33,
+    "nota3": 33.62,
+    "suma": 65.95,
+    "fecha": "2026-10-28",
+    "carrera": "fiscal"
   },
   {
     "num": 2008,
@@ -980,14 +980,14 @@
     "carrera": "juez"
   },
   {
-    "num": 1077,
-    "nombre": "FEU RAMOS, BEGOÑA",
+    "num": 1377,
+    "nombre": "GOMEZ-VILLABOA GUERRERO, CARMEN",
     "trib": 3,
-    "nota2": 32.5,
-    "nota3": 31.5,
-    "suma": 64.0,
-    "fecha": "2026-09-24",
-    "carrera": "fiscal"
+    "nota2": 34.5,
+    "nota3": 30.75,
+    "suma": 65.25,
+    "fecha": "2026-11-03",
+    "carrera": "juez"
   },
   {
     "num": 1988,
@@ -1030,6 +1030,16 @@
     "carrera": "juez"
   },
   {
+    "num": 1077,
+    "nombre": "FEU RAMOS, BEGOÑA",
+    "trib": 3,
+    "nota2": 32.5,
+    "nota3": 31.5,
+    "suma": 64.0,
+    "fecha": "2026-09-24",
+    "carrera": "fiscal"
+  },
+  {
     "num": 3391,
     "nombre": "URQUIDI VEGA, ADRIAN",
     "trib": 1,
@@ -1046,16 +1056,6 @@
     "nota2": 37.5,
     "nota3": 25.0,
     "suma": 62.5,
-    "fecha": "2026-09-21",
-    "carrera": "juez"
-  },
-  {
-    "num": 1026,
-    "nombre": "FERNANDEZ HERNANDEZ, VICTOR MANUEL",
-    "trib": 3,
-    "nota2": 32.4,
-    "nota3": 28.5,
-    "suma": 60.9,
     "fecha": "2026-09-21",
     "carrera": "juez"
   },
@@ -1110,14 +1110,14 @@
     "carrera": "fiscal"
   },
   {
-    "num": 1376,
-    "nombre": "GOMEZ-TORGA UCEDA, BLANCA",
+    "num": 1026,
+    "nombre": "FERNANDEZ HERNANDEZ, VICTOR MANUEL",
     "trib": 3,
-    "nota2": 31.87,
-    "nota3": 27.25,
-    "suma": 59.12,
-    "fecha": "2026-11-03",
-    "carrera": "fiscal"
+    "nota2": 32.4,
+    "nota3": 28.5,
+    "suma": 60.9,
+    "fecha": "2026-09-21",
+    "carrera": "juez"
   },
   {
     "num": 665,
@@ -1160,6 +1160,16 @@
     "carrera": "juez"
   },
   {
+    "num": 1376,
+    "nombre": "GOMEZ-TORGA UCEDA, BLANCA",
+    "trib": 3,
+    "nota2": 31.87,
+    "nota3": 27.25,
+    "suma": 59.12,
+    "fecha": "2026-11-03",
+    "carrera": "fiscal"
+  },
+  {
     "num": 1697,
     "nombre": "LACASA ROYO, IRENE",
     "trib": 4,
@@ -1168,16 +1178,6 @@
     "suma": 59.06,
     "fecha": "2026-09-22",
     "carrera": "juez"
-  },
-  {
-    "num": 1082,
-    "nombre": "FINCH VAZQUEZ, ALBA",
-    "trib": 3,
-    "nota2": 34.0,
-    "nota3": 25.0,
-    "suma": 59.0,
-    "fecha": "2026-09-25",
-    "carrera": "fiscal"
   },
   {
     "num": 880,
@@ -1220,14 +1220,14 @@
     "carrera": "fiscal"
   },
   {
-    "num": 1215,
-    "nombre": "GARCIA LECHUGA, LUCIA",
+    "num": 1082,
+    "nombre": "FINCH VAZQUEZ, ALBA",
     "trib": 3,
-    "nota2": 29.66,
-    "nota3": 29.0,
-    "suma": 58.66,
-    "fecha": "2026-10-08",
-    "carrera": "juez"
+    "nota2": 34.0,
+    "nota3": 25.0,
+    "suma": 59.0,
+    "fecha": "2026-09-25",
+    "carrera": "fiscal"
   },
   {
     "num": 1848,
@@ -1280,14 +1280,14 @@
     "carrera": "fiscal"
   },
   {
-    "num": 1097,
-    "nombre": "FOS DE LA RUBIA, JOSE MANUEL",
+    "num": 1215,
+    "nombre": "GARCIA LECHUGA, LUCIA",
     "trib": 3,
-    "nota2": 28.25,
-    "nota3": 30.25,
-    "suma": 58.5,
-    "fecha": "2026-09-29",
-    "carrera": "fiscal"
+    "nota2": 29.66,
+    "nota3": 29.0,
+    "suma": 58.66,
+    "fecha": "2026-10-08",
+    "carrera": "juez"
   },
   {
     "num": 2036,
@@ -1340,14 +1340,14 @@
     "carrera": null
   },
   {
-    "num": 1177,
-    "nombre": "GARCIA CALVO, GUILLERMO",
+    "num": 1097,
+    "nombre": "FOS DE LA RUBIA, JOSE MANUEL",
     "trib": 3,
-    "nota2": 33.0,
-    "nota3": 25.0,
-    "suma": 58.0,
-    "fecha": "2026-10-06",
-    "carrera": "juez"
+    "nota2": 28.25,
+    "nota3": 30.25,
+    "suma": 58.5,
+    "fecha": "2026-09-29",
+    "carrera": "fiscal"
   },
   {
     "num": 1946,
@@ -1390,13 +1390,13 @@
     "carrera": "juez"
   },
   {
-    "num": 1412,
-    "nombre": "GONZALEZ HERNANDEZ, JOSE PABLO",
+    "num": 1177,
+    "nombre": "GARCIA CALVO, GUILLERMO",
     "trib": 3,
-    "nota2": 29.75,
-    "nota3": 25.75,
-    "suma": 55.5,
-    "fecha": "2026-11-05",
+    "nota2": 33.0,
+    "nota3": 25.0,
+    "suma": 58.0,
+    "fecha": "2026-10-06",
     "carrera": "juez"
   },
   {
@@ -1440,14 +1440,14 @@
     "carrera": "juez"
   },
   {
-    "num": 1427,
-    "nombre": "GONZALEZ OLALLA, LARA EZTIZEN",
+    "num": 1412,
+    "nombre": "GONZALEZ HERNANDEZ, JOSE PABLO",
     "trib": 3,
-    "nota2": 25.6,
-    "nota3": 27.5,
-    "suma": 53.1,
-    "fecha": "2026-11-06",
-    "carrera": null
+    "nota2": 29.75,
+    "nota3": 25.75,
+    "suma": 55.5,
+    "fecha": "2026-11-05",
+    "carrera": "juez"
   },
   {
     "num": 848,
@@ -1490,14 +1490,14 @@
     "carrera": "fiscal"
   },
   {
-    "num": 1065,
-    "nombre": "FERNANDEZ VERA, MARIA ITZIAR",
+    "num": 1427,
+    "nombre": "GONZALEZ OLALLA, LARA EZTIZEN",
     "trib": 3,
-    "nota2": 26.62,
-    "nota3": 26.0,
-    "suma": 52.62,
-    "fecha": "2026-09-23",
-    "carrera": "juez"
+    "nota2": 25.6,
+    "nota3": 27.5,
+    "suma": 53.1,
+    "fecha": "2026-11-06",
+    "carrera": null
   },
   {
     "num": 530,
@@ -1520,13 +1520,13 @@
     "carrera": "fiscal"
   },
   {
-    "num": 1374,
-    "nombre": "GOMEZ DE MERCADO LOPEZ, NICOLAS",
+    "num": 1065,
+    "nombre": "FERNANDEZ VERA, MARIA ITZIAR",
     "trib": 3,
-    "nota2": 25.0,
-    "nota3": 25.0,
-    "suma": 50.0,
-    "fecha": "2026-10-30",
+    "nota2": 26.62,
+    "nota3": 26.0,
+    "suma": 52.62,
+    "fecha": "2026-09-23",
     "carrera": "juez"
   },
   {
@@ -1537,6 +1537,16 @@
     "nota3": 25.0,
     "suma": 56.96,
     "fecha": "2026-09-21",
+    "carrera": "juez"
+  },
+  {
+    "num": 1374,
+    "nombre": "GOMEZ DE MERCADO LOPEZ, NICOLAS",
+    "trib": 3,
+    "nota2": 25.0,
+    "nota3": 25.0,
+    "suma": 50.0,
+    "fecha": "2026-10-30",
     "carrera": "juez"
   },
   {
