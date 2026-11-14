@@ -1,6 +1,6 @@
 {
   "trib": 3,
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "items": [
     {
       "num": 1026,
@@ -545,6 +545,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-12"
+    },
+    {
+      "num": 1501,
+      "nombre": "GUILLEN BRAVO, ALBERTO",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-13"
+    },
+    {
+      "num": 1515,
+      "nombre": "GUTIERREZ OLIET, MARTA",
+      "trib": 3,
+      "nota3": 36.75,
+      "estado": "apto",
+      "fecha": "2026-11-13"
     }
   ]
 }
