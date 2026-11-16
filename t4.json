@@ -1,6 +1,6 @@
 {
   "trib": 4,
-  "updated": "2026-11-12",
+  "updated": "2026-11-16",
   "items": [
     {
       "num": 1645,
@@ -457,6 +457,22 @@
       "nota3": 32.37,
       "estado": "apto",
       "fecha": "2026-11-12"
+    },
+    {
+      "num": 2128,
+      "nombre": "MESA DIAZ, JOSE MARIA",
+      "trib": 4,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-16"
+    },
+    {
+      "num": 2138,
+      "nombre": "MIGUEL GOMEZ, PATRICIA",
+      "trib": 4,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-16"
     }
   ]
 }

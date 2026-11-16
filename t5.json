@@ -1,6 +1,6 @@
 {
   "trib": 5,
-  "updated": "2026-11-13",
+  "updated": "2026-11-16",
   "items": [
     {
       "num": 2232,
@@ -425,6 +425,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-13"
+    },
+    {
+      "num": 2717,
+      "nombre": "RABADAN CARRASCO, ELENA",
+      "trib": 5,
+      "nota3": 26.76,
+      "estado": "apto",
+      "fecha": "2026-11-16"
+    },
+    {
+      "num": 2719,
+      "nombre": "RABASCO PEREZ, SAMUEL",
+      "trib": 5,
+      "nota3": 28.76,
+      "estado": "apto",
+      "fecha": "2026-11-16"
     }
   ]
 }

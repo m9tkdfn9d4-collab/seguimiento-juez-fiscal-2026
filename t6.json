@@ -1,6 +1,6 @@
 {
   "trib": 6,
-  "updated": "2026-11-13",
+  "updated": "2026-11-16",
   "items": [
     {
       "num": 2797,
@@ -433,6 +433,22 @@
       "nota3": 25.0,
       "estado": "apto",
       "fecha": "2026-11-13"
+    },
+    {
+      "num": 3301,
+      "nombre": "TARRON SOLA, ALEJANDRO",
+      "trib": 6,
+      "nota3": 45.0,
+      "estado": "apto",
+      "fecha": "2026-11-16"
+    },
+    {
+      "num": 3309,
+      "nombre": "TEJERO RONCERO, MARIO",
+      "trib": 6,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-16"
     }
   ]
 }
