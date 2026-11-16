@@ -1,6 +1,6 @@
 {
   "trib": 1,
-  "updated": "2026-11-12",
+  "updated": "2026-11-16",
   "items": [
     {
       "num": 5,
@@ -497,6 +497,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-12"
+    },
+    {
+      "num": 322,
+      "nombre": "BELMONTE LOPEZ, ALBA",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-16"
+    },
+    {
+      "num": 332,
+      "nombre": "BENITEZ MARTINEZ, RAFAEL",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-16"
     }
   ]
 }
