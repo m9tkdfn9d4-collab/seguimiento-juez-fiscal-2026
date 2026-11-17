@@ -1,6 +1,6 @@
 {
   "trib": 6,
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "items": [
     {
       "num": 2797,
@@ -449,6 +449,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-16"
+    },
+    {
+      "num": 3313,
+      "nombre": "TENA MORENO, OSCAR",
+      "trib": 6,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-17"
+    },
+    {
+      "num": 3324,
+      "nombre": "TIRADO GONZALEZ, CRISTINA",
+      "trib": 6,
+      "nota3": 38.25,
+      "estado": "apto",
+      "fecha": "2026-11-17"
     }
   ]
 }

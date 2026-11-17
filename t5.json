@@ -1,6 +1,6 @@
 {
   "trib": 5,
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "items": [
     {
       "num": 2232,
@@ -441,6 +441,22 @@
       "nota3": 28.76,
       "estado": "apto",
       "fecha": "2026-11-16"
+    },
+    {
+      "num": 2723,
+      "nombre": "RAMIL MEJUTO, ELENA",
+      "trib": 5,
+      "nota3": 41.25,
+      "estado": "apto",
+      "fecha": "2026-11-17"
+    },
+    {
+      "num": 2732,
+      "nombre": "RAMIREZ MARRERO, FRANCISCO REYES",
+      "trib": 5,
+      "nota3": 32.25,
+      "estado": "apto",
+      "fecha": "2026-11-17"
     }
   ]
 }

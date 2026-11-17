@@ -1,6 +1,6 @@
 {
   "trib": 4,
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "items": [
     {
       "num": 1645,
@@ -473,6 +473,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-16"
+    },
+    {
+      "num": 2150,
+      "nombre": "MINGUEZ MORILLO, PATRICIA",
+      "trib": 4,
+      "nota3": 37,
+      "estado": "apto",
+      "fecha": "2026-11-17"
+    },
+    {
+      "num": 2154,
+      "nombre": "MIÑANO CARRASCO, ZAIRA",
+      "trib": 4,
+      "nota3": 43,
+      "estado": "apto",
+      "fecha": "2026-11-17"
     }
   ]
 }
