@@ -1,6 +1,6 @@
 {
   "trib": 1,
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "items": [
     {
       "num": 5,
@@ -513,6 +513,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-16"
+    },
+    {
+      "num": 333,
+      "nombre": "BENITEZ RODRIGUEZ, RAMON",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-17"
+    },
+    {
+      "num": 338,
+      "nombre": "BERBERIA BERGAZ, MARINA",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-17"
     }
   ]
 }

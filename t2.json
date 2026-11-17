@@ -1,6 +1,6 @@
 {
   "trib": 2,
-  "updated": "2026-11-12",
+  "updated": "2026-11-17",
   "items": [
     {
       "num": 413,
@@ -369,6 +369,22 @@
       "nota3": 47.5,
       "estado": "apto",
       "fecha": "2026-11-12"
+    },
+    {
+      "num": 924,
+      "nombre": "ENGUIX GOMEZ, CELIA",
+      "trib": 2,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-17"
+    },
+    {
+      "num": 928,
+      "nombre": "ESCALERA CORDERO, ALVARO",
+      "trib": 2,
+      "nota3": 30.33,
+      "estado": "apto",
+      "fecha": "2026-11-17"
     }
   ]
 }
