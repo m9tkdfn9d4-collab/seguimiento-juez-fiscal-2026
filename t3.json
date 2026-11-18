@@ -1,6 +1,6 @@
 {
   "trib": 3,
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "items": [
     {
       "num": 1026,
@@ -577,6 +577,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-16"
+    },
+    {
+      "num": 1538,
+      "nombre": "HERNANDEZ ESPIN, BLAS",
+      "trib": 3,
+      "nota3": 31.33,
+      "estado": "apto",
+      "fecha": "2026-11-17"
+    },
+    {
+      "num": 1544,
+      "nombre": "HERNANDEZ HERNANDEZ, ALEJANDRO",
+      "trib": 3,
+      "nota3": 42.66,
+      "estado": "apto",
+      "fecha": "2026-11-17"
     }
   ]
 }
