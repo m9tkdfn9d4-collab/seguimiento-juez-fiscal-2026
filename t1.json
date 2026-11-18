@@ -1,6 +1,6 @@
 {
   "trib": 1,
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "items": [
     {
       "num": 5,
@@ -529,6 +529,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-17"
+    },
+    {
+      "num": 340,
+      "nombre": "BEREINKUA ARANBURU, GANIX",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-18"
+    },
+    {
+      "num": 364,
+      "nombre": "BLANCO ESCRIBANO, ANDREA",
+      "trib": 1,
+      "nota3": 27.5,
+      "estado": "apto",
+      "fecha": "2026-11-18"
     }
   ]
 }
