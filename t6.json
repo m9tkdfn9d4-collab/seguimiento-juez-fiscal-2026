@@ -1,6 +1,6 @@
 {
   "trib": 6,
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "items": [
     {
       "num": 2797,
@@ -465,6 +465,22 @@
       "nota3": 38.25,
       "estado": "apto",
       "fecha": "2026-11-17"
+    },
+    {
+      "num": 3329,
+      "nombre": "TORAL PAZOS, ANTONIA VICTORIA",
+      "trib": 6,
+      "nota3": 45.0,
+      "estado": "apto",
+      "fecha": "2026-11-18"
+    },
+    {
+      "num": 3340,
+      "nombre": "TORRES AVILA, CYNTHIA",
+      "trib": 6,
+      "nota3": 25.0,
+      "estado": "apto",
+      "fecha": "2026-11-18"
     }
   ]
 }

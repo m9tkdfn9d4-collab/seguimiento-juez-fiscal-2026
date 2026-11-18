@@ -1,6 +1,6 @@
 {
   "trib": 5,
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "items": [
     {
       "num": 2232,
@@ -457,6 +457,22 @@
       "nota3": 32.25,
       "estado": "apto",
       "fecha": "2026-11-17"
+    },
+    {
+      "num": 2744,
+      "nombre": "RAMOS DORADO, MARIA",
+      "trib": 5,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-18"
+    },
+    {
+      "num": 2762,
+      "nombre": "RANCHAL MUÑOZ, LUCIA",
+      "trib": 5,
+      "nota3": 25,
+      "estado": "apto",
+      "fecha": "2026-11-18"
     }
   ]
 }

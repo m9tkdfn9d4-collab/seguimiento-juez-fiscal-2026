@@ -1,6 +1,6 @@
 {
   "trib": 4,
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "items": [
     {
       "num": 1645,
@@ -489,6 +489,22 @@
       "nota3": 43,
       "estado": "apto",
       "fecha": "2026-11-17"
+    },
+    {
+      "num": 2162,
+      "nombre": "MIRANDA MOLINA, AIDA",
+      "trib": 4,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-18"
+    },
+    {
+      "num": 2169,
+      "nombre": "MOHACHO GARRIDO, LAURA",
+      "trib": 4,
+      "nota3": 25,
+      "estado": "apto",
+      "fecha": "2026-11-18"
     }
   ]
 }
