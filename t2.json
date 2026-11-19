@@ -1,6 +1,6 @@
 {
   "trib": 2,
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "items": [
     {
       "num": 413,
@@ -385,6 +385,22 @@
       "nota3": 30.33,
       "estado": "apto",
       "fecha": "2026-11-17"
+    },
+    {
+      "num": 935,
+      "nombre": "ESCRIBANO CRUZ, ANA ISABEL",
+      "trib": 2,
+      "nota3": 25.0,
+      "estado": "apto",
+      "fecha": "2026-11-18"
+    },
+    {
+      "num": 936,
+      "nombre": "ESCRIBANO ESCASO, ALBA",
+      "trib": 2,
+      "nota3": 48.3,
+      "estado": "apto",
+      "fecha": "2026-11-18"
     }
   ]
 }
