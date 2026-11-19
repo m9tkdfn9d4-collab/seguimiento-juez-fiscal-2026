@@ -1,6 +1,6 @@
 {
   "trib": 4,
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "items": [
     {
       "num": 1645,
@@ -505,6 +505,22 @@
       "nota3": 25,
       "estado": "apto",
       "fecha": "2026-11-18"
+    },
+    {
+      "num": 2177,
+      "nombre": "MOLINA MADRIGAL, IZHAR",
+      "trib": 4,
+      "nota3": 47.5,
+      "estado": "apto",
+      "fecha": "2026-11-19"
+    },
+    {
+      "num": 2179,
+      "nombre": "MOLINA RUIZ, ANTONIO",
+      "trib": 4,
+      "nota3": 28.0,
+      "estado": "apto",
+      "fecha": "2026-11-19"
     }
   ]
 }

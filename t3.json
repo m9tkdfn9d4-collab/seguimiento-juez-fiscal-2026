@@ -1,6 +1,6 @@
 {
   "trib": 3,
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "items": [
     {
       "num": 1026,
@@ -609,6 +609,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-18"
+    },
+    {
+      "num": 1571,
+      "nombre": "HERRERO ALONSO, ESTELA",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-19"
+    },
+    {
+      "num": 1580,
+      "nombre": "HIDALGO GONZALEZ, CLAUDIA",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-19"
     }
   ]
 }
