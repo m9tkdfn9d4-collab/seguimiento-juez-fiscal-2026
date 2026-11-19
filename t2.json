@@ -1,6 +1,6 @@
 {
   "trib": 2,
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "items": [
     {
       "num": 413,
@@ -401,6 +401,22 @@
       "nota3": 48.3,
       "estado": "apto",
       "fecha": "2026-11-18"
+    },
+    {
+      "num": 957,
+      "nombre": "ESTEBAN CABELLO, TERESA",
+      "trib": 2,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-19"
+    },
+    {
+      "num": 965,
+      "nombre": "ESTEVE CARRASCOSA, ALBA",
+      "trib": 2,
+      "nota3": 33.5,
+      "estado": "apto",
+      "fecha": "2026-11-19"
     }
   ]
 }

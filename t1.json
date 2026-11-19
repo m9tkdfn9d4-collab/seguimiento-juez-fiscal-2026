@@ -1,6 +1,6 @@
 {
   "trib": 1,
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "items": [
     {
       "num": 5,
@@ -545,6 +545,22 @@
       "nota3": 27.5,
       "estado": "apto",
       "fecha": "2026-11-18"
+    },
+    {
+      "num": 375,
+      "nombre": "BLASCO TAFALLA, CINTA",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-19"
+    },
+    {
+      "num": 380,
+      "nombre": "BLESA ESCALONA, RAMON ALVARO",
+      "trib": 1,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-19"
     }
   ]
 }
