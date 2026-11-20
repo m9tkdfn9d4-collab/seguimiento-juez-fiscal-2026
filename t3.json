@@ -1,6 +1,6 @@
 {
   "trib": 3,
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "items": [
     {
       "num": 1026,
@@ -625,6 +625,22 @@
       "nota3": null,
       "estado": "no_apto",
       "fecha": "2026-11-19"
+    },
+    {
+      "num": 1583,
+      "nombre": "HINESTROSA RODRIGUEZ, ISABEL",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-20"
+    },
+    {
+      "num": 1589,
+      "nombre": "HUERTAS ESCOBAR, MODESTO",
+      "trib": 3,
+      "nota3": null,
+      "estado": "no_apto",
+      "fecha": "2026-11-20"
     }
   ]
 }
