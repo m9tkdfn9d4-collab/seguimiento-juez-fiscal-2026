@@ -1,1 +1,13 @@
-PLACEHOLDER
+{
+  "updated": "2026-11-25",
+  "items": [
+    {
+      "num": 5,
+      "nombre": "ABELENDA MARQUINA, ELENA",
+      "trib": 1,
+      "nota3": 34.32,
+      "estado": "apto",
+      "fecha": "2026-10-09"
+    }
+  ]
+}
