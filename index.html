@@ -85,6 +85,12 @@ tr.row-no:hover td{background:#fee2e2}
 }
 .rep{display:inline-block;margin-left:6px;background:#fef3c7;color:#92400e;
   font-size:10px;font-weight:600;padding:1px 6px;border-radius:999px}
+.done-badge{display:inline-flex;align-items:center;gap:6px;background:#1d4ed8;color:#fff;font-size:11px;font-weight:600;padding:4px 10px;border-radius:999px;margin:12px 0 8px}
+.disp{display:inline-block;margin-left:6px;background:#dbeafe;color:#1e40af;font-size:10px;font-weight:600;padding:1px 6px;border-radius:999px}
+.disc{display:inline-block;margin-left:6px;background:#ede9fe;color:#5b21b6;font-size:10px;font-weight:600;padding:1px 6px;border-radius:999px}
+.fin-banner{background:#eff6ff;border:1px solid #bfdbfe;border-left:4px solid #1d4ed8;border-radius:12px;padding:16px 20px;margin:0 0 20px}
+.fin-banner h2{margin:0 0 6px;font-size:18px;color:#1e3a8a}
+.fin-banner p{margin:0;font-size:14px;line-height:1.5;color:#1f2937}
 .section{display:none}
 .section.on{display:block}
 footer{margin-top:24px;color:var(--muted);font-size:12px}
@@ -110,10 +116,10 @@ footer{margin-top:24px;color:var(--muted);font-size:12px}
 <body>
 <div class="app">
   <aside>
-    <div class="brand"><span>Convocatoria 2025</span>Carreras Judicial y Fiscal</div>
-    <div class="live-badge">En curso</div>
-    <p>3.er y último ejercicio</p>
-    <div class="updated-badge">Actualizado a 28 oct 2026</div>
+    <div class="brand"><span id="brandConv">Convocatoria 2025</span>Carreras Judicial y Fiscal</div>
+    <div class="done-badge" id="sideBadge">✓ Finalizada</div>
+    <p id="sideText">3.er y último ejercicio · terminado el 26 nov 2026</p>
+    <div class="updated-badge" id="sideUpd">Actualizado a 26 nov 2026</div>
     <div style="margin-bottom:16px">
       <div style="font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:#6b7280;margin-bottom:6px">Convocatoria</div>
       <div style="display:flex;gap:4px">
@@ -131,10 +137,25 @@ footer{margin-top:24px;color:var(--muted);font-size:12px}
       <button data-tab="t5">Tribunal 5</button>
       <button data-tab="t6">Tribunal 6</button>
     </nav>
+    <nav id="nav26" style="display:none">
+      <button data-tab="conv2026" class="active">Resumen 2026</button>
+      <button data-tab="c26t1">Tribunal 1</button>
+      <button data-tab="c26t2">Tribunal 2</button>
+      <button data-tab="c26t3">Tribunal 3</button>
+      <button data-tab="c26t4">Tribunal 4</button>
+      <button data-tab="c26t5">Tribunal 5</button>
+      <button data-tab="c26t6">Tribunal 6</button>
+      <button data-tab="c26t7">Tribunal 7</button>
+      <button data-tab="c26t8">Tribunal 8</button>
+    </nav>
   </aside>
   <main>
     <section id="home" class="section on">
       <h1>Visión general</h1>
+      <div class="fin-banner" id="finBanner">
+        <h2>✓ Convocatoria 2025 finalizada</h2>
+        <p>El 3.er ejercicio (segundo oral) terminó el 26 de noviembre de 2026. De los 426 aspirantes citados, <b id="fin-aptos">199</b> han resultado aptos para <b>200 plazas</b> (120 de Juez/a y 80 de Fiscal). Resultados según las actas de cada sesión; la relación definitiva la publicará el CGPJ.</p>
+      </div>
       
       <div class="kpis" id="kpis"></div>
       <div class="tiles" id="tiles"></div>
@@ -143,7 +164,11 @@ footer{margin-top:24px;color:var(--muted);font-size:12px}
     <section id="conv2026" class="section">
       <h1>Convocatoria 2026</h1>
       <p class="lead">Primer ejercicio: domingo 25 de octubre de 2026</p>
-      <div class="live-badge" style="margin-bottom:16px">Nota de corte publicada · 28 oct 2026</div>
+      <div class="live-badge" style="margin-bottom:16px">2.º ejercicio convocado · 8 tribunales</div>
+      <div class="card" style="padding:20px;margin-bottom:16px" id="ov26">
+        <h3 style="margin:0 0 12px;font-size:16px">Segundo ejercicio (1.er oral) · convocados por tribunales</h3>
+        <div id="ov26body"><p style="margin:0;color:var(--muted);font-size:14px">Cargando convocatoria…</p></div>
+      </div>
       <div class="card" style="padding:20px;margin-bottom:16px">
         <h3 style="margin:0 0 12px;font-size:16px">Primer ejercicio (Test · 25 oct 2026)</h3>
         <ul class="stat-list" style="margin:0">
@@ -170,11 +195,11 @@ footer{margin-top:24px;color:var(--muted);font-size:12px}
         <h3 style="margin:0 0 12px;font-size:16px">Calendario estimativo</h3>
         <ul class="stat-list" style="margin:0">
           <li><span>1.er ejercicio (test)</span><b>25 oct 2026</b></li>
-          <li><span>2.º ejercicio (oral)</span><b>Feb–Jun 2027</b></li>
-          <li><span>3.er ejercicio (oral)</span><b>Sep 2027</b></li>
+          <li><span>2.º ejercicio (1.er oral)</span><b>1 mar – 18 jun 2027</b></li>
+          <li><span>3.er ejercicio (2.º oral)</span><b>Sep 2027</b></li>
         </ul>
       </div>
-      <p style="margin-top:16px;font-size:13px;color:#6b7280">El seguimiento detallado de notas se activará cuando salgan los resultados del primer ejercicio.</p>
+      <p style="margin-top:16px;font-size:13px;color:#6b7280">El 2.º ejercicio (1.er oral) ya tiene convocatoria por tribunales y semanas: consulta cada tribunal en el menú lateral. Las notas del 2.º ejercicio se irán añadiendo cuando se publiquen las actas.</p>
     </section>
     <section id="aptos" class="section">
       <h1>Aprobados</h1>
@@ -182,7 +207,8 @@ footer{margin-top:24px;color:var(--muted);font-size:12px}
       <div id="aptosBody"></div>
     </section>
     <div id="tribPages"></div>
-    <footer>Convocatoria 2025 · Carreras Judicial y Fiscal · Actualizado a 28 oct 2026</footer>
+    <div id="tribPages26"></div>
+    <footer><span id="footConv">Convocatoria 2025 (finalizada)</span> · Carreras Judicial y Fiscal · Actualizado a 27 nov 2026</footer>
   </main>
 </div>
 <script>
@@ -243,7 +269,7 @@ function stats(list){
   };
 }
 function go(id){
-  document.querySelectorAll('#nav button').forEach(x => x.classList.toggle('active', x.dataset.tab===id));
+  document.querySelectorAll('#nav button, #nav26 button').forEach(x => x.classList.toggle('active', x.dataset.tab===id));
   document.querySelectorAll('.section').forEach(s => s.classList.toggle('on', s.id===id));
   window.scrollTo(0,0);
 }
@@ -255,16 +281,25 @@ document.querySelectorAll('.conv-btn').forEach(btn => {
       b.style.color = b===btn ? '#fff' : '#d1d5db';
     });
     const conv = btn.dataset.conv;
+    const sb=document.getElementById('sideBadge'), st=document.getElementById('sideText'), su=document.getElementById('sideUpd'), bc=document.getElementById('brandConv'), fc=document.getElementById('footConv');
     if(conv==='2026'){
       go('conv2026');
       document.getElementById('nav').style.display='none';
+      document.getElementById('nav26').style.display='';
+      sb.className='live-badge'; sb.textContent='En curso';
+      st.textContent='2.º ejercicio (1.er oral) · mar–jun 2027';
+      su.textContent='Actualizado a 27 nov 2026'; bc.textContent='Convocatoria 2026'; fc.textContent='Convocatoria 2026 (en curso)';
     } else {
       go('home');
       document.getElementById('nav').style.display='';
+      document.getElementById('nav26').style.display='none';
+      sb.className='done-badge'; sb.textContent='✓ Finalizada';
+      st.textContent='3.er y último ejercicio · terminado el 26 nov 2026';
+      su.textContent='Actualizado a 26 nov 2026'; bc.textContent='Convocatoria 2025'; fc.textContent='Convocatoria 2025 (finalizada)';
     }
   };
 });
-document.querySelectorAll('#nav button').forEach(b => b.onclick = () => go(b.dataset.tab));
+document.querySelectorAll('#nav button, #nav26 button').forEach(b => b.onclick = () => go(b.dataset.tab));
 
 function renderAptos(){
   const box=document.getElementById('aptosBody');
@@ -374,6 +409,7 @@ function renderTiles(){
     const aptos = NOTAS.items.filter(x => x.trib===t && (x.estado==='apto'||x.estado==='20'||x.estado==='>=20'));
     const n3s = aptos.map(x => x.nota3).filter(v => v!=null).map(Number);
     const media3 = n3s.length ? n3s.reduce((a,b)=>a+b,0)/n3s.length : null;
+    const fa = document.getElementById('fin-aptos'); if(fa) fa.textContent = NOTAS.items.filter(x=>x.estado==='apto'||x.estado==='20'||x.estado==='>=20').length;
     const elHero = document.getElementById('t-aptos-hero-'+t);
     if(elHero) elHero.textContent = aptos.length;
     const elLi = document.getElementById('t-aptos-li-'+t);
@@ -443,6 +479,105 @@ document.querySelectorAll('.search').forEach(inp => {
       </tr>`).join('');
   };
 });
+
+
+/* ===== Convocatoria 2026 · 2.º ejercicio (1.er oral) por tribunales ===== */
+const C26 = {people:[], loaded:false};
+const NT26 = [1,2,3,4,5,6,7,8];
+const sem26 = s => s.replace('/','·');
+function prevLabel26(p){
+  if(!p.d || !p.prev) return '';
+  const pr = p.prev;
+  if(pr.nota==null) return '';
+  const lab = pr.c==='2025' ? 'conv. 2025 · test 1 feb 2026' : 'conv. 2024 · test 2 mar 2025';
+  return `<div style="color:#1e40af;font-size:11px;margin-top:2px" title="Nota del test con la que quedó dispensado/a del 1.er ejercicio">Tenía <b>${fmt(pr.nota)}</b> <span style="color:#6b7280">(${lab})</span></div>`;
+}
+function notaCell26(p){
+  if(p.d) return `<span class="disp" style="margin-left:0">Dispensado/a</span>${prevLabel26(p)}`;
+  return `<b>${fmt(p.nota)}</b>`;
+}
+function row26(p){
+  return `<tr>
+    <td style="color:#6b7280">${p.n}</td>
+    <td>${anon(p.nombre)}${p.tu==='D'?'<span class="disc" title="Turno de reserva para personas con discapacidad">D</span>':''}</td>
+    <td>${notaCell26(p)}</td>
+    <td>${p.sem}</td>
+  </tr>`;
+}
+function stats26(list){
+  const nn = list.filter(p=>!p.d).map(p=>p.nota);
+  const disp = list.filter(p=>p.d);
+  const sems = [...new Set(list.map(p=>p.sem))];
+  return {n:list.length, nDisp:disp.length, nTest:nn.length, media:avg(nn), max:nn.length?Math.max(...nn):null, min:nn.length?Math.min(...nn):null, nD:list.filter(p=>p.tu==='D').length, nSem:sems.length};
+}
+function renderConv26(){
+  const ppl = C26.people;
+  const byT26 = t => ppl.filter(p=>p.t===t);
+  const S = stats26(ppl);
+  const prev25 = ppl.filter(p=>p.d && p.prev && p.prev.c==='2025').length;
+  const prev24 = ppl.filter(p=>p.d && p.prev && p.prev.c==='2024').length;
+  document.getElementById('ov26body').innerHTML = `
+    <ul class="stat-list" style="margin:0 0 14px">
+      <li><span>Convocados al 2.º ejercicio</span><b>${S.n.toLocaleString('es-ES')}</b></li>
+      <li><span>Superaron el test (nota de corte ${fmt(C26.corte)})</span><b>${S.nTest.toLocaleString('es-ES')}</b></li>
+      <li><span>Dispensados del 1.er ejercicio (test aprobado en convocatorias anteriores)</span><b>${S.nDisp}</b></li>
+      <li><span>&nbsp;&nbsp;↳ con nota de la convocatoria 2025 (test 1 feb 2026)</span><b>${prev25}</b></li>
+      <li><span>&nbsp;&nbsp;↳ ya dispensados en 2025: nota de la convocatoria 2024 (test 2 mar 2025)</span><b>${prev24}</b></li>
+      <li><span>Turno de reserva para discapacidad</span><b>${S.nD}</b></li>
+      <li><span>Media del test (no dispensados)</span><b>${fmt(S.media)}</b></li>
+      <li><span>Nota más alta del test</span><b>${fmt(S.max)}</b></li>
+    </ul>
+    <div class="tiles" id="tiles26" style="margin-bottom:0">${NT26.map(t=>{
+      const l=byT26(t), s=stats26(l);
+      return `<button class="tile" data-go26="c26t${t}">
+        <h3>Tribunal ${t}</h3>
+        <div class="meta"><b style="color:#2563eb;font-size:18px">${s.n}</b> convocados</div>
+        <div class="meta">Dispensados: <b>${s.nDisp}</b></div>
+        <div class="meta">Media test: <b>${fmt(s.media)}</b></div>
+      </button>`;}).join('')}</div>`;
+  document.querySelectorAll('[data-go26]').forEach(el => el.onclick = () => go(el.dataset.go26));
+  document.getElementById('tribPages26').innerHTML = NT26.map(t=>{
+    const list = byT26(t), s = stats26(list);
+    const weeks = [...new Set(list.map(p=>p.sem))];
+    return `<section id="c26t${t}" class="section">
+      <h1>Tribunal ${t} · Convocatoria 2026</h1>
+      <div style="text-align:center;margin:8px 0 16px">
+        <div style="font-size:13px;color:#666;text-transform:uppercase;letter-spacing:.5px">Convocados</div>
+        <div style="font-size:42px;font-weight:700;color:#2563eb">${s.n}</div>
+      </div>
+      <ul class="stat-list">
+        <li><span>Superaron el test</span><b>${s.nTest}</b></li>
+        <li><span>Dispensados del 1.er ejercicio</span><b>${s.nDisp}</b></li>
+        <li><span>Turno de reserva para discapacidad</span><b>${s.nD}</b></li>
+        <li><span>Media del test (no dispensados)</span><b>${fmt(s.media)}</b></li>
+        <li><span>Nota más alta · más baja del test</span><b>${fmt(s.max)} · ${fmt(s.min)}</b></li>
+        <li><span>Semanas de examen</span><b>${weeks.length} (${weeks[0]} → ${weeks[weeks.length-1]})</b></li>
+      </ul>
+      <p style="font-size:12px;color:#6b7280;margin:0 0 12px;line-height:1.5">Nota = calificación del test (1.er ejercicio, 25 oct 2026). <span class="disp" style="margin-left:0">Dispensado/a</span> = aprobó el test en una convocatoria anterior; debajo se indica la nota que tenía. <span class="disc" style="margin-left:0">D</span> = turno de reserva para personas con discapacidad. Nº = orden de la convocatoria.</p>
+      <input class="search" data-t26="${t}" placeholder="Buscar apellido o nº"/>
+      <div class="card">
+        <table>
+          <thead><tr><th>Nº</th><th>Nombre</th><th>1.er ejercicio (test)</th><th>Semana examen</th></tr></thead>
+          <tbody id="body26-${t}">${list.map(row26).join('')}</tbody>
+        </table>
+      </div>
+    </section>`;
+  }).join('');
+  document.querySelectorAll('.search[data-t26]').forEach(inp => {
+    inp.oninput = () => {
+      const q = inp.value.trim().toLowerCase();
+      const t = +inp.dataset.t26;
+      document.getElementById('body26-'+t).innerHTML = byT26(t)
+        .filter(p => !q || p.nombre.toLowerCase().includes(q) || String(p.n).includes(q))
+        .map(row26).join('');
+    };
+  });
+}
+fetch('https://raw.githubusercontent.com/m9tkdfn9d4-collab/seguimiento-juez-fiscal-2026/main/conv2026.json?t='+Date.now())
+  .then(r=>r.ok?r.json():Promise.reject())
+  .catch(()=>fetch('conv2026.json').then(r=>r.json()))
+  .then(j=>{ C26.people=j.people; C26.corte=j.corte; C26.loaded=true; renderConv26(); })
+  .catch(()=>{ const b=document.getElementById('ov26body'); if(b) b.innerHTML='<p style="margin:0;color:#dc2626;font-size:14px">No se ha podido cargar la convocatoria 2026. Recarga la página.</p>'; });
 
 fetch('https://raw.githubusercontent.com/m9tkdfn9d4-collab/seguimiento-juez-fiscal-2026/main/notas.json?t='+Date.now()).catch(()=>fetch('notas.json')).then(r=>r&&r.ok?r.json():fetch('notas.json').then(r2=>r2.ok?r2.json():null)).then(j=>{
   if(!j || !j.items || !j.items.length) return;
