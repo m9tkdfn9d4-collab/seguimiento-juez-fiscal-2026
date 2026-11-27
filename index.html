@@ -85,7 +85,7 @@ tr.row-no:hover td{background:#fee2e2}
 }
 .rep{display:inline-block;margin-left:6px;background:#fef3c7;color:#92400e;
   font-size:10px;font-weight:600;padding:1px 6px;border-radius:999px}
-.done-badge{display:inline-flex;align-items:center;gap:6px;background:#1d4ed8;color:#fff;font-size:11px;font-weight:600;padding:4px 10px;border-radius:999px;margin:12px 0 8px}
+.done-badge{display:inline-flex;align-items:center;gap:6px;background:#dc2626;color:#fff;font-size:11px;font-weight:600;padding:4px 10px;border-radius:999px;margin:12px 0 8px}
 .disp{display:inline-block;margin-left:6px;background:#dbeafe;color:#1e40af;font-size:10px;font-weight:600;padding:1px 6px;border-radius:999px}
 .disc{display:inline-block;margin-left:6px;background:#ede9fe;color:#5b21b6;font-size:10px;font-weight:600;padding:1px 6px;border-radius:999px}
 .apto25{display:inline-block;margin-left:6px;background:#ffedd5;color:#9a3412;font-size:10px;font-weight:600;padding:1px 6px;border-radius:999px}
@@ -94,8 +94,8 @@ tr.row-apto25 td:first-child{box-shadow:inset 3px 0 0 #ea580c}
 tr.row-apto25:hover td{background:#ffedd5}
 .filt26{display:inline-flex;align-items:center;gap:6px;margin:0 0 12px 8px;font-size:13px;color:#9a3412;cursor:pointer;user-select:none}
 .filt26 input{margin:0}
-.fin-banner{background:#eff6ff;border:1px solid #bfdbfe;border-left:4px solid #1d4ed8;border-radius:12px;padding:16px 20px;margin:0 0 20px}
-.fin-banner h2{margin:0 0 6px;font-size:18px;color:#1e3a8a}
+.fin-banner{background:#fef2f2;border:1px solid #fecaca;border-left:4px solid #dc2626;border-radius:12px;padding:16px 20px;margin:0 0 20px}
+.fin-banner h2{margin:0 0 6px;font-size:18px;color:#991b1b}
 .fin-banner p{margin:0;font-size:14px;line-height:1.5;color:#1f2937}
 .section{display:none}
 .section.on{display:block}
@@ -170,7 +170,7 @@ footer{margin-top:24px;color:var(--muted);font-size:12px}
     <section id="conv2026" class="section">
       <h1>Convocatoria 2026</h1>
       <p class="lead">Primer ejercicio: domingo 25 de octubre de 2026</p>
-      <div class="live-badge" style="margin-bottom:16px">2.º ejercicio convocado · 8 tribunales</div>
+      <div class="live-badge" style="margin-bottom:16px">2.º ejercicio · empieza el 1 de marzo de 2027</div>
       <div class="card" style="padding:20px;margin-bottom:16px" id="ov26">
         <h3 style="margin:0 0 12px;font-size:16px">Segundo ejercicio (1.er oral) · convocados por tribunales</h3>
         <div id="ov26body"><p style="margin:0;color:var(--muted);font-size:14px">Cargando convocatoria…</p></div>
@@ -201,7 +201,7 @@ footer{margin-top:24px;color:var(--muted);font-size:12px}
         <h3 style="margin:0 0 12px;font-size:16px">Calendario estimativo</h3>
         <ul class="stat-list" style="margin:0">
           <li><span>1.er ejercicio (test)</span><b>25 oct 2026</b></li>
-          <li><span>2.º ejercicio (1.er oral)</span><b>1 mar – 18 jun 2027</b></li>
+          <li><span>2.º ejercicio (1.er oral)</span><b>1 de marzo de 2027 – 18 de junio de 2027</b></li>
           <li><span>3.er ejercicio (2.º oral)</span><b>Sep 2027</b></li>
         </ul>
       </div>
@@ -293,7 +293,7 @@ document.querySelectorAll('.conv-btn').forEach(btn => {
       document.getElementById('nav').style.display='none';
       document.getElementById('nav26').style.display='';
       sb.className='live-badge'; sb.textContent='En curso';
-      st.textContent='2.º ejercicio (1.er oral) · mar–jun 2027';
+      st.textContent='2.º ejercicio (1.er oral) · empieza el 1 de marzo de 2027';
       su.textContent='Actualizado a 27 nov 2026'; bc.textContent='Convocatoria 2026'; fc.textContent='Convocatoria 2026 (en curso)';
     } else {
       go('home');
@@ -492,12 +492,16 @@ const C26 = {people:[], loaded:false};
 const NT26 = [1,2,3,4,5,6,7,8];
 const sem26 = s => s.replace('/','·');
 function prevLabel26(p){
-  if(!p.d || !p.prev || p.prev.nota2==null) return '';
+  if(p.a25 || !p.d || !p.prev || p.prev.nota2==null) return '';
   return `<div style="color:#1e40af;font-size:11px;margin-top:2px">Nota 1.er oral conv. 2025: ${fmt(p.prev.nota2)}</div>`;
 }
 function notaCell26(p){
+  if(p.a25) return '—';
   if(p.d) return `<span class="disp" style="margin-left:0">Dispensado/a</span>${prevLabel26(p)}`;
   return `<b>${fmt(p.nota)}</b>`;
+}
+function nota2ejCell(p){
+  return (p.nota2ej!=null && p.nota2ej!=='') ? `<b>${fmt(Number(p.nota2ej))}</b>` : '—';
 }
 function row26(p){
   const badge = p.a25 ? `<span class="apto25" title="Aparece convocado/a pero ya aprobó la convocatoria 2025">Aprobó conv. 2025</span>` : '';
@@ -505,6 +509,7 @@ function row26(p){
     <td style="color:#6b7280">${p.n}</td>
     <td>${anon(p.nombre)}${badge}${p.tu==='D'?'<span class="disc" title="Turno de reserva para personas con discapacidad">D</span>':''}</td>
     <td>${notaCell26(p)}</td>
+    <td>${nota2ejCell(p)}</td>
     <td>${p.sem}</td>
   </tr>`;
 }
@@ -521,11 +526,10 @@ function renderConv26(){
   document.getElementById('ov26body').innerHTML = `
     <ul class="stat-list" style="margin:0 0 14px">
       <li><span>Convocados al 2.º ejercicio</span><b>${S.n.toLocaleString('es-ES')}</b></li>
+      <li><span>Inicio del 2.º ejercicio</span><b>1 de marzo de 2027</b></li>
       <li><span>De ellos, aprobados en la convocatoria 2025</span><b style="color:#c2410c">${S.nA25}</b></li>
       <li><span>Superaron el test (nota de corte ${fmt(C26.corte)})</span><b>${S.nTest.toLocaleString('es-ES')}</b></li>
       <li><span>Turno de reserva para discapacidad</span><b>${S.nD}</b></li>
-      <li><span>Media del test (no dispensados)</span><b>${fmt(S.media)}</b></li>
-      <li><span>Nota más alta del test</span><b>${fmt(S.max)}</b></li>
     </ul>
     <div class="tiles" id="tiles26" style="margin-bottom:0">${NT26.map(t=>{
       const l=byT26(t), s=stats26(l);
@@ -534,7 +538,6 @@ function renderConv26(){
         <div class="meta"><b style="color:#2563eb;font-size:18px">${s.n}</b> convocados</div>
         <div class="meta">Aprobó conv. 2025: <b style="color:#c2410c">${s.nA25}</b></div>
         <div class="meta">Dispensados: <b>${s.nDisp}</b></div>
-        <div class="meta">Media test: <b>${fmt(s.media)}</b></div>
       </button>`;}).join('')}</div>`;
   document.querySelectorAll('[data-go26]').forEach(el => el.onclick = () => go(el.dataset.go26));
   document.getElementById('tribPages26').innerHTML = NT26.map(t=>{
@@ -551,18 +554,16 @@ function renderConv26(){
         <li><span>Aprobados en la convocatoria 2025 (siguen apareciendo convocados)</span><b style="color:#c2410c">${s.nA25}</b></li>
         <li><span>Dispensados del 1.er ejercicio</span><b>${s.nDisp}</b></li>
         <li><span>Turno de reserva para discapacidad</span><b>${s.nD}</b></li>
-        <li><span>Media del test (no dispensados)</span><b>${fmt(s.media)}</b></li>
-        <li><span>Nota más alta · más baja del test</span><b>${fmt(s.max)} · ${fmt(s.min)}</b></li>
         <li><span>Semanas de examen</span><b>${weeks.length} (${weeks[0]} → ${weeks[weeks.length-1]})</b></li>
       </ul>
-      <p style="font-size:12px;color:#6b7280;margin:0 0 12px;line-height:1.5">Nota = calificación del test (1.er ejercicio, 25 oct 2026). En los <span class="disp" style="margin-left:0">Dispensado/a</span> se indica la nota del 1.er oral de la convocatoria 2025. Las filas en naranja con <span class="apto25" style="margin-left:0">Aprobó conv. 2025</span> aparecen convocadas, pero ya aprobaron la convocatoria 2025. <span class="disc" style="margin-left:0">D</span> = turno de reserva para personas con discapacidad. Nº = orden de la convocatoria.</p>
+      <p style="font-size:12px;color:#6b7280;margin:0 0 12px;line-height:1.5">Nota del 1.er ejercicio = calificación del test (25 oct 2026). La columna 2.º ejercicio se irá rellenando cuando salgan las actas (mientras tanto, —). En los <span class="disp" style="margin-left:0">Dispensado/a</span> se indica la nota del 1.er oral de la convocatoria 2025. Las filas en naranja con <span class="apto25" style="margin-left:0">Aprobó conv. 2025</span> aparecen convocadas, pero ya aprobaron la convocatoria 2025 (no se muestra dispensa ni nota del 1.er oral). <span class="disc" style="margin-left:0">D</span> = turno de reserva para personas con discapacidad. Nº = orden de la convocatoria.</p>
       <div style="display:flex;flex-wrap:wrap;align-items:center;gap:4px 0">
         <input class="search" data-t26="${t}" placeholder="Buscar apellido o nº" style="margin-bottom:12px"/>
         <label class="filt26"><input type="checkbox" data-a25="${t}"/> Solo aprobados conv. 2025</label>
       </div>
       <div class="card">
         <table>
-          <thead><tr><th>Nº</th><th>Nombre</th><th>1.er ejercicio (test)</th><th>Semana examen</th></tr></thead>
+          <thead><tr><th>Nº</th><th>Nombre</th><th>1.er ejercicio (test)</th><th>2.º ejercicio</th><th>Semana examen</th></tr></thead>
           <tbody id="body26-${t}">${list.map(row26).join('')}</tbody>
         </table>
       </div>
