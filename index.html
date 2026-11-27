@@ -120,18 +120,18 @@ footer{margin-top:24px;color:var(--muted);font-size:12px}
 <body>
 <div class="app">
   <aside>
-    <div class="brand"><span id="brandConv">Convocatoria 2025</span>Carreras Judicial y Fiscal</div>
-    <div class="done-badge" id="sideBadge">✓ Finalizada</div>
-    <p id="sideText">3.er y último ejercicio · terminado el 26 nov 2026</p>
-    <div class="updated-badge" id="sideUpd">Actualizado a 26 nov 2026</div>
+    <div class="brand"><span id="brandConv">Convocatoria 2026</span>Carreras Judicial y Fiscal</div>
+    <div class="live-badge" id="sideBadge">En curso</div>
+    <p id="sideText">2.º ejercicio (1.er oral) · empieza el 1 de marzo de 2027</p>
+    <div class="updated-badge" id="sideUpd">Actualizado a 27 nov 2026</div>
     <div style="margin-bottom:16px">
       <div style="font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:#6b7280;margin-bottom:6px">Convocatoria</div>
       <div style="display:flex;gap:4px">
-        <button class="conv-btn active" data-conv="2025" style="flex:1;padding:6px 8px;border-radius:6px;border:0;background:#2563eb;color:#fff;font-size:12px;font-weight:600;cursor:pointer">2025</button>
-        <button class="conv-btn" data-conv="2026" style="flex:1;padding:6px 8px;border-radius:6px;border:0;background:#374151;color:#d1d5db;font-size:12px;cursor:pointer">2026</button>
+        <button class="conv-btn" data-conv="2025" style="flex:1;padding:6px 8px;border-radius:6px;border:0;background:#374151;color:#d1d5db;font-size:12px;cursor:pointer">2025</button>
+        <button class="conv-btn active" data-conv="2026" style="flex:1;padding:6px 8px;border-radius:6px;border:0;background:#2563eb;color:#fff;font-size:12px;font-weight:600;cursor:pointer">2026</button>
       </div>
     </div>
-    <nav id="nav">
+    <nav id="nav" style="display:none">
       <button data-tab="home" class="active">Comparativa</button>
       <button data-tab="aptos">Aprobados</button>
       <button data-tab="t1">Tribunal 1</button>
@@ -141,7 +141,7 @@ footer{margin-top:24px;color:var(--muted);font-size:12px}
       <button data-tab="t5">Tribunal 5</button>
       <button data-tab="t6">Tribunal 6</button>
     </nav>
-    <nav id="nav26" style="display:none">
+    <nav id="nav26">
       <button data-tab="conv2026" class="active">Resumen 2026</button>
       <button data-tab="c26t1">Tribunal 1</button>
       <button data-tab="c26t2">Tribunal 2</button>
@@ -154,7 +154,7 @@ footer{margin-top:24px;color:var(--muted);font-size:12px}
     </nav>
   </aside>
   <main>
-    <section id="home" class="section on">
+    <section id="home" class="section">
       <h1>Visión general</h1>
       <div class="fin-banner" id="finBanner">
         <h2>✓ Convocatoria 2025 finalizada</h2>
@@ -165,7 +165,7 @@ footer{margin-top:24px;color:var(--muted);font-size:12px}
       <div class="tiles" id="tiles"></div>
 
     </section>
-    <section id="conv2026" class="section">
+    <section id="conv2026" class="section on">
       <h1>Convocatoria 2026</h1>
       <p class="lead">Primer ejercicio: domingo 25 de octubre de 2026</p>
       <div class="live-badge" style="margin-bottom:16px">2.º ejercicio · empieza el 1 de marzo de 2027</div>
@@ -212,7 +212,7 @@ footer{margin-top:24px;color:var(--muted);font-size:12px}
     </section>
     <div id="tribPages"></div>
     <div id="tribPages26"></div>
-    <footer><span id="footConv">Convocatoria 2025 (finalizada)</span> · Carreras Judicial y Fiscal · Actualizado a 27 nov 2026</footer>
+    <footer><span id="footConv">Convocatoria 2026 (en curso)</span> · Carreras Judicial y Fiscal · Actualizado a 27 nov 2026</footer>
   </main>
 </div>
 <script>
@@ -273,6 +273,7 @@ function stats(list){
   };
 }
 function go(id){
+  if(!document.getElementById(id)) return;
   document.querySelectorAll('#nav button, #nav26 button').forEach(x => x.classList.toggle('active', x.dataset.tab===id));
   document.querySelectorAll('.section').forEach(s => s.classList.toggle('on', s.id===id));
   window.scrollTo(0,0);
@@ -576,7 +577,7 @@ function renderConv26(){
 fetch('conv2026.json?t='+Date.now())
   .then(r=>r.ok?r.json():Promise.reject())
   .catch(()=>fetch('https://raw.githubusercontent.com/m9tkdfn9d4-collab/seguimiento-juez-fiscal-2026/main/conv2026.json?t='+Date.now()).then(r=>r.json()))
-  .then(j=>{ C26.people=j.people; C26.corte=j.corte; C26.loaded=true; renderConv26(); })
+  .then(j=>{ C26.people=j.people; C26.corte=j.corte; C26.loaded=true; renderConv26(); applyHash(); })
   .catch(()=>{ const b=document.getElementById('ov26body'); if(b) b.innerHTML='<p style="margin:0;color:#dc2626;font-size:14px">No se ha podido cargar la convocatoria 2026. Recarga la página.</p>'; });
 
 fetch('https://raw.githubusercontent.com/m9tkdfn9d4-collab/seguimiento-juez-fiscal-2026/main/notas.json?t='+Date.now()).catch(()=>fetch('notas.json')).then(r=>r&&r.ok?r.json():fetch('notas.json').then(r2=>r2.ok?r2.json():null)).then(j=>{
@@ -588,6 +589,19 @@ fetch('https://raw.githubusercontent.com/m9tkdfn9d4-collab/seguimiento-juez-fisc
   document.querySelectorAll('.search').forEach(inp => inp.dispatchEvent(new Event('input')));
   if(typeof renderAptos==='function') renderAptos();
 }).catch(()=>{});
+
+function applyHash(){
+  const hash = (location.hash||'').replace(/^#/, '');
+  if(/^(home|aptos|t[1-6])$/.test(hash)){
+    document.querySelector('.conv-btn[data-conv="2025"]').click();
+    go(hash);
+  } else if(/^(conv2026|c26t[1-8])$/.test(hash)){
+    document.querySelector('.conv-btn[data-conv="2026"]').click();
+    go(hash);
+  }
+}
+applyHash();
+window.addEventListener('hashchange', applyHash);
 </script>
 </body>
 </html>
