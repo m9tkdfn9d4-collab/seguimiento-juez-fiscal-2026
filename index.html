@@ -92,8 +92,6 @@ tr.row-no:hover td{background:#fee2e2}
 tr.row-apto25 td{background:#fff7ed}
 tr.row-apto25 td:first-child{box-shadow:inset 3px 0 0 #ea580c}
 tr.row-apto25:hover td{background:#ffedd5}
-.filt26{display:inline-flex;align-items:center;gap:6px;margin:0 0 12px 8px;font-size:13px;color:#9a3412;cursor:pointer;user-select:none}
-.filt26 input{margin:0}
 .fin-banner{background:#fef2f2;border:1px solid #fecaca;border-left:4px solid #dc2626;border-radius:12px;padding:16px 20px;margin:0 0 20px}
 .fin-banner h2{margin:0 0 6px;font-size:18px;color:#991b1b}
 .fin-banner p{margin:0;font-size:14px;line-height:1.5;color:#1f2937}
@@ -556,10 +554,7 @@ function renderConv26(){
         <li><span>Turno de reserva para discapacidad</span><b>${s.nD}</b></li>
         <li><span>Semanas de examen</span><b>${weeks.length} (${weeks[0]} → ${weeks[weeks.length-1]})</b></li>
       </ul>
-      <div style="display:flex;flex-wrap:wrap;align-items:center;gap:4px 0">
-        <input class="search" data-t26="${t}" placeholder="Buscar apellido o nº" style="margin-bottom:12px"/>
-        <label class="filt26"><input type="checkbox" data-a25="${t}"/> Solo aprobados conv. 2025</label>
-      </div>
+      <input class="search" data-t26="${t}" placeholder="Buscar apellido o nº"/>
       <div class="card">
         <table>
           <thead><tr><th>Nº</th><th>Nombre</th><th>1.er ejercicio (test)</th><th>2.º ejercicio</th><th>Semana examen</th></tr></thead>
@@ -568,17 +563,15 @@ function renderConv26(){
       </div>
     </section>`;
   }).join('');
-  function applyFilter26(t){
-    const inp = document.querySelector('.search[data-t26="'+t+'"]');
-    const only = document.querySelector('.filt26 input[data-a25="'+t+'"]');
-    const q = (inp && inp.value.trim().toLowerCase()) || '';
-    const a25 = !!(only && only.checked);
-    document.getElementById('body26-'+t).innerHTML = byT26(t)
-      .filter(p => (!q || p.nombre.toLowerCase().includes(q) || String(p.n).includes(q)) && (!a25 || p.a25))
-      .map(row26).join('');
-  }
-  document.querySelectorAll('.search[data-t26]').forEach(inp => { inp.oninput = () => applyFilter26(+inp.dataset.t26); });
-  document.querySelectorAll('.filt26 input[data-a25]').forEach(chk => { chk.onchange = () => applyFilter26(+chk.dataset.a25); });
+  document.querySelectorAll('.search[data-t26]').forEach(inp => {
+    inp.oninput = () => {
+      const q = inp.value.trim().toLowerCase();
+      const t = +inp.dataset.t26;
+      document.getElementById('body26-'+t).innerHTML = byT26(t)
+        .filter(p => !q || p.nombre.toLowerCase().includes(q) || String(p.n).includes(q))
+        .map(row26).join('');
+    };
+  });
 }
 fetch('conv2026.json?t='+Date.now())
   .then(r=>r.ok?r.json():Promise.reject())
