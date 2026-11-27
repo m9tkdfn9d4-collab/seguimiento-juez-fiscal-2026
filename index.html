@@ -565,9 +565,9 @@ function renderConv26(){
     };
   });
 }
-fetch('https://raw.githubusercontent.com/m9tkdfn9d4-collab/seguimiento-juez-fiscal-2026/main/conv2026.json?t='+Date.now())
+fetch('conv2026.json?t='+Date.now())
   .then(r=>r.ok?r.json():Promise.reject())
-  .catch(()=>fetch('conv2026.json').then(r=>r.json()))
+  .catch(()=>fetch('https://raw.githubusercontent.com/m9tkdfn9d4-collab/seguimiento-juez-fiscal-2026/main/conv2026.json?t='+Date.now()).then(r=>r.json()))
   .then(j=>{ C26.people=j.people; C26.corte=j.corte; C26.loaded=true; renderConv26(); })
   .catch(()=>{ const b=document.getElementById('ov26body'); if(b) b.innerHTML='<p style="margin:0;color:#dc2626;font-size:14px">No se ha podido cargar la convocatoria 2026. Recarga la página.</p>'; });
 
