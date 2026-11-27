@@ -1,0 +1,153 @@
+{
+  "fuentes": [
+    {
+      "id": "t1-nombramiento",
+      "texto": "Acuerdo de 24 de septiembre de 2026, de la Comisión de Selección prevista en el artículo 305 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial (BOE de 30 de septiembre de 2026, BOE-A-2026-20316, anexo II). Nombra el tribunal calificador número 1.",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20316",
+      "pdf": "https://www.boe.es/boe/dias/2026/09/30/pdfs/BOE-A-2026-20316.pdf"
+    },
+    {
+      "id": "t1-modificacion",
+      "texto": "Acuerdo de 15 de octubre de 2026, de la Comisión de Selección (BOE de 20 de octubre de 2026, BOE-A-2026-21808). Por renuncia de don Francisco José Goyena Salgado, se nombra en su lugar a la Magistrada doña María Ángeles García Medina.",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21808",
+      "pdf": "https://www.boe.es/boe/dias/2026/10/20/pdfs/BOE-A-2026-21808.pdf"
+    },
+    {
+      "id": "t2-t8",
+      "texto": "Acuerdo de 26 de noviembre de 2026, de la Comisión de Selección prevista en el artículo 305 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, por el que se publica la relación definitiva de aspirantes que han superado el primer ejercicio del proceso selectivo convocado por Acuerdo de 4 de junio de 2026 y se dispone lo necesario para que dé comienzo el segundo ejercicio (anexo I: nombramiento de los tribunales calificadores números 2 a 8).",
+      "pdf": "acuerdo-2026-11-26-composicion-tribunales.pdf"
+    }
+  ],
+  "notas": "Ninguno de estos acuerdos recoge una composición de suplentes. La transcripción respeta el tenor de cada documento (incluidas mayúsculas, tratamientos y posibles erratas). En el tribunal 1 se muestra la composición vigente tras la sustitución de 15 de octubre de 2026.",
+  "tribunales": [
+    {
+      "t": 1,
+      "tituloPresidencia": "Presidente",
+      "tituloSecretaria": "Vocal-secretario",
+      "presidente": "Excma. Sra. doña Pilar Martín Nájera, Fiscal de Sala del Tribunal Supremo.",
+      "vocales": [
+        "Ilma. Sra. doña Ana María Galdeano Santamaría, Fiscal.",
+        "Ilmo. Sr. don Germán Gutiérrez Vicen, Fiscal.",
+        "Doña María Ángeles García Medina, Magistrada.",
+        "Ilma. Sra. doña Carmen Robles Gil, Magistrada.",
+        "Doña María José Cabezudo Bajo, Catedrática de Universidad del área de Derecho Procesal.",
+        "Don José Antonio Perales Gallego, Abogado del Estado.",
+        "Doña Lucía Rodríguez Benavides, Abogada."
+      ],
+      "secretario": "Ilmo. Sr. don José Palazuelos Morlanes, Letrado de la Administración de Justicia de la categoría primera.",
+      "nota": "Por Acuerdo de 15 de octubre de 2026 (BOE de 20 de octubre de 2026, BOE-A-2026-21808), doña María Ángeles García Medina, Magistrada, sustituyó a don Francisco José Goyena Salgado, que había sido nombrado vocal por el Acuerdo de 24 de septiembre de 2026."
+    },
+    {
+      "t": 2,
+      "tituloPresidencia": "Presidente",
+      "tituloSecretaria": "Vocal-Secretaria",
+      "presidente": "Excmo. Sr. Don Andrés Martínez Arrieta, magistrado de la Sala II del Tribunal Supremo.",
+      "vocales": [
+        "Ilma. Sra. Doña María del Carmen García de Leaniz Cavalle, magistrada.",
+        "Ilmo. Sr. Don Marcelino Sexmero Iglesias, magistrado.",
+        "Ilmo. Sr. Don Marcelo Juan de Azcárraga Urteaga, fiscal.",
+        "Ilmo. Sr. Don Alberto Javier Cobo Reuters, fiscal.",
+        "Don Agustín Pérez Cruz Martín, catedrático.",
+        "Don Pablo Fernández Ruiz, abogado del Estado.",
+        "Doña Maite Abadia Buil, abogada."
+      ],
+      "secretario": "Ilma. Sra. Doña Verónica Ezcurra Atayde, letrada de la Administración de Justicia de la categoría primera."
+    },
+    {
+      "t": 3,
+      "tituloPresidencia": "Presidente",
+      "tituloSecretaria": "Vocal-Secretaria",
+      "presidente": "Excmo. Sr. Don José María Caballero Sánchez-Izquierdo, Fiscal de la fiscalía del Tribunal Supremo.",
+      "vocales": [
+        "Ilmo. Sr. Don José Miguel Alonso Carbajo, fiscal.",
+        "Ilmo. Sr. Don Lorenzo Raimundo Bernal Marsalla, fiscal.",
+        "Ilma. Sra. María Ángeles Velasco García, magistrada.",
+        "Ilma. Sra. Elena O'Connor Oliveros, magistrada.",
+        "Don Javier Gustavo Fernández Teruelo Núñez, catedrático.",
+        "Don Julio José Díez Menéndez, abogado del Estado.",
+        "Doña Antonia Rodríguez Fernández, abogada."
+      ],
+      "secretario": "Ilma. Sra. Doña Silvia Rodríguez Rodríguez, letrada de la Administración de Justicia de la categoría segunda."
+    },
+    {
+      "t": 4,
+      "tituloPresidencia": "Presidente",
+      "tituloSecretaria": "Vocal-Secretaria",
+      "presidente": "Excmo. Sr. Don Isaac Merino Jara, magistrado de la Sala III Tribunal Supremo.",
+      "vocales": [
+        "Ilma. Sra. Doña María Teresa Santos Gutiérrez, magistrada.",
+        "Ilmo. Sr. Doña Concepción Jerez García, magistrada.",
+        "Ilma. Sra. Doña María Luisa de la Hoz García, Fiscal.",
+        "Ilmo. Sr. Don Emilio Manuel Miró Rodríguez, fiscal.",
+        "Doña María Sonia Calaza López, catedrática.",
+        "Doña Carmen Ruiz de las Morenas, abogada del Estado.",
+        "Don Daniel Berzosa López, abogado."
+      ],
+      "secretario": "Ilma. Sra. Doña María Elena Alonso Magaz, letrada de la Administración de Justicia de la categoría segunda"
+    },
+    {
+      "t": 5,
+      "tituloPresidencia": "Presidenta",
+      "tituloSecretaria": "Vocal-Secretaria",
+      "presidente": "Excmo. Sr. Don Francisco Javier Muñoz Cuesta, Fiscal de la Fiscalía del Tribunal Supremo.",
+      "vocales": [
+        "Ilma. Sra. Doña Olga Emma Sánchez Gómez, fiscal.",
+        "Ilmo. Sr. Don Fernando Bermejo Monje, fiscal.",
+        "Ilma. Sra. Doña Ana María Olalla Camarero, magistrada.",
+        "Ilma. Sra. Doña Miren Nekane Yagüe Egaña, magistrada.",
+        "Don José Manuel Chozas Alonso, catedrático.",
+        "Don Jaime Antonio Serrano Moreno, abogado del Estado.",
+        "Don Pedro Colina Oquendo, abogado."
+      ],
+      "secretario": "Ilma. Sra. Doña Eva María Chantres Riveiro, letrada de la Administración de Justicia de la categoría segunda."
+    },
+    {
+      "t": 6,
+      "tituloPresidencia": "Presidenta",
+      "tituloSecretaria": "Vocal-Secretaria",
+      "presidente": "Excma. Sra. Doña Ana María Orellana Cano, magistrada de la Sala IV del Tribunal Supremo.",
+      "vocales": [
+        "Ilmo. Sr. Don Francisco Javier Peñas Gil, magistrado.",
+        "Ilma. Sra. Doña María José Lorena Ochoa Vizcaíno, magistrada.",
+        "Ilmo. Sr. Don Francisco Manuel García Ingelmo, fiscal.",
+        "Ilma. Sra. Doña Concepción López-Yuste Padial, fiscal.",
+        "Doña Susana Quicios Molina, catedrática.",
+        "Don Luis de la Vallina Martínez de la Vega, abogado del Estado.",
+        "Don José María Girón Sampayo, abogado."
+      ],
+      "secretario": "Ilma. Sra. Doña María Carolina Cubero Flores, letrada de la Administración de Justicia de la categoría segunda."
+    },
+    {
+      "t": 7,
+      "tituloPresidencia": "Presidenta",
+      "tituloSecretaria": "Vocal-Secretario",
+      "presidente": "Excma. Sr. Doña Rosa María Pérez Martínez, fiscal de la Fiscalía del Tribunal Supremo.",
+      "vocales": [
+        "Ilma. Sra. Asunción Gómez Martín, fiscal.",
+        "Ilma. Sra. Doña Alma María Conde Ruiz, fiscal.",
+        "Ilma. Sra. Doña María del Mar Cabrejas Guijarro, magistrada.",
+        "Ilma. Sra. Doña María Jesús Vegas Torres, magistrada.",
+        "Don Antonio López Castillo, catedrático.",
+        "Don Gabriel López Samanes, abogado del Estado.",
+        "Don Jesús Jiménez Gómez, abogado."
+      ],
+      "secretario": "Ilmo. Sr. Don Lorenzo Lobo Zamora, letrado de la Administración de Justicia de la categoría segunda."
+    },
+    {
+      "t": 8,
+      "tituloPresidencia": "Presidente",
+      "tituloSecretaria": "Vocal-Secretario",
+      "presidente": "Excmo. Sr. Don Celso Rodríguez Padrón, magistrado de la Sala V del Tribunal Supremo.",
+      "vocales": [
+        "Ilma. Sra. Doña Milagros Aparicio Avendaño, magistrada.",
+        "Ilma. Sra. Doña María Begoña Álvarez García, magistrada.",
+        "Ilma. Sra. Doña Ana Elena García Merino, fiscal.",
+        "Ilmo. Sr. Don Julián Salto Torres, fiscal.",
+        "Doña Mónica Herranz Ballesteros catedrática.",
+        "Don Manuel Luque Romero, abogado del Estado.",
+        "Don Ignacio de Luis Otero, abogado."
+      ],
+      "secretario": "Ilmo. Sr. Don Juan Carlos Conde López, letrado de la Administración de Justicia de la categoría segunda"
+    }
+  ]
+}
