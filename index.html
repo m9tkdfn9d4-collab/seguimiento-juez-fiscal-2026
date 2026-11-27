@@ -486,11 +486,8 @@ const C26 = {people:[], loaded:false};
 const NT26 = [1,2,3,4,5,6,7,8];
 const sem26 = s => s.replace('/','·');
 function prevLabel26(p){
-  if(!p.d || !p.prev) return '';
-  const pr = p.prev;
-  if(pr.nota==null) return '';
-  const lab = pr.c==='2025' ? 'conv. 2025 · test 1 feb 2026' : 'conv. 2024 · test 2 mar 2025';
-  return `<div style="color:#1e40af;font-size:11px;margin-top:2px" title="Nota del test con la que quedó dispensado/a del 1.er ejercicio">Tenía <b>${fmt(pr.nota)}</b> <span style="color:#6b7280">(${lab})</span></div>`;
+  if(!p.d || !p.prev || p.prev.nota2==null) return '';
+  return `<div style="color:#1e40af;font-size:11px;margin-top:2px">Nota 1.er oral conv. 2025: ${fmt(p.prev.nota2)}</div>`;
 }
 function notaCell26(p){
   if(p.d) return `<span class="disp" style="margin-left:0">Dispensado/a</span>${prevLabel26(p)}`;
@@ -514,15 +511,10 @@ function renderConv26(){
   const ppl = C26.people;
   const byT26 = t => ppl.filter(p=>p.t===t);
   const S = stats26(ppl);
-  const prev25 = ppl.filter(p=>p.d && p.prev && p.prev.c==='2025').length;
-  const prev24 = ppl.filter(p=>p.d && p.prev && p.prev.c==='2024').length;
   document.getElementById('ov26body').innerHTML = `
     <ul class="stat-list" style="margin:0 0 14px">
       <li><span>Convocados al 2.º ejercicio</span><b>${S.n.toLocaleString('es-ES')}</b></li>
       <li><span>Superaron el test (nota de corte ${fmt(C26.corte)})</span><b>${S.nTest.toLocaleString('es-ES')}</b></li>
-      <li><span>Dispensados del 1.er ejercicio (test aprobado en convocatorias anteriores)</span><b>${S.nDisp}</b></li>
-      <li><span>&nbsp;&nbsp;↳ con nota de la convocatoria 2025 (test 1 feb 2026)</span><b>${prev25}</b></li>
-      <li><span>&nbsp;&nbsp;↳ ya dispensados en 2025: nota de la convocatoria 2024 (test 2 mar 2025)</span><b>${prev24}</b></li>
       <li><span>Turno de reserva para discapacidad</span><b>${S.nD}</b></li>
       <li><span>Media del test (no dispensados)</span><b>${fmt(S.media)}</b></li>
       <li><span>Nota más alta del test</span><b>${fmt(S.max)}</b></li>
@@ -553,7 +545,7 @@ function renderConv26(){
         <li><span>Nota más alta · más baja del test</span><b>${fmt(s.max)} · ${fmt(s.min)}</b></li>
         <li><span>Semanas de examen</span><b>${weeks.length} (${weeks[0]} → ${weeks[weeks.length-1]})</b></li>
       </ul>
-      <p style="font-size:12px;color:#6b7280;margin:0 0 12px;line-height:1.5">Nota = calificación del test (1.er ejercicio, 25 oct 2026). <span class="disp" style="margin-left:0">Dispensado/a</span> = aprobó el test en una convocatoria anterior; debajo se indica la nota que tenía. <span class="disc" style="margin-left:0">D</span> = turno de reserva para personas con discapacidad. Nº = orden de la convocatoria.</p>
+      <p style="font-size:12px;color:#6b7280;margin:0 0 12px;line-height:1.5">Nota = calificación del test (1.er ejercicio, 25 oct 2026). En los <span class="disp" style="margin-left:0">Dispensado/a</span> se indica la nota del 1.er oral de la convocatoria 2025. <span class="disc" style="margin-left:0">D</span> = turno de reserva para personas con discapacidad. Nº = orden de la convocatoria.</p>
       <input class="search" data-t26="${t}" placeholder="Buscar apellido o nº"/>
       <div class="card">
         <table>
