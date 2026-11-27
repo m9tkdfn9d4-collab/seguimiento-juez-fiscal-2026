@@ -107,8 +107,6 @@ footer{margin-top:24px;color:var(--muted);font-size:12px}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.7}}
 @keyframes blink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.85)}}
 
-.comp-src{font-size:13.5px;color:var(--muted);line-height:1.6;margin:0 0 20px}
-.comp-src a{color:var(--accent)}
 .comp-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:0 0 8px}
 .comp-card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
 .comp-card h2{margin:0 0 14px;font-size:17px;font-weight:700}
@@ -119,7 +117,6 @@ footer{margin-top:24px;color:var(--muted);font-size:12px}
 .comp-card ul{margin:0;padding:0;list-style:none}
 .comp-card li{font-size:14px;line-height:1.45;padding:5px 0 5px 12px;border-left:2px solid var(--line);margin:0 0 3px}
 .comp-card li.pres{border-left-color:var(--accent)}
-.comp-note{margin:12px 0 0;font-size:12.5px;color:#4b5563;line-height:1.5;background:#f9fafb;border-radius:8px;padding:8px 10px}
 .comp-mini{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 16px}
 .comp-mini h2{font-size:15px;margin:0 0 10px}
 .comp-link{display:inline-block;margin:8px 0 0;padding:0;border:0;background:none;font:inherit;font-size:13px;color:var(--accent);cursor:pointer}
@@ -234,7 +231,6 @@ footer{margin-top:24px;color:var(--muted);font-size:12px}
     <section id="comp26" class="section">
       <h1>Composición de los tribunales</h1>
       <p class="lead">Convocatoria 2026 · proceso selectivo de acceso a las Carreras Judicial y Fiscal</p>
-      <div class="comp-src" id="comp26src"></div>
       <div class="comp-grid" id="comp26body"></div>
     </section>
     <div id="tribPages"></div>
@@ -605,11 +601,10 @@ function renderConv26(){
   if(typeof renderComp26==='function') renderComp26();
 }
 
-const COMP26 = {tribunales:[], fuentes:[], notas:'', loaded:false};
+const COMP26 = {tribunales:[], loaded:false};
 function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function htmlCompCard(tr, mini){
   const vocales = (tr.vocales||[]).map(v=>`<li>${esc(v)}</li>`).join('');
-  const nota = tr.nota ? `<p class="comp-note">${esc(tr.nota)}</p>` : '';
   const title = mini
     ? `<h2>Composición del tribunal</h2>`
     : `<h2><a href="#c26t${tr.t}" onclick="go('c26t${tr.t}');return true">Tribunal ${tr.t}</a></h2>`;
@@ -622,26 +617,11 @@ function htmlCompCard(tr, mini){
     <ul>${vocales}</ul>
     <div class="comp-role">${esc(tr.tituloSecretaria||'Vocal-secretario')}</div>
     <ul><li>${esc(tr.secretario)}</li></ul>
-    ${nota}${more}
+    ${more}
   </div>`;
 }
 function renderComp26(){
   if(!COMP26.loaded) return;
-  const src = document.getElementById('comp26src');
-  if(src){
-    const links = (COMP26.fuentes||[]).map(f=>{
-      const parts = [];
-      if(f.url) parts.push(`<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.url.includes('BOE-A-2026-20316')?'BOE-A-2026-20316':f.url.includes('21808')?'BOE-A-2026-21808':'documento')}</a>`);
-      if(f.pdf){
-        const href = f.pdf.startsWith('http')?f.pdf:f.pdf;
-        const label = f.pdf.startsWith('http')?'PDF del BOE':'PDF del Acuerdo de 26 de noviembre de 2026';
-        parts.push(`<a href="${esc(href)}" target="_blank" rel="noopener">${label}</a>`);
-      }
-      return `<p style="margin:0 0 8px">${esc(f.texto)}${parts.length? ' · '+parts.join(' · '):''}</p>`;
-    }).join('');
-    const extra = COMP26.notas ? `<p style="margin:8px 0 0">${esc(COMP26.notas)}</p>` : '';
-    src.innerHTML = links + extra;
-  }
   const body = document.getElementById('comp26body');
   if(body) body.innerHTML = COMP26.tribunales.map(tr => htmlCompCard(tr,false)).join('');
   COMP26.tribunales.forEach(tr=>{
@@ -659,7 +639,7 @@ fetch('conv2026.json?t='+Date.now())
 fetch('tribunales2026.json?t='+Date.now())
   .then(r=>r.ok?r.json():Promise.reject())
   .catch(()=>fetch('https://raw.githubusercontent.com/m9tkdfn9d4-collab/seguimiento-juez-fiscal-2026/main/tribunales2026.json?t='+Date.now()).then(r=>r.json()))
-  .then(j=>{ COMP26.tribunales=j.tribunales||[]; COMP26.fuentes=j.fuentes||[]; COMP26.notas=j.notas||''; COMP26.loaded=true; renderComp26(); applyHash(); })
+  .then(j=>{ COMP26.tribunales=j.tribunales||[]; COMP26.loaded=true; renderComp26(); applyHash(); })
   .catch(()=>{ const b=document.getElementById('comp26body'); if(b) b.innerHTML='<p style="margin:0;color:#dc2626;font-size:14px">No se ha podido cargar la composición de los tribunales. Recarga la página.</p>'; });
 
 fetch('https://raw.githubusercontent.com/m9tkdfn9d4-collab/seguimiento-juez-fiscal-2026/main/notas.json?t='+Date.now()).catch(()=>fetch('notas.json')).then(r=>r&&r.ok?r.json():fetch('notas.json').then(r2=>r2.ok?r2.json():null)).then(j=>{

@@ -1,24 +1,4 @@
 {
-  "fuentes": [
-    {
-      "id": "t1-nombramiento",
-      "texto": "Acuerdo de 24 de septiembre de 2026, de la Comisión de Selección prevista en el artículo 305 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial (BOE de 30 de septiembre de 2026, BOE-A-2026-20316, anexo II). Nombra el tribunal calificador número 1.",
-      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20316",
-      "pdf": "https://www.boe.es/boe/dias/2026/09/30/pdfs/BOE-A-2026-20316.pdf"
-    },
-    {
-      "id": "t1-modificacion",
-      "texto": "Acuerdo de 15 de octubre de 2026, de la Comisión de Selección (BOE de 20 de octubre de 2026, BOE-A-2026-21808). Por renuncia de don Francisco José Goyena Salgado, se nombra en su lugar a la Magistrada doña María Ángeles García Medina.",
-      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21808",
-      "pdf": "https://www.boe.es/boe/dias/2026/10/20/pdfs/BOE-A-2026-21808.pdf"
-    },
-    {
-      "id": "t2-t8",
-      "texto": "Acuerdo de 26 de noviembre de 2026, de la Comisión de Selección prevista en el artículo 305 de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, por el que se publica la relación definitiva de aspirantes que han superado el primer ejercicio del proceso selectivo convocado por Acuerdo de 4 de junio de 2026 y se dispone lo necesario para que dé comienzo el segundo ejercicio (anexo I: nombramiento de los tribunales calificadores números 2 a 8).",
-      "pdf": "acuerdo-2026-11-26-composicion-tribunales.pdf"
-    }
-  ],
-  "notas": "Ninguno de estos acuerdos recoge una composición de suplentes. La transcripción respeta el tenor de cada documento (incluidas mayúsculas, tratamientos y posibles erratas). En el tribunal 1 se muestra la composición vigente tras la sustitución de 15 de octubre de 2026.",
   "tribunales": [
     {
       "t": 1,
@@ -34,8 +14,7 @@
         "Don José Antonio Perales Gallego, Abogado del Estado.",
         "Doña Lucía Rodríguez Benavides, Abogada."
       ],
-      "secretario": "Ilmo. Sr. don José Palazuelos Morlanes, Letrado de la Administración de Justicia de la categoría primera.",
-      "nota": "Por Acuerdo de 15 de octubre de 2026 (BOE de 20 de octubre de 2026, BOE-A-2026-21808), doña María Ángeles García Medina, Magistrada, sustituyó a don Francisco José Goyena Salgado, que había sido nombrado vocal por el Acuerdo de 24 de septiembre de 2026."
+      "secretario": "Ilmo. Sr. don José Palazuelos Morlanes, Letrado de la Administración de Justicia de la categoría primera."
     },
     {
       "t": 2,
